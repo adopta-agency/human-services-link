@@ -35,6 +35,12 @@ layout: page
                 <div id="collapse-{{ location.id }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ location.id }}" data-parent="#location">
                   <div class="card-body">
 
+                    <p><strong>Address:</strong><br />
+                      {% for address in location.physical_address %}
+                      <address>{{ address.address_1 }}<br />{{ address.city }}</address>
+                      {% endfor %}
+                    </p>
+
                     {% for service in location.services %}
 
                       <h5>{{ service.name }}</h5>
@@ -43,12 +49,6 @@ layout: page
                       <p><strong>Application Process:</strong> {{ service.application_process }}</p>
 
                       <p><strong>Taxonomy</strong>: {{ service.taxonomy_ids }}</p>
-
-                      <p><strong>Address:</strong><br />
-                        {% for address in service.physical_address %}
-                        <address>{{ address.address_1 }}<br />{{ address.city }}</address>
-                        {% endfor %}
-                      </p>
 
                       <p><strong>Eligibility:</strong>
                       {% for eligibility in service.eligibility %}
@@ -64,19 +64,20 @@ layout: page
                         </ul>
                       </p>
 
-                      {% for address in service.physical_address %}
-                        {% assign map_address = address.address_1 | append: address.city | append: " CA"| | url_encode %}
-                      {% endfor %}
-                      {% assign map_name = location.name | url_encode %}
-                      <iframe
-                        width="600"
-                        height="450"
-                        frameborder="0" style="border:0"
-                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBfrodck0e2PodwOKUjGMOY5kC1JhnfUJA
-                          &q={{ map_name }},{{ map_address }}" allowfullscreen>
-                      </iframe>
-
                     {% endfor %}
+
+                    {% for address in location.physical_address %}
+                      {% assign map_address = address.address_1 | append: address.city | append: " CA"| | url_encode %}
+                    {% endfor %}
+                    {% assign map_name = location.name | url_encode %}
+
+                    <iframe
+                      width="600"
+                      height="450"
+                      frameborder="0" style="border:0"
+                      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBfrodck0e2PodwOKUjGMOY5kC1JhnfUJA
+                        &q={{ map_name }},{{ map_address }}" allowfullscreen>
+                    </iframe>
 
                   </div>
                 </div>
