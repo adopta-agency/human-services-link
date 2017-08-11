@@ -74,10 +74,7 @@ layout: page
                         <p><strong>Schedule:</strong>
                           <ul>
                             {% for schedule in service.regular_schedule %}
-                              {% assign opens =  schedule.opens_at | date: "%H:%M" %}
-                              {% assign closes =  schedule.closes_at | date: "%H:%M" %}
-                              {{ "now" | date: "%Y-%m-%d %H:%M" }}
-                              <li><strong>{{ schedule.weekday }}:</strong> {{ opens }} - {{ closes }}</li>
+                              <li><strong>{{ schedule.weekday }}:</strong> {{ schedule.opens_at }} - {{ schedule.closes_at }}</li>
                             {% endfor %}
                           </ul>
                         </p>
