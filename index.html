@@ -8,7 +8,7 @@ layout: page
   {% assign locations = site.data.locations %}
 
   {% for taxonomy in taxonomies %}
-    <div class="card">
+    <div class="card" id="layer-1-{{ taxonomy | slug }}">
       <div class="card-header" role="tab" id="heading-{{ taxonomy | slug }}">
         <h5 class="mb-0">
           <a class="collapsed" data-toggle="collapse" href="#collapse-{{ taxonomy | slug }}" aria-expanded="false" aria-controls="collapse-{{ taxonomy | slug }}">
@@ -21,7 +21,7 @@ layout: page
 
           {% for location in locations %}
 
-          <div class="card">
+          <div class="card" id="layer-2-{{ taxonomy | slug }}">
             <div class="card-header" role="tab" id="heading-{{ location.name | slug }}">
               <h5 class="mb-1">
                 <a class="collapsed" data-toggle="collapse" href="#collapse-{{ location.id }}" aria-expanded="false" aria-controls="collapse-{{ location.id }}">
