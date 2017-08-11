@@ -57,11 +57,9 @@ layout: page
 
                         <p><strong>Application Process:</strong> {{ service.application_process }}</p>
 
-                        HERE: {{ service.eligibility }}<br />
-                        
                         {% assign any_eligibility = 0 %}
                         {% for eligibility in service.eligibility %}
-                          {% if eligibility != '' %}
+                          {% if eligibility.eligibility != '' %}
                             {% assign any_eligibility = 1 %}
                           {% endif %}
                         {% endfor %}
