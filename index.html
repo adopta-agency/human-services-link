@@ -3,86 +3,41 @@ layout: page
 ---
 
 <div id="accordion" role="tablist">
-  <div class="card">
-    <div class="card-header" role="tab" id="headingOne">
-      <h5 class="mb-0">
-        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
-        </a>
-      </h5>
-    </div>
 
-    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+  {% assign taxonomies = site.data.taxonomies %}
+  {% assign locations = site.data.locations %}
+
+  {% for taxonomy in taxonomies %}
+    <div class="card">
+      <div class="card-header" role="tab" id="headingOne">
+        <h5 class="mb-0">
+          <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            {{ taxonomy | capitalize}}
+          </a>
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for location in locations %}
+                <tr>
+                  <th scope="row">1</th>
+                  <td>{{ location.name }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+
+        </div>
       </div>
     </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="headingTwo">
-      <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
-        </a>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="headingThree">
-      <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
+  {% endfor %}
 </div>
-
- <div class="_18xm">
-		<div>
-			 <div class="_3Zko"></div>
-			 <div class="Gko2">
-					<p class="_3o0n">What service are you looking for?</p>
-					<div title="Services" class="_jFC">
-						{% assign taxonomies = site.data.taxonomies %}
-						{% assign locations = site.data.locations %}
-						{% for taxonomy in taxonomies %}
-						 <div>
-								<a href="#" onclick="showListing('listings-{{ taxonomy | slugify }}');" aria-label="Look for {{ taxonomy | capitalize }} Services">
-									 <i id="icon-{{ taxonomy | slugify }}"></i>{{ taxonomy | capitalize }}
-								</a>
-								<div id="listings-{{ taxonomy | slugify }}">
-									{% for location in locations %}
-									 <li id="icon-{{ location.id }}">
-											<a href="#" class="_2jvF" title="Click to see more details about {{ location.name }}">
-												 <div class="_3gTZ">
-														<div class="_3DEX">
-															 <div class="_2WQ9"><span class="QBL5">{{ location.name }}</span><span class="_3R_Y">closed</span></div>
-															 <div class="_1Z-G"></div>
-															 <div class="_3T3Y">
-																	<div><span><i class="category-icon _17SA icon-food"></i></span></div>
-																	<div>152615 mins</div>
-															 </div>
-														</div>
-														<div class="_4TwT"><i class="BKZG undefined icon-caret"></i></div>
-												 </div>
-											</a>
-									 </li>
-									 {% endfor %}
-								</div>
-						 </div>
-						{% endfor %}
-					</div>
-			 </div>
-		</div>
- </div>
