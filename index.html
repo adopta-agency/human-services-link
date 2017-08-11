@@ -35,10 +35,11 @@ layout: page
                           </tr>
                           {% for service in location.services %}
                           <tr>
-                            <td>{{ service.name }}</td>
-                          </tr>
-                          <tr>
-                            <td>{{ service.description }}</td>
+                            <td>
+                              <h4>{{ service.name }}</h4>
+                              <p>{{ service.description }}</p>
+                              
+                            </td>
                           </tr>
                           {% endfor %}
                       </tbody>
