@@ -26,12 +26,12 @@ layout: page
 
               {% assign match_taxonomy = 0 %}
               {% for service in location.services %}
+                {{ service.taxonomy_ids }} contains {{ taxonomy }}<br />
                 {% if service.taxonomy_ids contains taxonomy %}
                   {% assign match_taxonomy = 1 %}
                 {% endif %}
               {% endfor %}
 
-              {{ service.taxonomy_ids }} contains {{ taxonomy }}<br />
               {% if service.taxonomy_ids contains taxonomy %}
                 <div class="card" id="layer-2-{{ location.id }}">
                   <div class="card-header" role="tab" id="heading-{{ location.id }}">
