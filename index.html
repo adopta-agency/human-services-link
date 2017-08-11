@@ -9,59 +9,34 @@ layout: page
 					<p class="_3o0n">What service are you looking for?</p>
 					<div title="Services" class="_jFC">
 						{% assign taxonomies = site.data.taxonomies %}
+						{% assign locations = site.data.locations %}
 						{% for taxonomy in taxonomies %}
 						 <div>
 								<a href="#" class="_2_ly" aria-label="Look for {{ taxonomy }} Services">
 									 <i class="_1gag _17SA icon-{{ taxonomy }}"></i>{{ taxonomy }}
 								</a>
-								<div class="_1ijU"></div>
+								<div class="_2zJF" >
+									{% for location in locations %}
+									 <li class="_2ZYn">
+											<a href="https://link-sf.com/locations/00641ca0eb" class="_2jvF" title="Click to see more details about {{ location.name }}">
+												 <div class="_3gTZ">
+														<div class="_3DEX">
+															 <div class="_2WQ9"><span class="QBL5">{{ location.name }}</span><span class="_3R_Y">closed</span></div>
+															 <div class="_1Z-G"></div>
+															 <div class="_3T3Y">
+																	<div><span><i class="category-icon _17SA icon-food"></i></span></div>
+																	<div>152615 mins</div>
+															 </div>
+														</div>
+														<div class="_4TwT"><i class="BKZG undefined icon-caret"></i></div>
+												 </div>
+											</a>
+									 </li>
+									 {% endfor %}
+								</div>
 						 </div>
 						{% endfor %}
 					</div>
 			 </div>
 		</div>
  </div>
-
-<!-- Banner -->
-<section id="banner">
-	<div class="content">
-		<header>
-			<h2>Link SF</h2>
-		</header>
-		<p>This is a static implementation of Link SF.</p>
-		{% assign taxonomies = site.data.taxonomies %}
-		{% assign locations = site.data.locations %}
-    {% for taxonomy in taxonomies %}
-			<h4>{{ taxonomy }}</h4>
-			<div class="table-wrapper">
-				<table class="alt">
-					<thead>
-						<tr>
-							<th>Name</th>
-							<th>Description</th>
-							<th>Price</th>
-						</tr>
-					</thead>
-					<tbody>
-					{% for location in locations %}
-						<tr>
-							<td>{{ location.name }}</td>
-							<td>Ante turpis integer aliquet porttitor.</td>
-							<td>29.99</td>
-						</tr>
-			    {% endfor %}
-					</tbody>
-					<tfoot>
-						<tr>
-							<td colspan="2"></td>
-							<td>100.00</td>
-						</tr>
-					</tfoot>
-				</table>
-			</div>
-    {% endfor %}
-	</div>
-	<span class="image object">
-		<img src="/images/kin-lane-api-evangelist-cartoon.png" alt="" width="100%" />
-	</span>
-</section>
