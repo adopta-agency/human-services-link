@@ -11,12 +11,12 @@ layout: page
     <div class="card">
       <div class="card-header" role="tab" id="heading-{{ taxonomy | slug }}">
         <h5 class="mb-0">
-          <a class="collapsed" data-toggle="collapse" href="#collapse-{{ taxonomy | slug }}" aria-expanded="true" aria-controls="collapse-{{ taxonomy | slug }}">
+          <a class="collapsed" data-toggle="collapse" href="#collapse-{{ taxonomy | slug }}" aria-expanded="false" aria-controls="collapse-{{ taxonomy | slug }}">
             {{ taxonomy | capitalize}}
           </a>
         </h5>
       </div>
-      <div id="collapse-{{ taxonomy | slug }}" class="collapse show" role="tabpanel" aria-labelledby="heading-{{ taxonomy | slug }}" data-parent="#accordion">
+      <div id="collapse-{{ taxonomy | slug }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ taxonomy | slug }}" data-parent="#accordion">
         <div class="card-body">
 
           Hello
