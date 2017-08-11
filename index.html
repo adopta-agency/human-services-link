@@ -26,7 +26,6 @@ layout: page
 
               {% assign match_taxonomy = 0 %}
               {% for service in location.services %}
-                {{ service.taxonomy_ids }} contains {{ taxonomy }}<br />
                 {% if service.taxonomy_ids contains taxonomy %}
                   {% assign match_taxonomy = 1 %}
                 {% endif %}
