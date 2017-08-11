@@ -2,54 +2,48 @@
 layout: page
 ---
 
-{% assign taxonomies = site.data.taxonomies %}
-{% assign locations = site.data.locations %}
+<div id="taxonomy" role="tablist">
 
-<div class="container">
+  {% assign taxonomies = site.data.taxonomies %}
+  {% assign locations = site.data.locations %}
 
-  <div class="panel-group" id="accordion">
-
-    {% for taxonomy in taxonomies %}
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{ taxonomy | slug }}">
+  {% for taxonomy in taxonomies %}
+    <div class="card" id="layer-1-{{ taxonomy | slug }}">
+      <div class="card-header" role="tab" id="heading-{{ taxonomy | slug }}">
+        <h5 class="mb-0">
+          <a class="collapsed" data-toggle="collapse" href="#collapse-{{ taxonomy | slug }}" aria-expanded="false" aria-controls="collapse-{{ taxonomy | slug }}">
             {{ taxonomy | capitalize}}
           </a>
-        </h4>
-      </div><!--/.panel-heading -->
-      <div id="collapse-{{ taxonomy | slug }}" class="panel-collapse collapse">
-        <div class="panel-body">
+        </h5>
+      </div>
+      <div id="collapse-{{ taxonomy | slug }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ taxonomy | slug }}" data-parent="#taxonomy">
+        <div class="card-body">
 
-          <div class="panel-group" id="nested">
+          <div id="location" role="tablist">
 
             {% for location in locations %}
 
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#nested" href="#nested-collapse-{{ location.id }}">
+              <div class="card" id="layer-2-{{ taxonomy | slug }}">
+                <div class="card-header" role="tab" id="heading-{{ location.name | slug }}">
+                  <h5 class="mb-1">
+                    <a class="collapsed" data-toggle="collapse" href="#collapse-{{ location.id }}" aria-expanded="false" aria-controls="collapse-{{ location.id }}">
                       {{ location.name | capitalize}}
                     </a>
-                  </h4>
-                </div><!--/.panel-heading -->
-                <div id="nested-collapse-{{ location.id }}" class="panel-collapse collapse in">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div><!--/.panel-body -->
-                </div><!--/.panel-collapse -->
-              </div><!-- /.panel -->
+                  </h5>
+                </div>
+                <div id="collapse-{{ location.id }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ location.id }}" data-parent="#location">
+                  <div class="card-body">
+
+                  </div>
+                </div>
+              </div>
 
             {% endfor %}
 
           </div>
 
-        </div><!--/.panel-body -->
-      </div><!--/.panel-collapse -->
-    </div><!-- /.panel -->
-
-    {% endfor %}
-
-  </div><!-- /.panel-group -->
-</div><!-- /.container -->
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
