@@ -4,17 +4,18 @@ layout: none
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>{{ site.title }}</title>
-		<link>{{ site.url }}</link>{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+		<title>{{ site.name }}</title>
+		<description>{{ site.description }}</description>
+		<link>{{ site.url }}</link>
 		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-		{% for post in site.posts limit:25 %}{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}{% if posttime < nowunix %}
+		{% for post in site.posts limit:10 %}
 			<item>
-			<title>{{ post.title }}</title>
-			<description>{{ post.content | xml_escape }}</description>
-			<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-			<link>{{ site.url }}{{ post.url }}</link>
-			<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<title>{{ post.title }}</title>
+				<description>{{ post.content | xml_escape }}</description>
+				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>http://aggregation.apievangelist.com{{ post.url }}</link>
+				<guid isPermaLink="true">http://aggregation.apievangelists.com{{ post.url }}</guid>
 			</item>
-		{% endif %}{% endfor %}
+		{% endfor %}
 	</channel>
 </rss>

@@ -1,3 +1,4 @@
-## Links SF
+## Open Referral Developer
+This is the project to build a developer portal for the Open Referral API (demo).
 
-This is a static implementation of Link SF.
+URL: http://jekyll.open.referral.adopta.agency/

@@ -1,378 +1,76 @@
 ---
-layout: default
+layout: page
 ---
-<script type="text/javascript">
 
-  function showme($id)
-    {
-    if(document.getElementById($id).style.display=='none')
-      {
-      document.getElementById($id).style.display = '';
-      }
-    else
-      {
-      document.getElementById($id).style.display = 'none';
-      }
-    }
+<style>
+.topbar
+  {
+  display:none;
+  }
+.info
+  {
+  display:none;
+  }
+</style>
 
-   function getRequest($slug,$path,$url)
-    {
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+          <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
 
-    $api_url = $url + $path;
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
 
-    document.getElementById($slug+'-loading').style.display = '';
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
 
-    console.log('headers:');
-    var elements = document.getElementById($slug+'-headers').elements;
-    $headers = '';
-    for (var i = 0, element; element = elements[i++];) {
-        if (element.type === "text")
-          {
-          console.log(element.type + ' - ' + element.name);
-          $headers = $headers + element.name + ': ' + element.value + ',';
-        }
-      }
-    $headers = $headers.substring(1, $headers.length-1);
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
 
-    var path_elements = document.getElementById($slug+'-path').elements;
-    for(var i = 0, element; element = path_elements[i++];)
-      {
-        if(element.type === "text")
-          {
-          if(element.value!='')
-            {
-            $replace_string = '{' + element.name + '}';
-            $api_url = $api_url.replace($replace_string,element.value);
-            }
-          }
-        }
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
 
 
-    var param_elements = document.getElementById($slug+'-parameters').elements;
-    $anyparams = 0;
-    $query_string = '';
-    for(var i = 0, element; element = param_elements[i++];)
-      {
-        if(element.type === "text")
-          {
-          if(element.value!='')
-            {
-            $query_string = $query_string + element.name + '=' + element.value;
-            $anyparams = 1;
-            }
-          }
-        }
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
 
-    if(elements.length > 0 && $anyparams == 1){ $api_url = $api_url + '?' + $query_string; }
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
 
-    console.log("loading: " + $api_url);
+  </defs>
+</svg>
 
-    var response = $.ajax({
-       url: $api_url,
-       method: "get",
-       headers: {$headers},
-       success:function(response){
+<h2>API Documentation</h2>
+<p><a href="https://raw.githubusercontent.com/{{ site.github_org }}/{{ site.github_repo }}/master/_data/api-commons/openapi.yaml" target="_blank"><img style="padding: 3px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-openapi-spec.png" title="Download OpenAPI" align="right" width="50" /></a>The interactive documentation driven by <a href="https://raw.githubusercontent.com/{{ site.github_org }}/{{ site.github_repo }}/master/_data/api-commons/openapi.yaml" target="_blank">the OpenAPI for the Human Services Data API (HSDA)</a>. All GET API paths are publicly available, where the POST, PUT, and DELETE require an appid and appkey. This is just meant to be a demo application showing what is possible with any HSDA implementation in support of Open 211 efforts.</p>
+<div id="swagger-ui"></div>
 
-          document.getElementById($slug+'-loading').style.display = 'none';
+<script src="/js/ui/swagger-ui-bundle.js"> </script>
+<script src="/js/ui/swagger-ui-standalone-preset.js"> </script>
 
-          $viewer = JSON.stringify(response, null, 2);
-          //console.log($viewer);
-          $viewer = $viewer.replace(/\\"/g, '"');
-          document.getElementById($slug+'-response').value = $viewer;
-          document.getElementById($slug+'-response').style.width = "100%";
-          document.getElementById($slug+'-response').style.height = "450px";
+<script>
+window.onload = function() {
+  // Build a system
+  const ui = SwaggerUIBundle({
+    url: "https://raw.githubusercontent.com/{{ site.github_org }}/{{ site.github_repo }}/master/_data/api-commons/openapi.yaml",
+    dom_id: '#swagger-ui',
+    presets: [
+      SwaggerUIBundle.presets.apis,
+      SwaggerUIStandalonePreset
+    ],
+    plugins: [
+      SwaggerUIBundle.plugins.DownloadUrl
+    ],
+    layout: "StandaloneLayout"
+  })
 
-        },
-        error: function(XMLHttpRequest, textStatus, errorThrown) {
-            document.getElementById($slug+'-loading').style.display = 'none';
-            $message = "Status: " + textStatus + "\nError: " + errorThrown;
-            document.getElementById($slug+'-response').value = $$message;
-            document.getElementById($slug+'-response').style.width = "100%";
-            document.getElementById($slug+'-response').style.height = "50px";
-        }
-      });
+  window.ui = ui;
 
-    }
+}
 </script>
-
-{% assign apijson = site.data.apis %}
-{% assign definitions = apijson.definitions %}
-
-<h2><strong>API Documentation</strong></h2>
-<p>{{ apijson.description }}</p>
-<p>I BROKE THIS---STILL WORKING ON!</p>
-{% assign api_action_url = '' %}
-{% assign numberofapis = apijson.apis | size %}
-
-{% for api in apijson.apis %}
-
-  {% assign openapi_spec_json = '' %}
-
-  {% for property in api.properties %}
-
-    {% if property.type == 'x-openapi' %}
-      {% assign this_url = property.url %}
-      {% assign this_url = this_url | replace: 'http://apievangelist.com/apis/','' %}
-      {% assign this_url = this_url | replace: '.json','' %}
-      {% assign this_url = this_url | replace: '-','' %}
-      {% assign thisobject = this_url | replace: '/','.' %}
-      thisobject: {{ thisobject}}<br />
-      {% assign openapi_spec_json = site.data[thisobject] %}
-      openapi_spec_json: {{ openapi_spec_json }}
-    {% endif %}
-
-  {% endfor %}
-
-  <h3>{{ api.name }}( <a href="{{ site.url }}apis/openapi.json" target="_blank" title="View OpenAPI Spec" style="font-size: 16px; font-weight: normal;">JSON</a>)</h3>
-  <table width="95%" border="0" style="margin-left: 15px;">
-
-  {% assign taglist = '' %}
-
-  {% for path in openapi_spec_json.paths %}
-
-    {% assign this_path = path[0] %}
-    {% assign method_json = path[1] %}
-
-    {% for method in method_json %}
-      {% assign tagarray = method[1].tags %}
-      {% assign tag = tagarray[0] %}
-      {% if taglist contains tag %}
-      {% else %}
-        {% assign taglist = taglist | append:',' %}
-        {% assign taglist = taglist | append:tag %}
-      {% endif %}
-    {% endfor %}
-
-  {% endfor %}
-
-  {% assign tagArray = taglist | split: "," %}
-
-  {% for grouptag in tagArray %}
-
-    {% if grouptag != '' %}
-
-      {% assign api_title = openapi_spec_json.info.title %}
-      {% assign api_description = openapi_spec_json.info.description %}
-
-      {% assign api_host = openapi_spec_json.host %}
-      {% assign api_base = openapi_spec_json.basePath %}
-
-      <tr>
-        <td align="center" colspan="5" style="padding: 10px;"><strong>base url:</strong> http://{{ api_host }}{{ api_base }}</td>
-      </tr>
-
-      <tr>
-        <td colspan="5" style="padding-top: 10px;"><strong>{{ grouptag }}</strong></td>
-      </tr>
-
-      {% assign api_url = api_host | prepend:'http://' %}
-      {% assign api_url = api_url | append:api_base %}
-
-      {% for path in openapi_spec_json.paths %}
-
-        {% assign this_path = path[0] %}
-        {% assign method_json = path[1] %}
-
-          {% for method in method_json %}
-
-            {% assign parameters = method[1].parameters %}
-
-            {% assign tagarray = method[1].tags %}
-            {% assign tag = tagarray[0] %}
-
-            {% assign verb = method[0] | upcase %}
-
-            {% if verb == 'GET' %}
-              {% assign back_color = site.get_color %}
-            {% endif %}
-            {% if verb == 'POST' %}
-              {% assign back_color = site.post_color %}
-            {% endif %}
-            {% if verb == 'PUT' %}
-              {% assign back_color = site.put_color %}
-            {% endif %}
-            {% if verb == 'DELETE' %}
-              {% assign back_color = site.delete_color %}
-            {% endif %}
-
-            {% assign summary = method[1].summary %}
-
-            {% if tag == grouptag %}
-
-              {% assign slug = path[0] | replace: '/','' %}
-
-              <tr>
-                <td style="padding-left: 20px; font-size: 14px;">{{ summary }}</td>
-                <td style="font-size: 14px;">{{ path[0] }}</td>
-                <td align="center" style="padding: 1px; width: 75px; background-color:#{{ back_color }}; font-weight: bold; font-size: 11px; color: #FFF;">
-                  {{ verb }}
-                </td>
-                <td style="width: 25px;"></td>
-                <td><button type="button" class="btn btn-default" onclick="showme('{{ slug }}-row'); return false;">Try</button></tr>
-              </tr>
-              <tr id="{{ slug }}-row" style="display: none;">
-                <td colspan="4" style="padding: 15px;">
-
-                  <table width="90%" border="0" align="center">
-
-                    <form id="{{ slug }}-headers">
-                    <!-- Begin Headers -->
-                    {% assign number_of_parameters = parameters | size %}
-
-                    {% if number_of_parameters > 0 %}
-
-                      {% assign any_headers = 0 %}
-                      {% for parameter in parameters %}
-                        {% if parameter.in == 'header' %}
-                          {% assign any_headers = 1 %}
-                        {% endif %}
-                      {% endfor %}
-
-                      <!-- If there are any headers -->
-                      {% if any_headers > 0 %}
-                        <tr style="background-color: #CCC;">
-                          <td style="font-size: 14px; padding: 5px;"><strong>Headers:</strong></td>
-                        </tr>
-                        <tr>
-                          <td align="left" style="font-size: 14px; padding: 10px;">
-                              <table style="width: 50%;">
-                                {% for parameter in parameters %}
-                                  {% if parameter.in == 'header' %}
-                                    <tr>
-                                      <td style="width: 35%;" align="right"><strong>{{ parameter.name }}:</strong></td>
-                                      <td><input type="text" name="{{ parameter.name }}" value="" style="width: 100%;" /></td>
-                                    </tr>
-                                  {% endif %}
-                                {% endfor %}
-                              </table>
-                          </td>
-                        </tr>
-                      {% endif %}
-                    {% endif %}
-                    <!-- End Headers -->
-                    </form>
-
-                    <form id="{{ slug }}-path">
-                    <!-- Begin Path Parameters -->
-                    {% assign number_of_parameters = parameters | size %}
-                    {% if number_of_parameters > 0 %}
-
-                      {% assign any_path_parameters = 0 %}
-                      {% for parameter in parameters %}
-                        {% if parameter.in == 'path' %}
-                          {% assign any_path_parameters = 1 %}
-                        {% endif %}
-                      {% endfor %}
-
-                      <!-- If there are any headers -->
-                      {% if any_path_parameters > 0 %}
-                        <tr style="background-color: #CCC;">
-                          <td style="font-size: 14px; padding: 5px;"><strong>Path Parameters:</strong></td>
-                        </tr>
-                        <tr>
-                          <td align="left" style="font-size: 14px; padding: 10px;">
-                              <table style="width: 50%;">
-                                {% for parameter in parameters %}
-                                  {% if parameter.in == 'path' %}
-                                    <tr>
-                                      <td style="width: 35%;" align="right"><strong>{{ parameter.name }}:</strong></td>
-                                      <td><input type="text" name="{{ parameter.name }}" value="" style="width: 100%;" /></td>
-                                    </tr>
-                                  {% endif %}
-                                {% endfor %}
-                              </table>
-                          </td>
-                        </tr>
-                      {% endif %}
-                    {% endif %}
-                    <!-- End Path Parameters -->
-                    </form>
-
-                    <form id="{{ slug }}-parameters">
-                    <!-- Begin Parameters -->
-                    {% assign number_of_parameters = parameters | size %}
-                    {% if number_of_parameters > 0 %}
-
-                      {% assign any_parameters = 0 %}
-                      {% for parameter in parameters %}
-                        {% if parameter.in == 'query' %}
-                          {% assign any_parameters = 1 %}
-                        {% endif %}
-                      {% endfor %}
-
-                      <!-- If there are any headers -->
-                      {% if any_parameters > 0 %}
-                        <tr style="background-color: #CCC;">
-                          <td style="font-size: 14px; padding: 5px;"><strong>Parameters:</strong></td>
-                        </tr>
-                        <tr>
-                          <td align="left" style="font-size: 14px; padding: 10px;">
-                              <table style="width: 50%;">
-                                {% for parameter in parameters %}
-                                  {% if parameter.in == 'query' %}
-                                    <tr>
-                                      <td style="width: 35%;" align="right"><strong>{{ parameter.name }}:</strong></td>
-                                      <td><input type="text" name="{{ parameter.name }}" value="" style="width: 100%;" /></td>
-                                    </tr>
-                                  {% endif %}
-                                {% endfor %}
-                              </table>
-                          </td>
-                        </tr>
-                      {% endif %}
-                    {% endif %}
-                    <!-- End Parameters -->
-                    </form>
-
-                    <tr style="background-color: #CCC;">
-                      <td style="font-size: 14px; padding: 5px;"><strong>Response:</strong></td>
-                    </tr>
-                    <tr>
-                      <td style="font-size: 14px; padding: 10px;">
-                        <textarea id="{{ slug }}-response" style="overflow: auto; height: 5px; width: 100%; border: 0px solid #FFF;"></textarea>
-                      </td>
-                    </tr>
-                    <tr id="{{ slug }}-loading" style="display: none;">
-                      <td align="center">
-                        <img src="http://miami.open.211.adopta.agency/images/loading.gif" />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="center"s tyle="font-size: 14px; padding: 25px;">
-                        <button type="button" class="btn btn-success" onclick="getRequest('{{ slug }}','{{ path[0] }}','{{ api_url }}');">Make API Request</button>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            {% endif %}
-
-          {% endfor %}
-
-      {% endfor %}
-
-    {% endif %}
-
-    {% endfor %}
-
-  <h3>{{ api.name }} Schema</h3>
-  <table width="95%" border="0" style="margin-left: 15px;">
-  {% assign taglist = '' %}
-  {% for definition in openapi_spec_json.definitions %}
-    {% assign definition_name = definition[0] %}
-    {% assign fields = definition[1] %}
-    <tr>
-      <td style="padding: 15px 25px 0px 25px;" colspan='5'>
-        <strong>{{ definition_name | capitalize }}</strong>
-        <ul style='padding-left: 50px;'>
-          {% for property in fields.properties %}
-            {% assign property_name = property[0] %}
-            <li><strong>{{ property_name }}</strong> (<em>{{ property[1]["type"] }}</em>) - {{ property[1]["description"] }}</li>
-          {% endfor %}
-        </ul>
-      </td>
-    </tr>
-  {% endfor %}
-  </table>
-  <hr />
-{% endfor %}
