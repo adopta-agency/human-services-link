@@ -35,7 +35,7 @@ layout: page
                 <div id="collapse-{{ location.id }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ location.id }}" data-parent="#location">
                   <div class="card-body">
                     {% for service in location.services %}
-                      <h4>{{ service.name }}</h4>
+                      <h5>{{ service.name }}</h5>
                       <p>{{ service.description }}</p>
                     {% endfor %}
                   </div>
