@@ -39,6 +39,11 @@ layout: page
                       <p>{{ service.description }}</p>
                       <p><strong>Application Process:</strong> {{ service.application_process }}</p>
                       <p><strong>Taxonomy</strong>: {{ service.taxonomy_ids }}</p>
+                      <p><strong>Address:</strong><br />
+                        {% for address in service.physical_address %}
+                        <address>{{ address_1 }}<br />{{ city }}</address>
+                        {% endfor %}
+                      </p>
                       <p><strong>Eligibility:</strong>
                       {% for eligibility in service.eligibility %} {{ eligibility.eligibility }} {% endfor %}
                       </p>
