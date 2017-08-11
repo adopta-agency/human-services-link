@@ -19,24 +19,24 @@ layout: page
       <div id="collapse-{{ taxonomy | slug }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ taxonomy | slug }}" data-parent="#accordion">
         <div class="card-body">
 
-          <table class="table">
-            <tbody>
-              {% for location in locations %}
-                <tr>
-                  <td><h3>{{ location.name }}</h3></td>
-                  <td><button type="button" class="btn btn-primary">View</button></td>
-                </tr>
-                <tr>
-                  <td colspan="2">
-                    {% for service in location.services %}
-                      <h4>{{ service.name }}</h4>
-                      <p>{{ service.description }}</p>
-                    {% endfor %}
-                  </td>
-                </tr>
-              {% endfor %}
-            </tbody>
-          </table>
+          {% for location in locations %}
+
+          <div class="card">
+            <div class="card-header" role="tab" id="heading-{{ taxonomy | slug }}">
+              <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" href="#collapse-{{ taxonomy | slug }}" aria-expanded="false" aria-controls="collapse-{{ taxonomy | slug }}">
+                  {{ location.name | capitalize}}
+                </a>
+              </h5>
+            </div>
+            <div id="collapse-{{ taxonomy | slug }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ taxonomy | slug }}" data-parent="#accordion">
+              <div class="card-body">
+
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
 
         </div>
       </div>
