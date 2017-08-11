@@ -57,11 +57,19 @@ layout: page
 
                         <p><strong>Application Process:</strong> {{ service.application_process }}</p>
 
-                        <p><strong>Eligibility:</strong>
+                        {% assign any_eligibility = 0 %}
                         {% for eligibility in service.eligibility %}
-                          {{ eligibility.eligibility }}
+                          {% if eligibility != '' %}
+                            {% assign any_eligibility = 1 %}
+                          {% endif %}
                         {% endfor %}
-                        </p>
+                        {% if any_eligibility == 1 %}
+                          <p><strong>Eligibility:</strong>
+                          {% for eligibility in service.eligibility %}
+                            {{ eligibility.eligibility }}
+                          {% endfor %}
+                          </p>
+                        {% endif %}
 
                         <p><strong>Schedule:</strong>
                           <ul>
