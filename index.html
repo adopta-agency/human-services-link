@@ -23,12 +23,11 @@ layout: page
             <tbody>
               {% for location in locations %}
                 <tr>
-                  <td>{{ location.name }}</td>
+                  <td><h3>{{ location.name }}</h3></td>
                   <td><button type="button" class="btn btn-primary">View</button></td>
                 </tr>
                 <tr>
                   <td colspan="2">
-                    <p>{{ location.description }}</p>
                     {% for service in location.services %}
                       <h4>{{ service.name }}</h4>
                       <p>{{ service.description }}</p>
