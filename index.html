@@ -28,22 +28,11 @@ layout: page
                 </tr>
                 <tr>
                   <td colspan="2">
-                    <table class="table">
-                      <tbody>
-                          <tr>
-                            <td>{{ location.description }}</td>
-                          </tr>
-                          {% for service in location.services %}
-                          <tr>
-                            <td>
-                              <h4>{{ service.name }}</h4>
-                              <p>{{ service.description }}</p>
-                              
-                            </td>
-                          </tr>
-                          {% endfor %}
-                      </tbody>
-                    </table>
+                    <p>{{ location.description }}</p>
+                    {% for service in location.services %}
+                      <h4>{{ service.name }}</h4>
+                      <p>{{ service.description }}</p>
+                    {% endfor %}
                   </td>
                 </tr>
               {% endfor %}
