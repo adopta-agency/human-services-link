@@ -31,8 +31,16 @@ layout: page
                     <table class="table">
                       <tbody>
                           <tr>
-                            <td>description</td>
+                            <td>{{ location.description }}</td>
                           </tr>
+                          {% for service in location.services %}
+                          <tr>
+                            <td>{{ service.name }}</td>
+                          </tr>
+                          <tr>
+                            <td>{{ service.description }}</td>
+                          </tr>
+                          {% endfor %}
                       </tbody>
                     </table>
                   </td>
