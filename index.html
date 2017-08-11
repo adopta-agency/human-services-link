@@ -51,7 +51,9 @@ layout: page
                       </p>
 
                       <p><strong>Eligibility:</strong>
-                      {% for eligibility in service.eligibility %} {{ eligibility.eligibility }} {% endfor %}
+                      {% for eligibility in service.eligibility %}
+                        {{ eligibility.eligibility }}
+                      {% endfor %}
                       </p>
 
                       <p><strong>Schedule:</strong>

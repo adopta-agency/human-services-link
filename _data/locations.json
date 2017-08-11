@@ -102,7 +102,7 @@
         "application_process": "",
         "eligibility": [
           {
-            "eligibility": "age: Y"
+            "eligibility": "Youth"
           },
           {
             "eligibility": ""
@@ -489,7 +489,7 @@
         "application_process": "For children and youth aged 12-24 and their families. Call or Drop in. Free. English, Spanish.",
         "eligibility": [
           {
-            "eligibility": "age: Y"
+            "eligibility": "Youth"
           },
           {
             "eligibility": ""
@@ -1497,7 +1497,7 @@
         "application_process": "Free. English, Spanish, Cantonese, Tagalog, Vietnamese; other languages available by request.",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
@@ -2159,7 +2159,7 @@
         "application_process": "MediCal, HealthyKids, HealthySF; those uninsured for\r\nmental health, $0-full bill. English, Cantonese, Mandarin, Spanish.",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
@@ -2627,7 +2627,7 @@
         "application_process": "For children 0-17 yrs. Drop in or Call 24 hrs for intake interview.",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
@@ -3597,7 +3597,7 @@
         "application_process": "Wheelchair accessible",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
@@ -5461,7 +5461,7 @@
         "application_process": "Must attend an Orientation before enrollment. ORIENTATION: Monday-Thursday at 1pm. (lasts 1 hr.)",
         "eligibility": [
           {
-            "eligibility": "age: A"
+            "eligibility": "Adults"
           },
           {
             "eligibility": ""
@@ -6049,7 +6049,7 @@
         "application_process": "MediCal, HealthyKids, HealthySF; those uninsured for mental health, $0-full bill. English, Cantonese, Mandarin, Spanish.",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
@@ -7666,7 +7666,7 @@
         "application_process": "Call for an appointment. Cantonese, Mandarin, Portuguese, Russian, Spanish, Tagalog are spoken. Bring proof of Income and PG&E bill.",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": "F"
@@ -8481,7 +8481,7 @@
         "application_process": "For youth under 18. $0-full ill. English, Spanish, Tagalog, Cantonese, Vietnamese; other languages available by request.",
         "eligibility": [
           {
-            "eligibility": "age: Y"
+            "eligibility": "Youth"
           },
           {
             "eligibility": ""
@@ -8946,7 +8946,7 @@
         "application_process": "Those interested in accessing the tech lab must first attend a 15 minute orientation. Orientations are held Mondays and Wednesdays at 9am and Fridays at 9am & 1:40pm.",
         "eligibility": [
           {
-            "eligibility": "age: A"
+            "eligibility": "Adults"
           },
           {
             "eligibility": ""
@@ -10777,10 +10777,7 @@
         "application_process": "Come in or call any time (24 hrs) to get on waiting list for a bed (40 beds nightly). Case management required. Curfew 9:45pm. Leave by 8:30am. ",
         "eligibility": [
           {
-            "eligibility": "age: C"
-          },
-          {
-            "eligibility": ""
+            "eligibility": "Children"
           }
         ],
         "regular_schedule": [
@@ -11320,7 +11317,7 @@
         "application_process": "Healthy SF; private insurance; $0-full bill; English, Spanish; other languages by telephone interpreter.",
         "eligibility": [
           {
-            "eligibility": "age: Y"
+            "eligibility": "Youth"
           },
           {
             "eligibility": ""
@@ -11497,7 +11494,7 @@
         "application_process": "Children 6-17 yrs. MediCal, private insurance, $0-full bill. English, Spanish, Cantonese, some other languages by request.",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
@@ -11578,7 +11575,7 @@
         "application_process": "5-18yrs. Must be referred. Call clinical director (Dr. Brenner ext. 214) M-F 8:30am-5pm (except school holidays) & ask how to get referred.\r\nMediCal, Free if eligible. \r\nEnglish, Spanish, Tagalog; limited Cantonese, Russian",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
@@ -12024,7 +12021,7 @@
         "application_process": "Reservations must be made at a resource center or through the GA program (CAAP).",
         "eligibility": [
           {
-            "eligibility": "age: A"
+            "eligibility": "Adults"
           },
           {
             "eligibility": "M"
@@ -13265,7 +13262,7 @@
         "application_process": "Children 6-17 yrs. MediCal, private insurance, $0-full bill. English, Spanish, Cantonese, some other languages by request.",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
@@ -13864,7 +13861,7 @@
         "application_process": "Youths 11-21 who are not on probation, call if you can or show up to be assessed for short-term housing. If accepted, they’ll contact your guardians within 24 hrs.",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
@@ -14719,7 +14716,7 @@
         "application_process": "Youths aged 12-17 call; or show up",
         "eligibility": [
           {
-            "eligibility": "age: Y"
+            "eligibility": "Youth"
           },
           {
             "eligibility": ""
@@ -14977,7 +14974,7 @@
         "application_process": "LGBTQQ youth 24yrs & under.\r\nFree. English, Spanish.",
         "eligibility": [
           {
-            "eligibility": "age: Y"
+            "eligibility": "Youth"
           },
           {
             "eligibility": ""
@@ -15605,7 +15602,7 @@
         "application_process": "For youths aged 10-24 & their families. Free. English, Cambodian, Cantonese, Laotian, Vietnamese",
         "eligibility": [
           {
-            "eligibility": "age: Y"
+            "eligibility": "Youth"
           },
           {
             "eligibility": ""
@@ -16127,7 +16124,7 @@
         "application_process": "Ages 12-24; if 12-18 & not homeless, parental consent is required for all primary care services. Call 386-9398 for case management, therapy, & peer health education. Cantonese, English, & Spanish.",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
@@ -16416,7 +16413,7 @@
         "application_process": "752-3778 or (800) 971-0016. Call 24hrs for crisis or elder\r\nabuse or 8am-11pm for friendship line. \r\nCall 750-4111 M-F 8:30am-5pm for information.\r\nFree, MediCal, MediCare. English; other languages sometimes available.",
         "eligibility": [
           {
-            "eligibility": "age: A"
+            "eligibility": "Adults"
           },
           {
             "eligibility": ""
@@ -16971,7 +16968,7 @@
         "application_process": "Pay 30% of income, Free if no income. English, Spanish. Other languages may be available by request.",
         "eligibility": [
           {
-            "eligibility": "age: A"
+            "eligibility": "Adults"
           },
           {
             "eligibility": ""
@@ -17403,10 +17400,7 @@
         "application_process": "English & Spanish.",
         "eligibility": [
           {
-            "eligibility": "age: A"
-          },
-          {
-            "eligibility": ""
+            "eligibility": "Adults"
           }
         ],
         "regular_schedule": [
@@ -18698,7 +18692,7 @@
         "application_process": "Children 0-17 years old who live in SF, & their families. Medi-Cal, Healthy SF/Healthy Families,\r\nand uninsured. English, Cantonese, Spanish.",
         "eligibility": [
           {
-            "eligibility": "age: Y"
+            "eligibility": "Youth"
           },
           {
             "eligibility": ""
@@ -18779,7 +18773,7 @@
         "application_process": "5 beds for women in crisis (rape or domestic violence); stay up to 7 days. 16 shelter beds; stay varies. 16 beds in supportive housing (5 for HIV+ women); stay up to 18 months. 8-bed substance abuse program for any woman 18+; stay 1-4 months.",
         "eligibility": [
           {
-            "eligibility": "age: A"
+            "eligibility": "Adults"
           },
           {
             "eligibility": "F"
@@ -18878,7 +18872,7 @@
         "application_process": "Call M-F 9am-5pm. Evening hours by appt. MediCal, HealthyKids, HealthySF; those uninsured for mental health, $0-full bill. English, Cantonese, Mandarin, Spanish.",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
@@ -19150,10 +19144,7 @@
         "application_process": "SF residents 18+. Call for appt. Free. English, Spanish.",
         "eligibility": [
           {
-            "eligibility": "age: A"
-          },
-          {
-            "eligibility": ""
+            "eligibility": "Adults"
           }
         ],
         "regular_schedule": [
@@ -19345,10 +19336,7 @@
         "application_process": "Serves San Francisco youth, California youth (reproductive health care only), homeless-runaway youth, and young adults ages 12-24.",
         "eligibility": [
           {
-            "eligibility": "age: Y"
-          },
-          {
-            "eligibility": ""
+            "eligibility": "Youth"
           }
         ],
         "regular_schedule": [
@@ -19654,7 +19642,7 @@
         "application_process": "Reservations must be made through a resource center or 311. ",
         "eligibility": [
           {
-            "eligibility": "age: A"
+            "eligibility": "Adults"
           },
           {
             "eligibility": ""
@@ -20181,7 +20169,7 @@
         "application_process": "0-18 yrs. Only for MediCal, HealthyKids, & uninsured. ($0-full bill). English, Cambodian, Cantonese, Mandarin, Vietnamese.",
         "eligibility": [
           {
-            "eligibility": "age: C"
+            "eligibility": "Children"
           },
           {
             "eligibility": ""
