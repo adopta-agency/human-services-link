@@ -20,17 +20,11 @@ layout: page
         <div class="card-body">
 
           <table class="table">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Location Name</th>
-              </tr>
-            </thead>
             <tbody>
               {% for location in locations %}
                 <tr>
-                  <th scope="row">1</th>
                   <td>{{ location.name }}</td>
+                  <td><button type="button" class="btn btn-primary">View</button></td>
                 </tr>
               {% endfor %}
             </tbody>
