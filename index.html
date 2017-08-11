@@ -9,6 +9,37 @@ layout: page
 			<h2>Link SF</h2>
 		</header>
 		<p>This is a static implementation of Link SF.</p>
+		{% assign taxonomies = site.data.taxonomies %}
+		{% assign locations = site.data.locations %}
+    {% for taxonomy in taxonomies %}
+			<h4>{{ taxonomy }}</h4>
+			<div class="table-wrapper">
+				<table class="alt">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Description</th>
+							<th>Price</th>
+						</tr>
+					</thead>
+					<tbody>
+					{% for location in locations %}
+						<tr>
+							<td>{{ location.name }}</td>
+							<td>Ante turpis integer aliquet porttitor.</td>
+							<td>29.99</td>
+						</tr>
+			    {% endfor %}
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="2"></td>
+							<td>100.00</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+    {% endfor %}
 	</div>
 	<span class="image object">
 		<img src="/images/kin-lane-api-evangelist-cartoon.png" alt="" width="100%" />
