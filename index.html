@@ -37,6 +37,16 @@ layout: page
                     {% for service in location.services %}
                       <h5>{{ service.name }}</h5>
                       <p>{{ service.description }}</p>
+                      <p><strong>Application Process:</strong> {{ service.application_process }}</p>
+                      <p><strong>Taxonomy</strong>: {{ service.taxonomy_ids }}</p>
+                      <p><strong>Eligibility:</strong>
+                      {% for eligibility in service.eligibility %} {{ eligibility.eligibility }} {% endfor %}
+                      </p>
+                      <p><strong>Schedule:</strong>
+                      {% for schedule in service.regular_schedule %}
+                        <strong>{{ schedule.weekday }}:</strong> {{ schedule.opens_at }} - {{ schedule.closes_at }}
+                      {% endfor %}
+                      </p>
                     {% endfor %}
                   </div>
                 </div>
