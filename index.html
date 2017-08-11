@@ -1,7 +1,19 @@
 ---
 layout: page
 ---
-
+<script type="text/javascript">
+	function showListing($id)
+		{
+		if(document.getElementById($id).style.display=='none')
+			{
+			document.getElementById($id).style.display = '';
+			}
+		else
+			{
+			document.getElementById($id).style.display = 'none';
+			}
+		}
+</script>
  <div class="_18xm">
 		<div>
 			 <div class="_3Zko"></div>
@@ -12,12 +24,12 @@ layout: page
 						{% assign locations = site.data.locations %}
 						{% for taxonomy in taxonomies %}
 						 <div>
-								<a href="#" class="_2_ly" aria-label="Look for {{ taxonomy }} Services">
-									 <i class="_1gag _17SA icon-{{ taxonomy }}"></i>{{ taxonomy }}
+								<a href="#" onclick="showListing('listings-{{ taxonomy | slugify }}');" aria-label="Look for {{ taxonomy | capitalize }} Services">
+									 <i id="icon-{{ taxonomy | slugify }}"></i>{{ taxonomy | capitalize }}
 								</a>
-								<div class="_2zJF" >
+								<div id="listings-{{ taxonomy | slugify }}">
 									{% for location in locations %}
-									 <li class="_2ZYn">
+									 <li id="icon-{{ location.id }}">
 											<a href="https://link-sf.com/locations/00641ca0eb" class="_2jvF" title="Click to see more details about {{ location.name }}">
 												 <div class="_3gTZ">
 														<div class="_3DEX">
