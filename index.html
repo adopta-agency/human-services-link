@@ -34,19 +34,26 @@ layout: page
                 </div>
                 <div id="collapse-{{ location.id }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ location.id }}" data-parent="#location">
                   <div class="card-body">
+
                     {% for service in location.services %}
+
                       <h5>{{ service.name }}</h5>
                       <p>{{ service.description }}</p>
+
                       <p><strong>Application Process:</strong> {{ service.application_process }}</p>
+
                       <p><strong>Taxonomy</strong>: {{ service.taxonomy_ids }}</p>
+
                       <p><strong>Address:</strong><br />
                         {% for address in service.physical_address %}
-                        <address>{{ address_1 }}<br />{{ city }}</address>
+                        <address>{{ address.address_1 }}<br />{{ address.city }}</address>
                         {% endfor %}
                       </p>
+
                       <p><strong>Eligibility:</strong>
                       {% for eligibility in service.eligibility %} {{ eligibility.eligibility }} {% endfor %}
                       </p>
+
                       <p><strong>Schedule:</strong>
                         <ul>
                           {% for schedule in service.regular_schedule %}
@@ -54,7 +61,9 @@ layout: page
                           {% endfor %}
                         </ul>
                       </p>
+
                     {% endfor %}
+
                   </div>
                 </div>
               </div>
