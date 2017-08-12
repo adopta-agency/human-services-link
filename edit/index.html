@@ -24,31 +24,32 @@ title: Edit
     $description = document.getElementById('add-description-' + $id).value;
     $taxonomy_ids = document.getElementById('add-taxonomy_ids-' + $id).value;
     $application_process = document.getElementById('add-application_process-' + $id).value;
-
-    $row =
+    $service_count = document.getElementById('service_count-' + $id).value;
 
     $row = '<table width="100%">';
     $row = '<tr>';
     $row = '<td width="15%"><strong>Name:</strong></td>';
-    $row = '<td><input type="text" name="service-name" id="service-name-{{ count }}" value="{{ service.name }}" style="width:100%;" /></td>';
+    $row = '<td><input type="text" name="service-name" id="service-name-' + $service_count + '" value="' + $name + '" style="width:100%;" /></td>';
     $row = '</tr>';
     $row = '<tr>';
     $row = '<td><strong>Description:</strong></td>';
-    $row = '<td><input type="text" name="service-description" id="service-description-{{ count }}" value="{{ service.description }}" style="width:100%;" /></td>';
+    $row = '<td><input type="text" name="service-description" id="service-description-' + $service_count + '" value="' + $description + '" style="width:100%;" /></td>';
     $row = '</tr>';
     $row = '<tr>';
     $row = '<td><strong>Taxonomy:</strong></td>';
-    $row = '<td><input type="text" name="service-taxonomy_ids" id="taxonomy_ids-{{ count }}" value="{{ service.taxonomy_ids }}" style="width:100%;" /></td>';
+    $row = '<td><input type="text" name="service-taxonomy_ids" id="taxonomy_ids-' + $service_count + '" value="' + $taxonomy_ids + '" style="width:100%;" /></td>';
     $row = '</tr>';
     $row = '<tr>';
     $row = '<td><strong>Process:</strong></td>';
-    $row = '<td><input type="text" name="service-application_process" id="application_process-{{ count }}" value="{{ service.application_process }}" style="width:100%;" /></td>';
+    $row = '<td><input type="text" name="service-application_process" id="application_process-' + $service_count + '" value="' + $application_process + '" style="width:100%;" /></td>';
     $row = '</tr>';
     $row = '<tr>';
     $row = '<td><strong>Schedule:</strong></td>';
-    $row = '<td><ul id="schedule-{{ count }}"></ul></td>';
+    $row = '<td><ul id="schedule-' + $service_count + '"></ul></td>';
     $row = '</tr>';
     $row = '</table>';
+    console.log($row);
+    $( "#servcies-listing-" + $id).append($row);
 
     }
 </script>
@@ -135,7 +136,7 @@ title: Edit
       </table>
       {% assign service_count = service_count | plus: 1 %}
       {% endfor %}
-      <input type="text" name="service_count" value="{{ service_count }}">
+      <input type="text" name="service_count" id="service_count-{{ count }}" value="{{ service_count }}">
     </td>
 	</tr>
   <tr>
