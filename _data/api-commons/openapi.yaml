@@ -18,7 +18,7 @@ schemes:
 produces:
 - application/json
 paths:
-  /locations/:
+  /locations.json:
     get:
       summary: Get Locations
       description: Get Locations
