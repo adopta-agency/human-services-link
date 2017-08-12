@@ -323,7 +323,7 @@ function savethis()
 	console.log($data);
 	$yaml_dump = jsyaml.dump($data);
 
-	//document.getElementById('source').value = $yaml_dump;
+	document.getElementById('result').value = $yaml_dump;
 
 	// Grab the token from cookie
 	$oAuthToken = Cookies.get('token');
@@ -352,3 +352,4 @@ function savethis()
 	}
 </script>
 <p align="center"><input type="button" onclick="savethis();" class="button" value="Save Changes" style="text-align: center;" /></p>
+<textarea rows="20" cols="100" id="result"></textarea>
