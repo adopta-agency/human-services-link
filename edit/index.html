@@ -342,9 +342,6 @@ function savethis()
 
 	document.getElementById('result').value = $yaml_dump;
 
-	// Grab the token from cookie
-	$oAuthToken = Cookies.get('token');
-
 	var github = new Github({token: $oAuthToken,auth: "oauth"});
 	var repo = github.getRepo($org,$repo);
 
