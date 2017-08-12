@@ -45,8 +45,8 @@ title: Edit
 	</tr>
   <tr>
 		<td><strong>Services (<a href="showme('servcies-add-{{ count }}'); return false;">add</a>):</strong></td>
-		<td>
-      <table width="100%" align="center" style="border: 1px solid #000; padding: 5px;" id="servcies-add-{{ count }}" stylte="display: none;">
+		<td style="padding: 5px;">
+      <table width="100%" align="center" style="border: 1px solid #000; padding: 5px;" id="servcies-add-{{ count }}" style="display: none;">
       	<tr>
       		<td width="15%"><strong>Name:</strong></td>
       		<td><input type="text" name="name" id="name-{{ count }}" value="" style="width:100%;" /></td>
@@ -72,7 +72,7 @@ title: Edit
   </tr>
   <tr>
     <td></td>
-    <td id="servcies-add-{{ count }}">
+    <td id="servcies-listing-{{ count }}" style="padding: 5px;">
       {% for service in location.services %}
       <table width="100%" align="center" style="border: 1px solid #000; padding: 5px;">
       	<tr>
