@@ -59,6 +59,11 @@ title: Edit
     $service_count = $service_count + 1;
     document.getElementById('service_count-' + $id).value = $service_count;
     }
+
+  function addService($id,$sid)
+    {
+
+    }
 </script>
 
 {% assign count = 0 %}
@@ -109,11 +114,11 @@ title: Edit
       	</tr>
         <tr>
       		<td></td>
-      		<td><button type="button" onclick="addService('{{ count }}')"; class="btn btn-dark">Add</button></td>
+      		<td><button type="button" onclick="addService('{{ count }}')"; class="btn btn-dark">Add Service</button></td>
       	</tr>
         <tr>
       		<td colspan="2"><hr /></td>
-      	</tr>        
+      	</tr>
       </table>
     </td>
   </tr>
@@ -141,7 +146,27 @@ title: Edit
       	</tr>
         <tr>
       		<td><strong>Schedule:</strong></td>
-      		<td><ul id="schedule-{{ count }}"></ul></td>
+      		<td>
+            <table width="100%">
+              <tr>
+            		<td width="15%"><strong>Name:</strong></td>
+            		<td>
+                  <select name="add-weekday" id="add-weekday-{{ count }}-{{ service_count }}">
+                    <option value="Sunday">Sunday</option>
+                    <option value="Sunday">Monday</option>
+                    <option value="Sunday">Tuesday</option>
+                    <option value="Sunday">Wednesday</option>
+                    <option value="Sunday">Thursday</option>
+                    <option value="Sunday">Friday</option>
+                    <option value="Sunday">Saturday</option>
+                  </select>
+                  <input type="text" name="add-opens_at" id="add-opens_at-{{ count }}-{{ service_count }}" value="" style="width:100%;" />
+                  <input type="text" name="add-closes_at" id="add-closes_at-{{ count }}-{{ service_count }}" value="" style="width:100%;" />
+                  <button type="button" onclick="addSchedule('{{ count }}','{{ service_count }}')"; class="btn btn-dark">Add Schedule</button>
+                </td>
+            	</tr>
+            </table>
+          </td>
       	</tr>
         <tr>
       		<td colspan="2"><hr /></td>
@@ -152,7 +177,7 @@ title: Edit
     </td>
 	</tr>
   <tr>
-		<td colspan="2"><hr /><input type="text" name="service_count" id="service_count-{{ count }}" value="{{ service_count }}"></td>
+		<td colspan="2"><hr /><input type="hidden" name="service_count" id="service_count-{{ count }}" value="{{ service_count }}"></td>
 	</tr>
   {% assign count = count | plus: 1 %}
 {% endfor %}
