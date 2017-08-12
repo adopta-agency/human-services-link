@@ -217,80 +217,75 @@ title: Edit
 </table>
 </form>
 
-<div class="box alt">
-	<div class="row 50% uniform">
+<script type="text/javascript">
+function savethis()
+	{
+  var $oAuthToken = getUrlVar('token');
+  var $org = '{{ site.github_user }}';
+  var $repo = '{{ site.github_repo }}';
+	var $branch = '{{ site.github_branch }}';
 
-		<script type="text/javascript">
-		function savethis()
+	if($oAuthToken !='')
+    {
+    Cookies.set('token', $oAuthToken);
+    // Set with expiration
+    // Cookies.set('token', $oAuthToken, { expires: '01/01/2017' });
+    }
+
+  // Grab the token from cookie
+  $oAuthToken = Cookies.get('token');
+
+	$images = new Array();
+	var elements = document.getElementById("all-data").elements;
+	for (var i = 0, element; element = elements[i++];)
+		{
+    if (element.type === "text" || element.type === "hidden" || element.type === "checkbox")
 			{
-	    var $oAuthToken = getUrlVar('token');
-	    var $org = '{{ site.github_user }}';
-	    var $repo = '{{ site.github_repo }}';
-			var $branch = '{{ site.github_branch }}';
 
-			if($oAuthToken !='')
-	      {
-	      Cookies.set('token', $oAuthToken);
-	      // Set with expiration
-	      // Cookies.set('token', $oAuthToken, { expires: '01/01/2017' });
-	      }
-
-	    // Grab the token from cookie
-	    $oAuthToken = Cookies.get('token');
-
-			$images = new Array();
-			var elements = document.getElementById("all-data").elements;
-			for (var i = 0, element; element = elements[i++];)
+			if(element.name == 'archive')
 				{
-		    if (element.type === "text" || element.type === "hidden" || element.type === "checkbox")
-					{
-
-					if(element.name == 'archive')
-						{
-						$i = {};
-						}
-
-		      console.log(element.name);
-
-					$i[element.name] = element.value;
-
-					if(element.name == 'image')
-						{
-						$images.push($i);
-						}
-					}
+				$i = {};
 				}
-			//console.log($images);
-			$yaml_dump = jsyaml.dump($images);
 
-			//document.getElementById('source').value = $yaml_dump;
+      console.log(element.name);
 
-			// Grab the token from cookie
-			$oAuthToken = Cookies.get('token');
+			$i[element.name] = element.value;
 
-			var github = new Github({token: $oAuthToken,auth: "oauth"});
-			var repo = github.getRepo($org,$repo);
-
-			repo.getTree('{{ site.github_branch }}?recursive=true', function(err, tree) {
-
-				$.each(tree, function(treeKey, treeValue) {
-
-					$writepath = '_data/locations.yaml';
-					//console.log($writepath);
-					$path = treeValue['path'];
-					$sha = treeValue['sha'];
-					//console.log($path + ' == ' + $writepath);
-					if($path==$writepath)
-						{
-						//repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
-						//console.log("writing " + $writepath);
-						alert("saved " + $writepath);
-						}
-					});
-				});
-
+			if(element.name == 'image')
+				{
+				$images.push($i);
+				}
 			}
-		</script>
-		<center><p align="center"><input type="button" onclick="savethis();" class="button" value="Save Changes" style="text-align: center;" /></p></center>
-	</div>
-</div>
+		}
+	//console.log($images);
+	$yaml_dump = jsyaml.dump($images);
+
+	//document.getElementById('source').value = $yaml_dump;
+
+	// Grab the token from cookie
+	$oAuthToken = Cookies.get('token');
+
+	var github = new Github({token: $oAuthToken,auth: "oauth"});
+	var repo = github.getRepo($org,$repo);
+
+	repo.getTree('{{ site.github_branch }}?recursive=true', function(err, tree) {
+
+		$.each(tree, function(treeKey, treeValue) {
+
+			$writepath = '_data/locations.yaml';
+			//console.log($writepath);
+			$path = treeValue['path'];
+			$sha = treeValue['sha'];
+			//console.log($path + ' == ' + $writepath);
+			if($path==$writepath)
+				{
+				//repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
+				//console.log("writing " + $writepath);
+				alert("saved " + $writepath);
+				}
+			});
+		});
+
+	}
+</script>
+<p align="center"><input type="button" onclick="savethis();" class="button" value="Save Changes" style="text-align: center;" /></p>
