@@ -7,31 +7,23 @@ title: Algorotoscope Images Working - Archive
 {% assign locations = site.data.locations %}
 
 <h4>Edit</h4>
-<form id="all-images" style="padding: 0px; margin: 0px; width: 100%;">
-<div class="box alt">
-	<div class="row 50% uniform">
-		<div class="4u">
-			<span class="image fit">
-				<table width="100%">
-          {% for location in locations %}
-					<tr>
-						<td><strong>Name:</strong></td>
-						<td><input type="text" name="name" id="name-{{ count }}" value="{{ location.name }}" style="width:100%;" /></td>
-					</tr>
-          <tr>
-						<td><strong>Description:</strong></td>
-						<td><input type="text" name="description" id="name-{{ count }}" value="{{ location.description }}" style="width:100%;" /></td>
-					</tr>
-          <tr>
-						<td colspan="2"><hr /></td>
-					</tr>
-          {% assign count = count | plus: 1 %}
-    		{% endfor %}
-				</table>
-			</span>
-		</div>
-	</div>
-</div>
+<form id="all-data" style="padding: 0px; margin: 0px; width: 100%;">
+<table width="100%">
+  {% for location in locations %}
+	<tr>
+		<td><strong>Name:</strong></td>
+		<td><input type="text" name="name" id="name-{{ count }}" value="{{ location.name }}" style="width:100%;" /></td>
+	</tr>
+  <tr>
+		<td><strong>Description:</strong></td>
+		<td><input type="text" name="description" id="name-{{ count }}" value="{{ location.description }}" style="width:100%;" /></td>
+	</tr>
+  <tr>
+		<td colspan="2"><hr /></td>
+	</tr>
+  {% assign count = count | plus: 1 %}
+{% endfor %}
+</table>
 </form>
 
 <div class="box alt">
