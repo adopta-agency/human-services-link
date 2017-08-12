@@ -52,6 +52,8 @@ title: Edit
     $( "#servcies-listing-" + $id).append($row);
 
     showme('services-add-' + $id);
+    $service_count = $service_count + 1;
+    document.getElementById('service_count-' + $id).value = $service_count;
     }
 </script>
 
