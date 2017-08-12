@@ -12,12 +12,20 @@ title: Algorotoscope Images Working - Archive
 	<div class="row 50% uniform">
 		<div class="4u">
 			<span class="image fit">
-				<table>
+				<table width="100%">
           {% for location in locations %}
 					<tr>
 						<td><strong>Name:</strong></td>
 						<td><input type="text" name="name" id="name-{{ count }}" value="{{ location.name }}" style="width:100%;" /></td>
 					</tr>
+          <tr>
+						<td><strong>Description:</strong></td>
+						<td><input type="text" name="description" id="name-{{ count }}" value="{{ location.description }}" style="width:100%;" /></td>
+					</tr>
+          <tr>
+						<td><strong>Description:</strong></td>
+						<td><input type="text" name="description" id="name-{{ count }}" value="{{ location.description }}" style="width:100%;" /></td>
+					</tr>          
           {% assign count = count | plus: 1 %}
     		{% endfor %}
 				</table>
