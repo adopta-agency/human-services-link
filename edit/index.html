@@ -96,27 +96,27 @@ title: Edit
 <table width="90%" align="center">
   {% for location in locations %}
 	<tr>
-		<td width="20%"><strong>Name:</strong></td>
+		<td width="20%" align="right"><strong>Name:</strong></td>
 		<td><input type="text" name="name" id="name-{{ count }}" value="{{ location.name }}" style="width:100%;" /></td>
 	</tr>
   <tr>
-		<td><strong>Description:</strong></td>
+		<td align="right"><strong>Description:</strong></td>
 		<td><input type="text" name="description" id="name-{{ count }}" value="{{ location.description }}" style="width:100%;" /></td>
 	</tr>
   <tr>
-		<td><strong>Address:</strong></td>
+		<td align="right"><strong>Address:</strong></td>
 		<td><input type="text" name="address_1" id="address_1-{{ count }}" value="{{ location.address_1 }}" style="width:100%;" /></td>
 	</tr>
   <tr>
-		<td><strong>City:</strong></td>
+		<td align="right"><strong>City:</strong></td>
 		<td><input type="text" name="city" id="name-{{ count }}" value="{{ location.city }}" style="width:50%;" /></td>
 	</tr>
   <tr>
-		<td><strong>State:</strong></td>
+		<td align="right"><strong>State:</strong></td>
 		<td><input type="text" name="state_province" id="name-{{ count }}" value="{{ location.state_province }}" style="width:50%;" /></td>
 	</tr>
   <tr>
-		<td><strong>Services (<a href="#" onclick="showme('services-add-{{ count }}');">add</a>):</strong></td>
+		<td align="right"><strong>Services (<a href="#" onclick="showme('services-add-{{ count }}');">add</a>):</strong></td>
 		<td style="padding: 5px; display: none;" id="services-add-{{ count }}">
       <table width="100%">
       	<tr>
