@@ -235,7 +235,7 @@ function savethis()
   // Grab the token from cookie
   $oAuthToken = Cookies.get('token');
 
-	$images = new Array();
+	$data = new Array();
 	var elements = document.getElementById("all-data").elements;
 	for (var i = 0, element; element = elements[i++];)
 		{
@@ -251,14 +251,14 @@ function savethis()
 
 			$i[element.name] = element.value;
 
-			if(element.name == 'image')
+			if(element.name == 'service_count')
 				{
-				$images.push($i);
+				$data.push($i);
 				}
 			}
 		}
-	//console.log($images);
-	$yaml_dump = jsyaml.dump($images);
+	//console.log($data);
+	$yaml_dump = jsyaml.dump($data);
 
 	//document.getElementById('source').value = $yaml_dump;
 
