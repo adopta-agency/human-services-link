@@ -1,364 +1,76 @@
 ---
 layout: page
 ---
-<script type="text/javascript">
-  function showme($id)
-    {
-    if(document.getElementById($id).style.display=='none')
-      {
-      document.getElementById($id).style.display = '';
-      }
-    else
-      {
-      document.getElementById($id).style.display = 'none';
-      }
-    }
+
+<style>
+.topbar
+  {
+  display:none;
+  }
+.info
+  {
+  display:none;
+  }
+</style>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">
+  <defs>
+    <symbol viewBox="0 0 20 20" id="unlocked">
+          <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z"></path>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="locked">
+      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="close">
+      <path d="M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow">
+      <path d="M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 20 20" id="large-arrow-down">
+      <path d="M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z"/>
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="jump-to">
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z"/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="expand">
+      <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+    </symbol>
+
+  </defs>
+</svg>
+
+<h2>API Documentation</h2>
+<p><a href="https://raw.githubusercontent.com/{{ site.github_org }}/{{ site.github_repo }}/master/_data/api-commons/openapi.yaml" target="_blank"><img style="padding: 3px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-openapi-spec.png" title="Download OpenAPI" align="right" width="50" /></a>The interactive documentation driven by <a href="https://raw.githubusercontent.com/{{ site.github_org }}/{{ site.github_repo }}/master/_data/api-commons/openapi.yaml" target="_blank">the OpenAPI for the Human Services Data API (HSDA)</a>. All GET API paths are publicly available, where the POST, PUT, and DELETE require an appid and appkey. This is just meant to be a demo application showing what is possible with any HSDA implementation in support of Open 211 efforts.</p>
+<div id="swagger-ui"></div>
+
+<script src="/{{ site.github_repo }}/js/ui/swagger-ui-bundle.js"> </script>
+<script src="/{{ site.github_repo }}/js/ui/swagger-ui-standalone-preset.js"> </script>
+
+<script>
+window.onload = function() {
+  // Build a system
+  const ui = SwaggerUIBundle({
+    url: "https://raw.githubusercontent.com/{{ site.github_org }}/{{ site.github_repo }}/master/_data/api-commons/openapi.yaml",
+    dom_id: '#swagger-ui',
+    presets: [
+      SwaggerUIBundle.presets.apis,
+      SwaggerUIStandalonePreset
+    ],
+    plugins: [
+      SwaggerUIBundle.plugins.DownloadUrl
+    ],
+    layout: "StandaloneLayout"
+  })
+
+  window.ui = ui;
+
+}
 </script>
-<table cellpadding="5" cellspacing="5" width="100%" border="0" style="margin-top: 0px;">
-
-{% assign index = site.data.apis %}
-{% assign apijson = index[0] %}
-{% assign contents = site.data.api-commons %}
-{% assign apicommons = contents %}
-
-{% assign blog_url = '' %}
-{% assign blogrss_url = '' %}
-{% assign portal_url = '' %}
-{% assign gitub_url = '' %}
-{% assign twitter_url = '' %}
-{% assign website_url = '' %}
-
-{% for common in apijson.x-common %}
-
-  {% if common.type == 'x-portal' %}
-    {% assign portal_url = common.url %}
-  {% endif %}
-
-  {% if common.type == 'x-twitter' %}
-    {% assign twitter_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-github' %}
-    {% assign gitub_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-blog' %}
-    {% assign blog_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-blog-rss-feed' %}
-    {% assign blog_rss_url = common.url %}
-  {% endif %}
-
-  {% if common.type == 'x-getting-started' %}
-    {% assign getting_started_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-authentication-overview' %}
-    {% assign authentication_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-faq' %}
-    {% assign faq_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-login' %}
-    {% assign login_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-selfservice-registration' %}
-    {% assign signup_url = common.url %}
-  {% endif %}
-
-  {% if common.type == 'x-documentation' %}
-    {% assign documentation_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-code-page' %}
-    {% assign code_page_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-postman' %}
-    {% assign postman_url = common.url %}
-  {% endif %}
-
-  {% if common.type == 'x-road-map' %}
-    {% assign road_map_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-issues' %}
-    {% assign issue_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-change-log' %}
-    {% assign change_log_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-status' %}
-    {% assign status_url = common.url %}
-  {% endif %}
-
-  {% if common.type == 'x-support' %}
-    {% assign support_url = common.url %}
-  {% endif %}
-
-  {% if common.type == 'x-dedicated-plans--pricing-page' %}
-    {% assign plan_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-rate-limit' %}
-    {% assign rate_limit_url = common.url %}
-  {% endif %}
-
-  {% if common.type == 'x-terms-of-service-page' %}
-    {% assign terms_of_service_url = common.url %}
-  {% endif %}
-  {% if common.type == 'x-privacy-policy-page' %}
-    {% assign privacy_policy_url = common.url %}
-  {% endif %}
-
-{% endfor %}
-
-{% if apisjson.humanURL == null %}
-  {% assign website_url = portal_url %}
-{% else %}
-  {% assign website_url = apisjson.humanURL %}
-{% endif %}
-
-  <tr>
-    <td colspan="2" style="padding-bottom: 10px;">
-      <a href="/apis.json" target="_blank"><img style="padding: 15px;" src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/api-icon.jpg" width="125" align="right" title="APIs.json Index For This Platform" /></a>
-      <a href="{{ site.url }}" style="font-size: 18px;"><strong>{{ apijson.name }}</strong></a><br />
-      {{ apijson.description }}
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <table cellpadding="5" cellspacing="5" border="0" width="85%" id="jsonBrowserTable" style="margin-left: 15px;margin-top:15px;">
-				<tr id="onboarding">
-					<td colspan="3" style="font-size: 18px; padding: 15px;"><strong>On-boarding</strong></td>
-				</tr>
-        {% if getting_started_url != null %}
-				<tr id="x-getting-started-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ getting_started_url }}" id="x-getting-started-img-url"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-running.png" width="35" /></a></td>
-					<td><a href="{{ getting_started_url }}" id="x-getting-started-url">Getting Started</a><div id="d-getting-started"></div></td>
-				</tr>
-        {% endif %}
-        {% if authentication_url != null %}
-				<tr id="x-authentication-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ authentication_url }}" id="x-authentication-img-url"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-key-circle.png" width="35" /></a></td>
-					<td><a href="{{ authentication_url }}" id="x-authentication-url">Authentication</a><div id="d-authentication"></div></td>
-				</tr>
-        {% endif %}
-        {% if faq_url != null %}
-				<tr id="x-faq-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ faq_url }}" id="x-faq-img-url"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-question-mark.png" width="35" /></a></td>
-					<td><a href="{{ faq_url }}" id="x-faq-url">FAQ</a><div id="d-faq"></div></td>
-				</tr>
-        {% endif %}
-				<tr id="integration">
-					<td colspan="3" style="font-size: 18px; padding: 15px;"><strong>Integration</strong></td>
-				</tr>
-        {% if documentation_url != null %}
-				<tr id="x-documentation-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ documentation_url }}" id="x-documentation-img-url"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-documentation-interactive.png" width="35" /></a></td>
-					<td><a href="{{ documentation_url }}" id="x-documentation-url">Documentation</a><div id="d-documentation"></div></td>
-				</tr>
-        {% endif %}
-        {% if code_page_url != null %}
-				<tr id="x-code-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ code_page_url }}" id="x-code-img-url"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-code.png" width="35" /></a></td>
-					<td><a href="{{ code_page_url }}" id="x-code-url">Code</a><div id="d-code"></div></td>
-				</tr>
-        {% endif %}
-        {% if postman_url != null %}
-				<tr id="x-code-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ code_url }}" id="x-code-img-url"><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/postman/postman-logo.png" width="35" /></a></td>
-					<td><a href="{{ postman_url }}" id="x-code-url">Postman Collection</a><div id="d-code"></div></td>
-				</tr>
-        {% endif %}
-        {% if plan_url != null %}
-				<tr id="x-plan-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ plan_url }}" id="x-plan-img-url"><img src="https://s3.amazonaws.com/kinlane-productions/building-blocks/x-plan.png" width="35" /></a></td>
-					<td><a href="{{ plan_url }}" id="x-plan-url">Plans</a><div id="d-plan"></div></td>
-				</tr>
-        {% endif %}
-        {% if rate_limit_url != null %}
-				<tr id="x-rate-limits-page-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ rate_limit_url }}" id="x-rate-limits-page-img-url"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-speed-limit.jpeg" width="35" /></a></td>
-					<td><a href="{{ rate_limit_url }}" id="x-rate-limits-page-url">Rate Limits</a><div id="d-rate-limits"></div></td>
-				</tr>
-        {% endif %}
-        {% if support_url != null %}
-				<tr id="support">
-					<td colspan="3" style="font-size: 18px; padding: 15px;"><strong>Support</strong></td>
-				</tr>
-				<tr id="x-support-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ support_url }}" id="x-support-img-url"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-support.png" width="35" /></a></td>
-					<td><a href="{{ support_url }}" id="x-support-url">Support</a><div id="d-support"></div></td>
-				</tr>
-        {% endif %}
-				<tr id="updates">
-					<td colspan="3" style="font-size: 18px; padding: 15px;"><strong>Updates</strong></td>
-				</tr>
-        {% if road_map_url != null %}
-				<tr id="x-roadmap-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ road_map_url }}" id="x-roadmap-img-url"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-highway.png" width="35" /></a></td>
-					<td><a href="{{ road_map_url }}" id="x-roadmap-url">Roadmap</a><div id="d-roadmap"></div></td>
-				</tr>
-        {% endif %}
-        {% if issue_url != null %}
-				<tr id="x-issue">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ issue_url }}" id="x-issue-img-url"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-bug.png" width="35" /></a></td>
-					<td><a href="{{ issue_url }}" id="x-issue-url">Issues</a><div id="d-issue"></div></td>
-				</tr>
-        {% endif %}
-        {% if change_log_url != null %}
-				<tr id="x-change-log-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ change_log_url }}" id="x-change-log-img-url"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-recycling.jpg" width="35" /></a></td>
-					<td><a href="{{ change_log_url }}" id="x-change-log-url">Change Log</a><div id="d-change-log"></div></td>
-				</tr>
-        {% endif %}
-        {% if status_url != null %}
-				<tr id="x-status-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ status_url }}" id="x-status-img-url"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-status-dashboard.png" width="35" /></a></td>
-					<td><a href="{{ status_url }}" id="x-status-url">Status</a><div id="d-status"></div></td>
-				</tr>
-        {% endif %}
-				<tr id="legal">
-					<td colspan="3" style="font-size: 18px; padding: 15px;"><strong>Legal</strong></td>
-				</tr>
-        {% if terms_of_service_url != null %}
-				<tr id="x-terms-of-service-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ terms_of_service_url }}" id="x-terms-of-service-img-url"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-terms-conditions.png" width="35" /></a></td>
-					<td><a href="{{ terms_of_service_url }}" id="x-terms-of-service-url">Terms of Service</a><div id="d-terms-of-service"></div></td>
-				</tr>
-        {% endif %}
-        {% if privacy_policy_url != null %}
-				<tr id="x-privacy-policy-row">
-					<td width="25" style="height: 55px;"></td>
-					<td width="75" align="center" valign="middle"><a href="{{ privacy_policy_url }}" id="x-privacy-policy-img-url"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-privacy.png" width="35" /></a></td>
-					<td><a href="{{ privacy_policy_url }}" id="x-privacy-policy-url">Privacy Policy</a><div id="d-privacy-policy"></div></td>
-				</tr>
-        {% endif %}
-			</table>
-    </td>
-    <td width="50%" valign="top">
-      <table width="100%" border="0" style="margin-left: 15px;margin-top:15px;">
-        <tr>
-        <td align="center" style="margin-left: 90px; margin-right: 90px;">
-
-            {% assign api_action_url = '' %}
-            {% assign numberofapis = apijson.apis | size %}
-
-                {% assign api_action_url = '' %}
-                {% for api in apijson.apis %}
-
-                <table cellpadding="3" cellspacing="2" width="100%" border="0">
-
-                    {% assign api_action_spec = '' %}
-                    {% assign api_action_url = '' %}
-                    {% assign openapi_spec_json = '' %}
-
-                    {% for property in api.properties %}
-
-                      {% assign thisname = apijson.name | downcase %}
-                      {% assign thisname = thisname | append:'/' %}
-                      {% assign thisname = thisname | replace: ' ','-' %}
-
-                      {% if property.type == 'x-openapi' %}
-                        {% assign openapi_spec_url = property.url %}
-                        {% assign openapi_spec_json = site.data.api-commons.openapi %}
-                      {% endif %}
-
-                    {% endfor %}
-
-                    <tr>
-                      <td align="left">
-                        <p style="font-size: 18px; padding: 5px;"><strong>API Paths</strong></p>
-                      </td>
-                      <td align="right">
-                        (<a href="{{ site.url }}{{ documentation_url }}" title="View Documentation" style="padding: 3px;">Docs</a>)
-                        <strong>OpenAPI:</strong>
-                        (<a href="https://raw.githubusercontent.com/{{ site.github_org }}/{{ site.github_repo }}/master/_data/api-commons/openapi.yaml" target="_blank" title="YAML OpenAPI" style="padding: 3px;">YAML</a>)
-                        (<a href="{{ site.url }}openapi.json" target="_blank" title="JSON OpenAPI" style="padding: 3px;">JSON</a>)
-                      </td>
-                    </tr>
-                    <tr id="methods-for-{{ pathname }}">
-                      <td colspan="2" align="left" style="margin-left: 25px; margin-right: 25px;">
-
-                        <ul style="margin-left: 25px;">
-
-                          {% assign taglist = '' %}
-
-                          {% for path in openapi_spec_json.paths %}
-                            {% assign method_json = path[1] %}
-                            {% for method in method_json %}
-                              {% assign tagarray = method[1].tags %}
-                              {% assign tag = tagarray[0] %}
-                              {% if taglist contains tag %}
-                              {% else %}
-                                {% assign taglist = taglist | append:',' %}
-                                {% assign taglist = taglist | append:tag %}
-                              {% endif %}
-                            {% endfor %}
-                          {% endfor %}
-
-                          {% assign tagArray = taglist | split: "," %}
-                          {% for grouptag in tagArray %}
-
-                            {% if grouptag != '' %}
-                              <li style="font-size: 14px; padding-bottom: 5px; list-style: none;"><strong>{{ grouptag }}</strong></li><ul style="font-size: 12px; margin-left: 25px;">
-                            {% endif %}
-
-                              {% for path in openapi_spec_json.paths %}
-
-                                {% assign path_name = path[0] %}
-                                {% assign method_json = path[1] %}
-
-                                {% for method in method_json %}
-
-                                  {% assign tagarray = method[1].tags %}
-                                  {% assign tag = tagarray[0] %}
-
-                                  {% assign verb = method[0] | upcase %}
-                                  {% if verb == 'GET' %}
-                                    {% assign back_color = site.get_color %}
-                                  {% endif %}
-                                  {% if verb == 'POST' %}
-                                    {% assign back_color = site.post_color %}
-                                  {% endif %}
-                                  {% if verb == 'PUT' %}
-                                    {% assign back_color = site.put_color %}
-                                  {% endif %}
-                                  {% if verb == 'DELETE' %}
-                                    {% assign back_color = site.delete_color %}
-                                  {% endif %}
-
-                                  {% assign summary = method[1].summary %}
-
-                                  {% if tag == grouptag %}
-                                    {% if summary != '' %}
-                                      <li style="font-size: 12px;">
-                                        <span style="color:#000;">{{ summary }}</span>
-                                        (<span style="color:#{{ back_color }}; font-weight:bold;">{{ verb }}</span>)
-                                      </li>
-                                    {% endif %}
-                                  {% endif %}
-
-                                {% endfor %}
-                              {% endfor %}
-                            </ul></li>
-                          {% endfor %}
-                        </ul>
-                      </td>
-                    </tr>
-                  </table>
-                {% endfor %}
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
