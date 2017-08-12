@@ -18,7 +18,7 @@ layout: page
           </a>
         </h5>
       </div>
-      
+
       <div id="collapse-{{ taxonomy | slug }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ taxonomy | slug }}" data-parent="#taxonomy">
         <div class="card-body">
 
@@ -65,6 +65,7 @@ layout: page
                             {% assign any_eligibility = 1 %}
                           {% endif %}
                         {% endfor %}
+
                         {% if any_eligibility == 1 %}
                           <p><strong>Eligibility:</strong>
                           {% for eligibility in service.eligibility %}
@@ -80,6 +81,11 @@ layout: page
                             {% endfor %}
                           </ul>
                         </p>
+
+                        {% for address in location.physical_address %}
+                          <address>{{ address.address_1 }}<br />{{ address.city }}</address>
+                          <p><strong>Google Map:</strong> <a href="https://www.google.com/maps/place/{{ address.address_1 }},+{{ address.city }},+CA+94132/@37.7175611,-122.4741629,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7c4ad4573e01:0xc8d559fa9aa2c3c8!8m2!3d37.7175569!4d-122.4719689" target="_blank"></a></p>
+                        {% endfor %}
 
                       {% endfor %}
 
