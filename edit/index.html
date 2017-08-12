@@ -47,6 +47,9 @@ title: Edit
     $row = $row + '<td><strong>Schedule:</strong></td>';
     $row = $row + '<td><ul id="schedule-' + $service_count + '"></ul></td>';
     $row = $row + '</tr>';
+    $row = $row + '<tr>';
+    $row = $row + '<td colspan="2"><hr /></td>';
+    $row = $row + '</tr>';
     $row = $row + '</table>';
     console.log($row);
     $( "#servcies-listing-" + $id).append($row);
@@ -108,6 +111,9 @@ title: Edit
       		<td></td>
       		<td><button type="button" onclick="addService('{{ count }}')"; class="btn btn-dark">Add</button></td>
       	</tr>
+        <tr>
+      		<td colspan="2"><hr /></td>
+      	</tr>        
       </table>
     </td>
   </tr>
@@ -136,6 +142,9 @@ title: Edit
         <tr>
       		<td><strong>Schedule:</strong></td>
       		<td><ul id="schedule-{{ count }}"></ul></td>
+      	</tr>
+        <tr>
+      		<td colspan="2"><hr /></td>
       	</tr>
       </table>
       {% assign service_count = service_count | plus: 1 %}
