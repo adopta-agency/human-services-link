@@ -251,7 +251,8 @@ function savethis()
       console.log($field_name);
 
       $findme = "add-";
-			$pos = strpos($field_name, $findme);
+			$isadd = $field_name.includes("add-");
+      console.log("is add: " + isadd);
 			if ($pos === false)
 				{
 
