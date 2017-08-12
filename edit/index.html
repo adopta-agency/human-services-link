@@ -23,9 +23,8 @@ title: Algorotoscope Images Working - Archive
 						<td><input type="text" name="description" id="name-{{ count }}" value="{{ location.description }}" style="width:100%;" /></td>
 					</tr>
           <tr>
-						<td><strong>Description:</strong></td>
-						<td><input type="text" name="description" id="name-{{ count }}" value="{{ location.description }}" style="width:100%;" /></td>
-					</tr>          
+						<td colspan="2"><hr /></td>
+					</tr>
           {% assign count = count | plus: 1 %}
     		{% endfor %}
 				</table>
