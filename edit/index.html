@@ -26,7 +26,7 @@ title: Edit
     $application_process = document.getElementById('add-application_process-' + $id).value;
     $service_count = document.getElementById('service_count-' + $id).value;
 
-    $row = '<table width="100%">';
+    $row = '<table width="100%" style="border-top: 2px; solid #000; border-bottom: 2px; solid #000;">';
     $row = $row + '<tr>';
     $row = $row + '<td width="15%"><strong>Name:</strong></td>';
     $row = $row + '<td><input type="text" name="service-name" id="service-name-' + $service_count + '" value="' + $name + '" style="width:100%;" /></td>';
@@ -115,7 +115,7 @@ title: Edit
     <td id="servcies-listing-{{ count }}" style="padding: 5px;">
       {% assign service_count = 0 %}
       {% for service in location.services %}
-      <table width="100%">
+      <table width="100%" style="border-top: 2px; solid #000; border-bottom: 2px; solid #000;">
       	<tr>
       		<td width="15%"><strong>Name:</strong></td>
       		<td><input type="text" name="service-name" id="service-name-{{ count }}-{{ service_count }}" value="{{ service.name }}" style="width:100%;" /></td>
