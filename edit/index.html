@@ -255,22 +255,29 @@ function savethis()
       console.log("is add: " + $isadd);
 			if(!$isadd)
 				{
-          
+
         if($field_name=='name')
           {
-          $i['name'] = new Array();
+          $i['name'] = element.value;
           }
         if($field_name=='description')
           {
           $i['description'] = element.value;
           }
+        if($field_name=='address_1')
+          {
+          $add = {};
+          $i['physical_address'] = new Array();
+          $add['address_1'] = element.value;
+          }
         if($field_name=='city')
           {
-          $i['city'] = element.value;
+          $add['city'] = element.value;
           }
         if($field_name=='state_province')
           {
-          $i['state_province'] = element.value;
+          $add['state_province'] = element.value;
+          $i['physical_address'].push($add);
           $i['services'] = new Array();
           }
 
