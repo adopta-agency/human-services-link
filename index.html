@@ -74,18 +74,18 @@ layout: page
                           </p>
                         {% endif %}
 
+                        {% for address in location.physical_address %}
+                          <address>{{ address.address_1 }}<br />{{ address.city }}</address>
+                          <p><strong>Map:</strong> <a href="https://www.google.com/maps/place/{{ address.address_1 }},+{{ address.city }},+CA+94132/@37.7175611,-122.4741629,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7c4ad4573e01:0xc8d559fa9aa2c3c8!8m2!3d37.7175569!4d-122.4719689" target="_blank">View In Google Maps</a></p>
+                        {% endfor %}
+
                         <p><strong>Schedule:</strong>
                           <ul>
                             {% for schedule in service.regular_schedule %}
                               <li><strong>{{ schedule.weekday }}:</strong> {{ schedule.opens_at }} - {{ schedule.closes_at }}</li>
                             {% endfor %}
                           </ul>
-                        </p>
-
-                        {% for address in location.physical_address %}
-                          <address>{{ address.address_1 }}<br />{{ address.city }}</address>
-                          <p><strong>Map:</strong> <a href="https://www.google.com/maps/place/{{ address.address_1 }},+{{ address.city }},+CA+94132/@37.7175611,-122.4741629,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7c4ad4573e01:0xc8d559fa9aa2c3c8!8m2!3d37.7175569!4d-122.4719689" target="_blank">View In Google Maps</a></p>
-                        {% endfor %}
+                        </p>                        
 
                       {% endfor %}
 
