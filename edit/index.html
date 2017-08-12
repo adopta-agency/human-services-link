@@ -145,20 +145,19 @@ title: Edit
       		<td><input type="text" name="service-application_process" id="application_process-{{ count }}-{{ service_count }}" value="{{ service.application_process }}" style="width:100%;" /></td>
       	</tr>
         <tr>
-      		<td><strong>Schedule (<a href="#" onclick="showme('services-schedule-add-{{ count }}-{{ service_count }}');">add</a>):</strong></td>
+      		<td><strong>Schedule:</strong></td>
       		<td id="services-schedule-add-{{ count }}-{{ service_count }}">
-            <select name="add-weekday" id="add-weekday-{{ count }}-{{ service_count }}">
-              <option value="Sunday">Sunday</option>
-              <option value="Monday">Monday</option>
-              <option value="Tuesday">Tuesday</option>
-              <option value="Wednesday">Wednesday</option>
-              <option value="Thursday">Thursday</option>
-              <option value="Friday">Friday</option>
-              <option value="Saturday">Saturday</option>
-            </select>
+            <input type="text" name="add-weekday" id="add-weekday-{{ count }}-{{ service_count }}" value="Monday" width="75" />
             <input type="text" name="add-opens_at" id="add-opens_at-{{ count }}-{{ service_count }}" value="9:00 AM" width="50" />
             <input type="text" name="add-closes_at" id="add-closes_at-{{ count }}-{{ service_count }}" value="5:00 PM" width="50" />
             <button type="button" onclick="addSchedule('{{ count }}','{{ service_count }}')"; class="btn btn-dark">Add Schedule</button>
+            <hr />
+          </td>
+      	</tr>
+        <tr>
+          <td></td>
+      		<td>
+            <ul id="services-schedule-add-{{ count }}-{{ service_count }}"></ul>
           </td>
       	</tr>
         <tr>
