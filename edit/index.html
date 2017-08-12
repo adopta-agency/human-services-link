@@ -128,6 +128,9 @@ title: Edit
       {% assign service_count = 0 %}
       {% for service in location.services %}
       <table width="100%" style="border-top: 2px; solid #000; border-bottom: 2px; solid #000;">
+        <tr>
+      		<td colspan="2"><hr /></td>
+      	</tr>        
       	<tr>
       		<td width="15%"><strong>Name:</strong></td>
       		<td><input type="text" name="service-name" id="service-name-{{ count }}-{{ service_count }}" value="{{ service.name }}" style="width:100%;" /></td>
