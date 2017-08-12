@@ -253,9 +253,9 @@ function savethis()
       $findme = "add-";
 			$isadd = $field_name.includes("add-");
       console.log("is add: " + $isadd);
-			if($isadd > 1)
+			if(!$isadd)
 				{
-
+          
         if($field_name=='name')
           {
           $i['name'] = new Array();
@@ -273,6 +273,8 @@ function savethis()
           $i['state_province'] = element.value;
           $i['services'] = new Array();
           }
+
+
         if($field_name=='service-name')
           {
           $s = {};
@@ -292,6 +294,7 @@ function savethis()
           $s['regular_schedule'] = new Array();
           }
 
+
         if($field_name=='weekday')
           {
           $sch = {};
@@ -307,10 +310,10 @@ function savethis()
           $s['regular_schedule'].push($sch);
           }
 
-       if($field_name=='schedule_count')
-         {
-         $i['services'].push($s);
-         }
+         if($field_name=='schedule_count')
+           {
+           $i['services'].push($s);
+           }
 
 				}
 
