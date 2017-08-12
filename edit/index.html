@@ -353,7 +353,7 @@ function savethis()
 		$.each(tree, function(treeKey, treeValue) {
 
 			$writepath = '_data/locations.yaml';
-			//console.log($writepath);
+			console.log($writepath);
 			$path = treeValue['path'];
 			$sha = treeValue['sha'];
 			//console.log($path + ' == ' + $writepath);
@@ -361,7 +361,7 @@ function savethis()
 				{
 				//repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
 				//console.log("writing " + $writepath);
-				alert("saved " + $writepath);
+				console.log("saved " + $writepath);
 				}
 			});
 		});
