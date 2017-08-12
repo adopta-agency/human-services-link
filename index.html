@@ -10,6 +10,7 @@ layout: page
   {% for taxonomy in taxonomies %}
 
     <div class="card" id="layer-1-{{ taxonomy | slug }}">
+
       <div class="card-header" role="tab" id="heading-{{ taxonomy | slug }}">
         <h5 class="mb-0">
           <a class="collapsed" data-toggle="collapse" href="#collapse-{{ taxonomy | slug }}" aria-expanded="false" aria-controls="collapse-{{ taxonomy | slug }}" style="color:#000; font-size: 18px;">
@@ -17,6 +18,7 @@ layout: page
           </a>
         </h5>
       </div>
+      
       <div id="collapse-{{ taxonomy | slug }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ taxonomy | slug }}" data-parent="#taxonomy">
         <div class="card-body">
 
