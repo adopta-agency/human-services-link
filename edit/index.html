@@ -189,7 +189,7 @@ title: Edit
             {% for schedule in service.regular_schedule %}
               {% assign schedule_count = schedule_count | plus: 1 %}
             {% endfor %}
-            <input type="hidden" name="schedule_count" id="schedule_count-{{ count }}" value="{{ schedule_count }}">
+            <input type="hidden" name="schedule_count" id="schedule_count-{{ count }}-{{ service_count }}" value="{{ schedule_count }}">
           </td>
       	</tr>
         <tr>
