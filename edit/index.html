@@ -114,19 +114,19 @@ title: Edit
       <table width="100%">
       	<tr>
       		<td width="15%"><strong>Name:</strong></td>
-      		<td><input type="text" name="service-name" id="service-name-{{ count }}" value="{{ service.name }}" style="width:100%;" /></td>
+      		<td><input type="text" name="service-name" id="service-name-{{ count }}-{{ service_count }}" value="{{ service.name }}" style="width:100%;" /></td>
       	</tr>
         <tr>
       		<td><strong>Description:</strong></td>
-      		<td><input type="text" name="service-description" id="service-description-{{ count }}" value="{{ service.description }}" style="width:100%;" /></td>
+      		<td><input type="text" name="service-description" id="service-description-{{ count }}-{{ service_count }}" value="{{ service.description }}" style="width:100%;" /></td>
       	</tr>
         <tr>
       		<td><strong>Taxonomy:</strong></td>
-      		<td><input type="text" name="service-taxonomy_ids" id="taxonomy_ids-{{ count }}" value="{{ service.taxonomy_ids }}" style="width:100%;" /></td>
+      		<td><input type="text" name="service-taxonomy_ids" id="taxonomy_ids-{{ count }}-{{ service_count }}" value="{{ service.taxonomy_ids }}" style="width:100%;" /></td>
       	</tr>
         <tr>
       		<td><strong>Process:</strong></td>
-      		<td><input type="text" name="service-application_process" id="application_process-{{ count }}" value="{{ service.application_process }}" style="width:100%;" /></td>
+      		<td><input type="text" name="service-application_process" id="application_process-{{ count }}-{{ service_count }}" value="{{ service.application_process }}" style="width:100%;" /></td>
       	</tr>
         <tr>
       		<td><strong>Schedule:</strong></td>
