@@ -63,6 +63,28 @@ title: Edit
   function addService($id,$sid)
     {
 
+    console.log($id);
+    console.log($sid);
+    $weekday = document.getElementById('add-weekday-' + $id + '-' + sid).value;
+    $opens_at = document.getElementById('add-opens_at-' + $id + '-' + sid).value;
+    $closes_at = document.getElementById('add-closes_at-' + $id + '-' + sid).value;
+    $schedule_count = document.getElementById('schedule_count-' + $id).value;
+
+    $row = '<table width="100%">';
+    $row = $row + '<tr>';
+    $row = $row + '<td><input type="text" name="add-weekday" id="add-weekday-' + $id + '-' + $sid + '" value="Monday" width="75" /></td>';
+    $row = $row + '<td><input type="text" name="add-opens_at" id="add-opens_at-' + $id + '-' + $sid + '" value="9:00 AM" width="50" /></td>';
+    $row = $row + '<td><input type="text" name="add-closes_at" id="add-closes_at-' + $id + '-' + $sid + '" value="5:00 PM" width="50" /></td>';
+    $row = $row + '</tr>';
+    $row = $row + '</table>';
+
+    $( "#services-schedule-listing-" + $id + "-" + $sid).append($row);
+
+    //showme('services-add-' + $id);
+    $schedule_count = parseInt($schedule_count);
+    $schedule_count = $schedule_count + 1;
+    document.getElementById('schedule_count-' + $id).value = $schedule_count;
+
     }
 </script>
 
@@ -130,7 +152,7 @@ title: Edit
       <table width="100%" style="border-top: 2px; solid #000; border-bottom: 2px; solid #000;">
         <tr>
       		<td colspan="2"><hr /></td>
-      	</tr>        
+      	</tr>
       	<tr>
       		<td width="15%"><strong>Name:</strong></td>
       		<td><input type="text" name="service-name" id="service-name-{{ count }}-{{ service_count }}" value="{{ service.name }}" style="width:100%;" /></td>
@@ -162,8 +184,12 @@ title: Edit
       	</tr>
         <tr>
           <td></td>
-      		<td>
-            <ul id="services-schedule-listing-{{ count }}-{{ service_count }}"></ul>
+      		<td id="services-schedule-listing-{{ count }}-{{ service_count }}">
+            {% assign schedule_count = 0 %}
+            {% for schedule in service.regular_schedule %}
+              {% assign schedule_count = schedule_count | plus: 1 %}
+            {% endfor %}
+            <input type="hidden" name="schedule_count" id="schedule_count-{{ count }}" value="{{ schedule_count }}">
           </td>
       	</tr>
         <tr>
