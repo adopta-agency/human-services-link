@@ -1,8 +1,8 @@
 - name: Lyon-Martin Health Services
   description: Women's clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '1748 Market St., Suite 201'
+      city: San Francisco
       state_province: ''
   services:
     - name: Women's clinic
@@ -27,8 +27,8 @@
 - name: California Youth Crisis Line
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: San Francisco
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -57,8 +57,8 @@
 - name: Temple United Methodist Church
   description: Food pantry
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 65 Beverly St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Food pantry
@@ -74,8 +74,8 @@
 - name: Swords to Plowshares
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1060 Howard
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -115,8 +115,8 @@
     (BHS)
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 760 Harrison
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -151,8 +151,8 @@
 - name: Bayview Hunters Point Foundation-Youth Services
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 5015 3rd St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -179,8 +179,8 @@
 - name: Missionaries of Charity
   description: Women's shelter
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 55 Sadowa St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Women's shelter
@@ -226,8 +226,8 @@
 - name: HIV Mental Health Case Management Program at South Van Ness Services
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 755 South Van Ness
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -252,8 +252,8 @@
 - name: SF Public Library - Park Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1833 Page St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -309,8 +309,8 @@
 - name: North East Medical Services - Noriega Branch
   description: Neighborhood Clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1450 Noriega St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Neighborhood clinic
@@ -349,8 +349,8 @@
 - name: City Team Ministries
   description: Multi-service center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 164 6th St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Men's only residential recovery program
@@ -434,8 +434,8 @@
 - name: St. Anthony Foundation Dining Room
   description: Multi-service center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 121 Golden Gate Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Lunch
@@ -469,8 +469,8 @@
 - name: Public Portosan
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: Golden Gate Ave & Jones St
+      city: San Francisco
       state_province: ''
   services:
     - name: Portable Toilet
@@ -489,8 +489,8 @@
 - name: Child Protective Services
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: San Francisco
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services.
@@ -519,8 +519,8 @@
 - name: San Francisco VA Medical Center - Fort Miley
   description: Veterans medical clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 4150 Clement St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Veterans medical clinic
@@ -560,8 +560,8 @@
 - name: Sister Mary Philippa Health Center
   description: Neighborhood clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '2235 Hayes St., 5th Floor '
+      city: San Francisco
       state_province: ''
   services:
     - name: Neighborhood clinic
@@ -587,8 +587,8 @@
 - name: SF Public Library - Chinatown/Him Mark Lai Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1135 Powell St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -621,8 +621,8 @@
 - name: Glide Health Services
   description: Medical Clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '330 Ellis St., 6th Floor'
+      city: San Francisco
       state_province: ''
   services:
     - name: Medical clinic
@@ -649,8 +649,8 @@
 - name: New Generation Health Center
   description: Reproductive health clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 625 Potrero Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Reproductive health clinic
@@ -685,8 +685,8 @@
 - name: St. Andrew Missionary Baptist Church
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 2565 POST
+      city: San Francisco
       state_province: ''
   services:
     - name: Pantry
@@ -700,8 +700,8 @@
 - name: Western Addition Neighborhood Access Point
   description: Technology access
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1449 Webster St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -729,8 +729,8 @@
 - name: Southeast Child Family Therapy Center (BHS)
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 3905 Mission
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -763,8 +763,8 @@
     Groceries are distributed weekly to homeless people and residents of the
     Tenderloin district. 
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 290 Turk St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Toilets
@@ -792,8 +792,8 @@
 - name: SF Public Library - Visitacion Valley Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 201 Leland Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -826,8 +826,8 @@
 - name: 350 Jones - Homeless Storage
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 350 Jones
+      city: San Francisco
       state_province: ''
   services:
     - name: Storage for personal belongings
@@ -852,8 +852,8 @@
 - name: Korean American Senior Service
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 745 BUCHANAN
+      city: San Francisco
       state_province: ''
   services:
     - name: Pantry
@@ -867,8 +867,8 @@
 - name: Línea de Apoyo
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: San Francisco
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -891,8 +891,8 @@
 - name: 'Child and Adolescent Support, Advocacy & Resource Center (CASARC) SFGH'
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '995 Potrero, Bldg 80, Ward 80, basement'
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -917,8 +917,8 @@
 - name: SF Public Library - Sunset Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1305 18th Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -951,8 +951,8 @@
 - name: OMI Family Center (BHS)
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1701 Ocean
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -977,8 +977,8 @@
 - name: SF Public Library - Noe Valley/Sally Brunn Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 451 Jersey St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -1012,7 +1012,7 @@
   description: Drop-in center for women and families leaving domestic violence.
   physical_address:
     - address_1: ''
-      city: ''
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -1062,8 +1062,8 @@
 - name: HealthRIGHT 360 - Mission Clinic
   description: Medical clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1735 Mission St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Medical clinic
@@ -1096,8 +1096,8 @@
 - name: 24-hour Mental Health /Peer-Counseling Phone Support
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: San Francisco
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -1125,8 +1125,8 @@
 - name: 'Cameron House: Social Services'
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 920 Sacramento
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -1151,8 +1151,8 @@
 - name: SF Public Library - Potrero Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1616 20th St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -1183,8 +1183,8 @@
 - name: Bayview Hunters Point Foundation-Integrated Behavioral Health Program
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 5815 3rd St.
+      city: san Francisco
       state_province: ''
   services:
     - name: Mental Health services
@@ -1208,8 +1208,8 @@
 - name: Western Addition Beacon Center
   description: Neighborhood center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '380 Webster St., Rm 21'
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access and training center
@@ -1233,8 +1233,8 @@
 - name: Raphael House
   description: Family shelter
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1065 Sutter St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Family shelter
@@ -1253,8 +1253,8 @@
 - name: North East Medical Services - San Bruno Branch
   description: Neighborhood Clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 2574 San Bruno Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Neighborhood clinic
@@ -1293,8 +1293,8 @@
 - name: Catholic Charities - 30th St. Senior Center
   description: Senior focused community center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 225 30th St.
+      city: San Francisco
       state_province: ''
   services:
     - name: technology
@@ -1333,8 +1333,8 @@
 - name: 'Providence Foundation Family Shelters: First Friendship Family Shelter'
   description: Family shelter
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '501 Steiner St. '
+      city: San Francisco
       state_province: ''
   services:
     - name: Family shelter
@@ -1376,8 +1376,8 @@
 - name: Fraternite Notre Dame
   description: 'Lunch Mon. Tues. Wed 11:30am - 1:30pm'
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 54 Turk St
+      city: San Francisco
       state_province: ''
   services:
     - name: Lunch
@@ -1394,8 +1394,8 @@
 - name: St. Anthony Medical Clinic
   description: Neighborhood clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '150 Golden Gate Ave., 2nd Floor'
+      city: San Francisco
       state_province: ''
   services:
     - name: Neighborhood clinic
@@ -1423,8 +1423,8 @@
     For a 90-day bed, line up by 7am. For a 1-night bed, apply during the hours
     listed.
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 165 Capp St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Laundry
@@ -1501,8 +1501,8 @@
 - name: Central City Older Adults (BHS)
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 90 Van Ness
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -1527,8 +1527,8 @@
 - name: Chinatown Neighborhood Access Point
   description: Technology access
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 601 Jackson St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access - Job Readiness Services
@@ -1555,8 +1555,8 @@
 - name: SF Public Library - West Portal Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 190 Lenox Wy.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -1589,8 +1589,8 @@
 - name: St. Luke's Neighborhood Clinic
   description: Neighborhood clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1580 Valencia St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Neighborhood clinic
@@ -1617,8 +1617,8 @@
 - name: SF Public Library - Golden Gate Valley Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1801 Green St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -1649,8 +1649,8 @@
 - name: St. Paul Tabernacle Baptist
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1789 Oakdale
+      city: San Francisco
       state_province: ''
   services:
     - name: Pantry
@@ -1666,8 +1666,8 @@
 - name: Mission Neighborhood Homeless Resource Center
   description: Showers and laundry facilities
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '165 Capp St., #1001'
+      city: San Francisco
       state_province: ''
   services:
     - name: Central health center
@@ -1723,8 +1723,8 @@
 - name: Mission Neighborhood Center
   description: Multi-service center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 362 Capp St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Hot meal
@@ -1765,8 +1765,8 @@
 - name: IT Bookman Community Center
   description: Mutli-purpose center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 446 Randolph St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access and training center
@@ -1789,8 +1789,8 @@
 - name: Episcopal Community Services - Adult Education Center
   description: Adult education program
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 165 8th St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Adult training center
@@ -1816,8 +1816,8 @@
 - name: North East Medical Services - Richmond Branch
   description: Neighborhood clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1033 Clement St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Neighborhood clinic
@@ -1856,8 +1856,8 @@
 - name: St. Aidan's
   description: Food pantry
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 101 Goldmine Dr.
+      city: San Francisco
       state_province: ''
   services:
     - name: Food pantry
@@ -1873,8 +1873,8 @@
 - name: Family Service Agency of SF
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1300 Franklin
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -1898,8 +1898,8 @@
 - name: Men’s Crisis Line
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: San Francisco
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -1926,8 +1926,8 @@
 - name: Night Ministry
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: San Francisco
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -1973,8 +1973,8 @@
 - name: Southeast Child Family Therapy Center (BHS)
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 100 Blanken
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -2002,8 +2002,8 @@
 - name: Mary Elizabeth Inn
   description: Women's food services
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1040 Bush St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Free food pantry
@@ -2016,8 +2016,8 @@
 - name: San Francisco City Clinic
   description: Free or low-cost diagnosis and treatment for sexually transmitted diseases
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '356 7th St. '
+      city: San Francisco
       state_province: ''
   services:
     - name: >-
@@ -2046,8 +2046,8 @@
 - name: Mission Family Center (BHS)
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 759 South Van Ness
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -2073,8 +2073,8 @@
 - name: Glide Women’s Center Domestic Violence Program
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 330 Ellis
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -2098,8 +2098,8 @@
 - name: Bayview/Hunter's Point Beacon Center
   description: Technology access and training center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 400 Mansell St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access and training
@@ -2126,8 +2126,8 @@
 - name: Westside Crisis
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: ' 245 11th St'
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -2153,8 +2153,8 @@
 - name: 'Meals on Wheels of San Francisco, Inc.'
   description: Senior meal delivery service
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1375 Fairfax Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Meal delivery service
@@ -2178,8 +2178,8 @@
 - name: Mission Neighborhood Access Point
   description: Technology access
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 3120 Mission St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -2206,8 +2206,8 @@
 - name: SF Public Library - Ortega Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 3223 Ortega St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -2242,8 +2242,8 @@
     Multipurpose senior center serving the Oceanview, Merced, and Ingleside
     districts of San Francisco.
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 65 Beverly St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Meal service
@@ -2311,8 +2311,8 @@
 - name: Dr. George W. Davis Senior Center
   description: Technology access for seniors
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1753 Carrol Ave
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -2335,8 +2335,8 @@
 - name: United Council of Human Services - Jennings
   description: Multi-service center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 2111 Jennings St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Free meal
@@ -2396,8 +2396,8 @@
 - name: SF Public Library - Bernal Heights Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 500 Cortland Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -2428,8 +2428,8 @@
 - name: 'YMCA: OMI Family Resource Center'
   description: Food pantry
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 650 Capitol Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Food pantry
@@ -2446,8 +2446,8 @@
 - name: Haight Ashbury Food Program - Food Service Center
   description: Weekly pantry program
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1525 Waller St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Food pantry
@@ -2466,8 +2466,8 @@
 - name: SF Public Library - Mission Bay Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 960 Fourth St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -2500,8 +2500,8 @@
 - name: Economic Opportunity Council (EOC) - Commodity Food Program
   description: Multi-service organization
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '1426 Fillmore St., Suite 301'
+      city: San Francisco
       state_province: ''
   services:
     - name: Food pantry
@@ -2532,8 +2532,8 @@
 - name: AIDS Housing Alliance
   description: Rental Assistance resource center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 350 Golden Gate Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Housing resource center
@@ -2556,8 +2556,8 @@
 - name: United Council of Human Services - Oakdale
   description: Multi-service center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1065 Oakdale Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Food pantry
@@ -2573,8 +2573,8 @@
 - name: Stonestown YMCA
   description: Mutli-service center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 3150 20th Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access and training
@@ -2607,8 +2607,8 @@
 - name: Youth With A Mission
   description: Food pantry
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 357 Ellis St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Food pantry
@@ -2624,8 +2624,8 @@
 - name: 'Providence Foundation Family Shelters: Providence Family Shelter'
   description: Family shelter
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1601 McKinnon Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Family Shelter
@@ -2671,8 +2671,8 @@
     For 90-day shelter bed line up by 7am. For 1-night emergency bed, apply
     during the hours listed.
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 2111 Jennings St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Shelter
@@ -2755,8 +2755,8 @@
 - name: Child Crisis
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: San Francisco
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -2787,8 +2787,8 @@
 - name: Trauma Recovery/Rape Treatment Center
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '2727 Mariposa, Suite 100'
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -2815,8 +2815,8 @@
 - name: Bernal Heights Neighborhood Center
   description: Community Center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 515 Cortland Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access and training
@@ -2843,8 +2843,8 @@
 - name: Native American Health Center
   description: Clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '160 Capp St. '
+      city: San Francisco
       state_province: ''
   services:
     - name: Community clinic
@@ -2875,8 +2875,8 @@
 - name: 'San Francisco City Mission: S.F. Rescue Mission'
   description: Free meal
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 140 Turk St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Free meal
@@ -2909,8 +2909,8 @@
 - name: 'St. Anthony Foundation: Tenderloin Technology Lab'
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '150 Golden Gate Ave., 3rd Floor'
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access and training
@@ -2949,8 +2949,8 @@
 - name: EDD Civic Center Neighborhood Access Point
   description: Technology access
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 801 Turk St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -2978,8 +2978,8 @@
 - name: St. Peter & Paul Catholic Church
   description: Free meal
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 666 Filbert St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Free meal
@@ -3004,8 +3004,8 @@
 - name: SF Public Library - Presidio Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 3150 Sacramento St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -3036,8 +3036,8 @@
 - name: Potrero Hill Health Center (Caleb G. Clark)
   description: Neighborhood clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1050 Wisconsin St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Neighborhood clinic
@@ -3071,8 +3071,8 @@
 - name: San Francisco Day Labor Program
   description: Outreach clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 3358 Cesar Chavez St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Outreach Clinic & Labor Placement
@@ -3088,8 +3088,8 @@
 - name: SF Public Library - Ingleside Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1298 Ocean Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -3122,8 +3122,8 @@
 - name: 'Salvation Army, Mission'
   description: Food pantry
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1156 Valencia St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Food pantry
@@ -3144,8 +3144,8 @@
 - name: Treasure Island Homeless Development Initiative
   description: Food pantry
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '850 Avenue I '
+      city: San Francisco
       state_province: ''
   services:
     - name: Food pantry
@@ -3160,8 +3160,8 @@
 - name: Visitacion Valley Neighborhood Access Point
   description: Technology access
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1099 Sunnydale Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -3187,8 +3187,8 @@
 - name: First Friendship Institutional Baptist Church
   description: Food pantry
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 501 Steiner St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Food pantry
@@ -3203,8 +3203,8 @@
 - name: North East Medical Services - Taraval Branch
   description: Neighborhood Clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 2308 Taraval St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Neighborhood clinic
@@ -3239,8 +3239,8 @@
 - name: Bayview TLC Family Resource Center
   description: Free food pantry
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '1601 Lane St. '
+      city: San Francisco
       state_province: ''
   services:
     - name: Free food pantry
@@ -3256,8 +3256,8 @@
 - name: SF Public Library - North Beach Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1800 Mason St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -3288,8 +3288,8 @@
 - name: Brennan House
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: San Francisco
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -3313,8 +3313,8 @@
 - name: SF Public Library - Mission Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 300 Bartlet St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access
@@ -3347,8 +3347,8 @@
 - name: Fill up America
   description: Food pantry
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1050 S. Van Ness Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Free food pantry
@@ -3361,8 +3361,8 @@
 - name: Westside Community Services
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1153 Oak Street
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -3390,8 +3390,8 @@
 - name: Mobile Crisis Treatment Team (BHS)
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: San Francisco
+      city: San Francisco
       state_province: ''
   services:
     - name: ''
@@ -3422,8 +3422,8 @@
 - name: Episcopal Community Services - Canon Kip Senior Center
   description: Senior multi-service center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 705 Natoma St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology access for seniors and young adults with disabilities
@@ -3465,8 +3465,8 @@
 - name: Lava Mae
   description: Mobile showers and toilet
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: roaming
+      city: San Francisco
       state_province: ''
   services:
     - name: Mobile showers and toilet
@@ -3495,8 +3495,8 @@
 - name: Westside Ajani
   description: 'http://www.westside-health.org/programs/ajani-program'
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1140 Oak
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -3520,8 +3520,8 @@
 - name: Lark-Inn for Youth
   description: Emergency youth shelter
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '869 Ellis St. '
+      city: San Francisco
       state_province: ''
   services:
     - name: Youth shelter
@@ -3555,8 +3555,8 @@
 - name: SF Public Library - Western Addition Branch
   description: Public library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1550 Scott St.
+      city: 'San Francisco '
       state_province: ''
   services:
     - name: Technology access
@@ -3589,8 +3589,8 @@
 - name: Office of Self Help
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '1663 Mission, 3rd Fl, Rm 310'
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -3616,8 +3616,8 @@
 - name: SF Public Library - Anza Branch
   description: Public Library
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 550 37th Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology Access
@@ -3648,8 +3648,8 @@
 - name: Crisis Response Team
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: San Francisco
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Serices
@@ -3680,8 +3680,8 @@
 - name: San Francisco General Hospital
   description: Central Health Center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1001 Potrero Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Central health center
@@ -3708,8 +3708,8 @@
 - name: Dimensions Clinic for Queer and Questioning Youth
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '3850 17th St. '
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -3736,8 +3736,8 @@
     Warm Line chat online: http://www.mentalhealthsf.org/ (24-hour Mental Health
     Triage/Peer-Counseling LIVE CHAT)
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: San Francisco
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -3764,8 +3764,8 @@
 - name: Edgewood Center for Children and Families-SF
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1801 Vincente
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -3791,8 +3791,8 @@
 - name: Oakes Children’s Center
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 1550 Treat
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -3819,8 +3819,8 @@
 - name: In-Home Supportive Services
   description: ''
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '1650 Mission St., 5th Floor'
+      city: San Francisco
       state_province: ''
   services:
     - name: Mental Health Services
@@ -3848,8 +3848,8 @@
 - name: JVS
   description: Job search focused computer lab and training center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: '225 Bush St. West Lobby, Suite 400'
+      city: San Francisco
       state_province: ''
   services:
     - name: Technology skills classes and employment center
@@ -3877,8 +3877,8 @@
 - name: Martin De Porres House of Hospitality
   description: Multi-service center
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 225 Potrero Ave.
+      city: San Francisco
       state_province: ''
   services:
     - name: Medical van
@@ -3936,7 +3936,7 @@
   description: Case Management Dormitory
   physical_address:
     - address_1: ''
-      city: ''
+      city: San Francisco
       state_province: ''
   services:
     - name: Case Management Dormitory
@@ -3980,8 +3980,8 @@
 - name: Southeast Health Center
   description: Neighborhood clinic
   physical_address:
-    - address_1: ''
-      city: ''
+    - address_1: 2401 Keith St.
+      city: San Francisco
       state_province: ''
   services:
     - name: Neighborhood clinic
