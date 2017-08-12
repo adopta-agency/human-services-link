@@ -31,7 +31,26 @@ title: Algorotoscope Images Working - Archive
 	</tr>
   <tr>
 		<td><strong>Services:</strong></td>
-		<td></td>
+		<td>
+      <table width="90%" align="center">
+      	<tr>
+      		<td width="20%"><strong>Name:</strong></td>
+      		<td><input type="text" name="name" id="name-{{ count }}" value="{{ location.name }}" style="width:100%;" /></td>
+      	</tr>
+        <tr>
+      		<td width="20%"><strong>Description:</strong></td>
+      		<td><input type="text" name="description" id="description-{{ count }}" value="{{ location.description }}" style="width:100%;" /></td>
+      	</tr>
+        <tr>
+      		<td width="20%"><strong>Taxonomy:</strong></td>
+      		<td><input type="text" name="taxonomy_ids" id="taxonomy_ids-{{ count }}" value="{{ location.taxonomy_ids }}" style="width:100%;" /></td>
+      	</tr>
+        <tr>
+      		<td width="20%"><strong>Application Process:</strong></td>
+      		<td><input type="text" name="application_process" id="application_process-{{ count }}" value="{{ location.application_process }}" style="width:100%;" /></td>
+      	</tr>
+      </table>
+    </td>
 	</tr>
   <tr>
 		<td colspan="2"><hr /></td>
