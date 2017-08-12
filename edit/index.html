@@ -46,7 +46,7 @@ title: Edit
   <tr>
 		<td><strong>Services (<a href="#" onclick="showme('services-add-{{ count }}');">add</a>):</strong></td>
 		<td style="padding: 5px;">
-      <table width="100%" cellpadding="3" border="1" align="center" style="display: none;" id="services-add-{{ count }}">
+      <table width="100%" style="display: none;" id="services-add-{{ count }}">
       	<tr>
       		<td width="15%"><strong>Name:</strong></td>
       		<td><input type="text" name="name" id="name-{{ count }}" value="" style="width:100%;" /></td>
@@ -74,7 +74,7 @@ title: Edit
     <td></td>
     <td id="servcies-listing-{{ count }}" style="padding: 5px;">
       {% for service in location.services %}
-      <table width="100%" align="center" cellpadding="3" border="1">
+      <table width="100%">
       	<tr>
       		<td width="15%"><strong>Name:</strong></td>
       		<td><input type="text" name="service-name" id="service-name-{{ count }}" value="{{ service.name }}" style="width:100%;" /></td>
