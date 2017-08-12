@@ -147,11 +147,14 @@ title: Edit
         <tr>
       		<td><strong>Schedule:</strong></td>
       		<td id="services-schedule-add-{{ count }}-{{ service_count }}">
-            <input type="text" name="add-weekday" id="add-weekday-{{ count }}-{{ service_count }}" value="Monday" width="75" />
-            <input type="text" name="add-opens_at" id="add-opens_at-{{ count }}-{{ service_count }}" value="9:00 AM" width="50" />
-            <input type="text" name="add-closes_at" id="add-closes_at-{{ count }}-{{ service_count }}" value="5:00 PM" width="50" />
-            <button type="button" onclick="addSchedule('{{ count }}','{{ service_count }}')"; class="btn btn-dark">Add Schedule</button>
-            <hr />
+            <table width="100%">
+              <tr>
+                <td><input type="text" name="add-weekday" id="add-weekday-{{ count }}-{{ service_count }}" value="Monday" width="75" /></td>
+                <td><input type="text" name="add-opens_at" id="add-opens_at-{{ count }}-{{ service_count }}" value="9:00 AM" width="50" /></td>
+                <td><input type="text" name="add-closes_at" id="add-closes_at-{{ count }}-{{ service_count }}" value="5:00 PM" width="50" /></td>
+                <td><button type="button" onclick="addSchedule('{{ count }}','{{ service_count }}')"; class="btn btn-dark">Add Schedule</button></td>
+              </tr>
+            </table>
           </td>
       	</tr>
         <tr>
