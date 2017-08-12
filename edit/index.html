@@ -92,6 +92,13 @@ title: Edit
 {% assign count = 0 %}
 {% assign locations = site.data.locations %}
 
+<table width="90%" align="center">
+	<tr>
+		<td width="20%" align="right"><strong>Github Personal Token:</strong></td>
+		<td><input type="text" name="token" id="token" value="" style="width:100%;" /></td>
+	</tr>
+</table>
+
 <form id="all-data" style="padding: 0px; margin: 0px; width: 100%;">
 <table width="90%" align="center">
   {% for location in locations %}
@@ -221,7 +228,7 @@ title: Edit
 function savethis()
 	{
   var $oAuthToken = getUrlVar('token');
-  var $org = '{{ site.github_user }}';
+  var $org = '{{ site.github_org }}';
   var $repo = '{{ site.github_repo }}';
 	var $branch = '{{ site.github_branch }}';
 
@@ -233,7 +240,7 @@ function savethis()
     }
 
   // Grab the token from cookie
-  $oAuthToken = Cookies.get('token');
+  $oAuthToken = document.getElementById("token").value;
 
 	$data = new Array();
 	var elements = document.getElementById("all-data").elements;
