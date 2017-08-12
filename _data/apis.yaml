@@ -1,5 +1,5 @@
-- name: Open Referral Human Services Data API (HSDA) Demo
-  description: This is a demonstration developer area for the Open Referral API, providing access to the raw data as part of an Open Referral demo. The purpose of this API is to allow anyone to develop web, mobile, or other types of applications that serve the mission of any Open 211 organization. This portal is just a demo, meant to demonstrate what is possible, if you'd like to launch an Open 211 API, feel free to reach out via one of the support channels.
+- name: Human Services Link
+  description: "This is a Human Services Data Specification (HSDS) website, and API that runs entirely on Github, leveraging Jekyll and Github pages. This is a developer API for getting at the data made available via this poject."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open_referral_logo.png
   tags:
     - Human Services
@@ -11,14 +11,14 @@
     - Developers
   created: '2017-01-23'
   modified: '2017-03-01'
-  url: http://developer.open.referral.adopta.agency/apis.json
+  url: https://adopta-agency.github.io/human-services-link/apis.json
   specificationVersion: '0.14'
   apis:
-  - name: Open Referral Human Services Data API (HSDA)
-    description: API access to Open Referral human services data, including organizations, locations, and services.
+  - name: Human Services Link
+    description: This is an API for programmatically accessing the data contained in this website for use in other applications.
     image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open_referral_logo.png
-    humanURL: http://developer.open.referral.adopta.agency/
-    baseURL: "http://api.open.referral.adopta.agency"
+    humanURL: https://adopta-agency.github.io/human-services-link/
+    baseURL: "https://adopta-agency.github.io/human-services-link/"
     tags:
       - Human Services
       - Locations
@@ -35,8 +35,6 @@
     - type: x-api-filters
       url: api-commons/api-filter.yaml
   x-common:
-  - type: x-authentication-overview
-    url: /authentication/
   - type: x-base-url-for-api
     url: http://api.open.referral.adopta.agency
   - type: x-blog
@@ -46,7 +44,7 @@
   - type: x-change-log
     url: /change-log/
   - type: x-portal
-    url: http://developer.open.referral.adopta.agency/
+    url: https://adopta-agency.github.io/human-services-link/
   - type: x-documentation
     url: /documentation/
   - type: x-faq
@@ -54,19 +52,17 @@
   - type: x-getting-started
     url: /getting-started/
   - type: x-github
-    url: https://github.com/adopta-agency/open-referral-developer/
+    url: https://github.com/adopta-agency/human-services-link/
   - type: x-issues
     url: /issues/
   - type: x-status
     url: /status/
   - type: x-login
-    url: http://developer.open.referral.adopta.agency//users/sign_in
+    url: https://adopta-agency.github.io/human-services-link//users/sign_in
   - type: x-privacy-policy-page
     url: /privacy-policy/
   - type: x-road-map
     url: /road-map/
-  - type: x-selfservice-registration
-    url: http://developer.open.referral.adopta.agency//users/sign_up
   - type: x-status-dashboard
     url: /status/
   - type: x-api-science
@@ -82,7 +78,7 @@
   - type: x-twitter
     url: https://twitter.com/apievangelist
   - type: x-postman
-    url: http://developer.open.referral.adopta.agency/postman_collection.json
+    url: https://adopta-agency.github.io/human-services-link/postman_collection.json
   - type: x-code-page
     url: /code/
   include: []

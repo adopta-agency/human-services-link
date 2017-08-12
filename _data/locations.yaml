@@ -124,7 +124,7 @@
         Drop in MTuThF 8:30am-10:00am or W 1pm-2:30pm. Psychiatric medication
         management, counseling, clinical case management & support group.
         Filipino counselingteam. Citywide, but priority given to SOMA, Western
-        Addition, & Tenderloin. 
+        Addition, & Tenderloin.
       taxonomy_ids: medical
       application_process: '$0-full bill. English, Spanish, Tagalog.'
       regular_schedule:
@@ -567,7 +567,7 @@
     - name: Neighborhood clinic
       description: >-
         Urgent Care, HIV Testing, HIV Treatment, Podiatry, Immunizations,
-        Primary Care. $0-full bill. Call for appt. 
+        Primary Care. $0-full bill. Call for appt.
       taxonomy_ids: medical
       application_process: >-
         Cardiology, rheumatology, orthopedics, surgery, advice nurse, social
@@ -693,7 +693,7 @@
       description: >-
         Apply Wed 10:15am. If accepted, you’ll get a card in the mail to bring
         with you to pick up food weekly. You must live in zip code 94115 or
-        94117. ID required. Wheelchair accessible. 
+        94117. ID required. Wheelchair accessible.
       taxonomy_ids: food
       application_process: ''
       regular_schedule: []
@@ -710,7 +710,7 @@
         Workshops, Training Opportunities, Access to Resource Room with
         Computers, Fax and Copy machines, Unemployment Information (link to
         EDD), Availability of Supportive Services (including childcare and
-        transportation). Help with Resume preparation and career counseling. 
+        transportation). Help with Resume preparation and career counseling.
       taxonomy_ids: technology
       application_process: >-
         Computer use only for Job Search and Housing Search. All services are
@@ -737,7 +737,7 @@
       description: >-
         Call M-F 9am-5pm, Evening hours by appt. Individual, group & family
         therapy, school consultation, parent support, medication evaluations,
-        assessments & referrals. 
+        assessments & referrals.
       taxonomy_ids: medical
       application_process: >-
         MediCal, HealthyKids, HealthySF; those uninsured formental health,
@@ -761,7 +761,7 @@
     where homeless people can socialize comfortably, re-discovering the human
     experience that is often suppressed during daily survival on the streets.
     Groceries are distributed weekly to homeless people and residents of the
-    Tenderloin district. 
+    Tenderloin district.
   physical_address:
     - address_1: 290 Turk St.
       city: San Francisco
@@ -860,7 +860,7 @@
       description: >-
         Apply in person Fri 9:30- 10:30am. If accepted, you’ll be mailed a card
         to bring with you to pick up food every Fri. You must live in zip code
-        94102, 94115, 94117, or 94118. ID required. Wheelchair accessible. 
+        94102, 94115, 94117, or 94118. ID required. Wheelchair accessible.
       taxonomy_ids: food
       application_process: ''
       regular_schedule: []
@@ -958,11 +958,11 @@
     - name: Mental Health Services
       description: >-
         Short term solution focused group & individual counseling, case
-        management, medication management, information,& referrals. 
+        management, medication management, information,& referrals.
       taxonomy_ids: medical
       application_process: >-
         For all San Franciscans. Drop-in intake M Tu Th F 8:30am & W noon.
-        $0-full bill. English, sometimes Spanish. 
+        $0-full bill. English, sometimes Spanish.
       regular_schedule:
         - weekday: Monday
           opens_at: '5:00 PM'
@@ -1023,7 +1023,7 @@
       taxonomy_ids: medical
       application_process: >-
         Confidential. Call for initial screening or drop in M-F 8:30am-5pm.
-        English, Spanish; other languages by telephone interpreter. 
+        English, Spanish; other languages by telephone interpreter.
       regular_schedule:
         - weekday: Monday
           opens_at: '5:00 PM'
@@ -1041,7 +1041,7 @@
         for women and children fleeing domestic violence. Also offers support
         services for to up to 35 women and children each night. The shelter
         offers individual counseling, support groups, practical living skills
-        development, resource advocacy, and support service referrals. 
+        development, resource advocacy, and support service referrals.
       taxonomy_ids: housing
       application_process: 8-week shelter. Intakes conducted 24 hours a day everyday.
       regular_schedule:
@@ -1474,7 +1474,7 @@
         The first time you reserve a bed you will enroll in the CHANGES computer
         system giving your name, date and place of birth, gender, ethnicity, and
         a Social Security Number ( Social Security Number is optional). Your
-        photograph and finger print will be taken to establish your 
+        photograph and finger print will be taken to establish your
       regular_schedule:
         - weekday: Monday
           opens_at: '12:00 PM'
@@ -1538,7 +1538,7 @@
         to Resource Room with Computers, Fax and Copy machines, Unemployment
         Information (link to EDD), Availability of Supportive Services
         (including childcare and transportation). All services are free of
-        charge. Must have One Stop (EDD) card or fill out application. 
+        charge. Must have One Stop (EDD) card or fill out application.
       taxonomy_ids: technology
       application_process: Call to reserve spot for workshops or trainings
       regular_schedule:
@@ -1750,7 +1750,7 @@
       application_process: >-
         Registration required for new guests - takes 10 minutes. Black and white
         printer, scanner, wireless technology, and assistive technology
-        available. Wheelchair accessible. 
+        available. Wheelchair accessible.
       regular_schedule:
         - weekday: Monday
           opens_at: '5:00 PM'
@@ -1799,7 +1799,7 @@
         literacy, basic education, GED preparation and high school diploma
         completion. Students attend small classes and can receive one-on-one
         instruction. Classes are open-enrollment; students can sign up anytime
-        and be placed in a class right away. 
+        and be placed in a class right away.
       taxonomy_ids: technology
       application_process: >-
         Must attend an Orientation before enrollment. ORIENTATION:
@@ -1905,7 +1905,7 @@
     - name: Mental Health Services
       description: >-
         Men’s Crisis Line. 24hrs. Emergency counseling for straight or gay
-        abusive men in crisis. 
+        abusive men in crisis.
       taxonomy_ids: medical
       application_process: Free. English only.
       regular_schedule:
@@ -1981,7 +1981,7 @@
       description: >-
         Call M-F 9am-5pm, Sa 9am-1pm. Evening hours by appt. Individual, group &
         family therapy, school consultation, parent support, medication
-        evaluations, assessments & referrals. 
+        evaluations, assessments & referrals.
       taxonomy_ids: medical
       application_process: >-
         MediCal, HealthyKids, HealthySF; those uninsured for mental health,
@@ -2161,7 +2161,7 @@
       description: >-
         Lunch and dinner meal delivery (M-F) for home-bound seniors over 60 who
         live in San Francisco. Diabetic, low sodium, and mechanically softened
-        meal plans are available for clients with special nutritional needs. 
+        meal plans are available for clients with special nutritional needs.
       taxonomy_ids: food
       application_process: ' A $5/day contribution is requested, however no one is denied meal delivery service if they are unable to contribute financially.'
       regular_schedule:
@@ -2513,7 +2513,7 @@
         meat, vegetables, fruit, and fruit juices are available monthly at five
         distribution sites throughout the city. Also serves eligible seniors, 60
         years of age or over with the same types of commodity foods. Services
-        are only for persons in the 94107 zip code. 
+        are only for persons in the 94107 zip code.
       taxonomy_ids: food
       application_process: >-
         Call for an appointment. Cantonese, Mandarin, Portuguese, Russian,
@@ -2543,7 +2543,7 @@
         bring ID, letter of diagnosis and proof of income. At this time, AHASF
         is unable to provide phone counseling, or e-mail counseling or to set up
         special appointments for intakes. During drop-in, they will perform an
-        intake assessment and create an Individualized Housing Plan. 
+        intake assessment and create an Individualized Housing Plan.
       taxonomy_ids: housing
       application_process: >-
         Services include: housing referrals, deposit and back rent assistance,
@@ -2684,7 +2684,7 @@
         The first time you reserve a bed you will enroll in the CHANGES computer
         system giving your name, date and place of birth, gender, ethnicity, and
         a Social Security Number ( Social Security Number is optional). Your
-        photograph and finger print will be taken to establish your 
+        photograph and finger print will be taken to establish your
       regular_schedule:
         - weekday: Sunday
           opens_at: '9:00 AM'
@@ -3170,7 +3170,7 @@
         Workshops, Training Opportunities, Access to Resource Room with
         Computers, Fax and Copy machines, Unemployment Information (link to
         EDD), Availability of Supportive Services (including childcare and
-        transportation). 
+        transportation).
       taxonomy_ids: technology
       application_process: All services are free of charge.
       regular_schedule:
@@ -3249,7 +3249,7 @@
       application_process: >-
         Apply in person on Thursday 2pm-4pm. Must live in 94124 zip code and ID
         required. Bring a bag. Call M-F 9am-4pm for one-time-only emergency food
-        box for any SF resident. 
+        box for any SF resident.
       regular_schedule:
         - weekday: Thursday
           opens_at: '4:00 PM'
@@ -3371,7 +3371,7 @@
         mental health & substance abuse. Housing referral, family counseling,
         employment assistance, socialization, counseling, medication support,
         crisis services, methadone detox & maintenance, HIV testing, home health
-        care, case management, & referral. 
+        care, case management, & referral.
       taxonomy_ids: medical
       application_process: >-
         Free. English, Cantonese, Mandarin; some Spanish & Tagalog; call for
@@ -3398,7 +3398,7 @@
       description: >-
         If you are over 60 or HIV+ you may be transferred to another line.
         Evaluation & alternative placement attempted. If need be, authorized to
-        do a “5150” (involuntary 72-hour hospital hold). 
+        do a “5150” (involuntary 72-hour hospital hold).
       taxonomy_ids: medical
       application_process: >-
         Crisis intervention for SF residents & visitors ages 18+. Lack of
@@ -3503,7 +3503,7 @@
       description: >-
         For youth age 5-21 & their families. Mental health treatment services,
         case management, psychologi- cal education, groups, crisis
-        intervention. 
+        intervention.
       taxonomy_ids: medical
       application_process: 'Call M-F 9am-5pm. Free, MediCal, HealthyKids or uninsured. English.'
       regular_schedule:
@@ -3536,7 +3536,7 @@
       application_process: >-
         Come in or call any time (24 hrs) to get on waiting list for a bed (40
         beds nightly). Case management required. Curfew 9:45pm. Leave by
-        8:30am. 
+        8:30am.
       regular_schedule:
         - weekday: Sunday
           opens_at: '11:59 AM'
@@ -3688,12 +3688,12 @@
       description: >-
         24-hr emergency room. Urgent and Primary Care HIV, and Pregnancy
         testing, Family Planning, Women's Health, Mental Health, and Prenatal
-        Care. For SF residents. $0-full bill. Call for appt. 
+        Care. For SF residents. $0-full bill. Call for appt.
       taxonomy_ids: medical
       application_process: >-
         Each Clinic has varying hours - call for more information. Cantonese,
         English, Mandarin, Russian, Spanish, and Vietnamese. Other languages
-        available. 
+        available.
       regular_schedule:
         - weekday: Monday
           opens_at: '5:00 PM'
@@ -3798,7 +3798,7 @@
     - name: Mental Health Services
       description: >-
         Education program with counseling & outpatient therapy; behavorial
-        health support for youth and their families. 
+        health support for youth and their families.
       taxonomy_ids: medical
       application_process: >-
         5-18yrs. Must be referred. Call clinical director (Dr. Brenner ext. 214)
@@ -3829,11 +3829,11 @@
         care services forlow-income, blind, aged, & disabled people onMediCal or
         SSI. Help with: housecleaning, mealpreparation, laundry, grocery
         shopping, bathing,walking, accompaniment to medical
-        appointments,referrals. 
+        appointments,referrals.
       taxonomy_ids: medical
       application_process: >-
         Free for SSI. English, Chinese, Korean, Russian, Spanish, Tagalog,
-        Vietnamese. 
+        Vietnamese.
       regular_schedule:
         - weekday: Monday
           opens_at: '5:00 PM'
@@ -3947,7 +3947,7 @@
         in which individuals identify a series of goals designed to transition
         them into a stable housing situation. Individual counseling and support
         groups focusing on substance abuse and job seeking and retention skills
-        are provided on site. 
+        are provided on site.
       taxonomy_ids: housing
       application_process: >-
         Reservations must be made at a resource center or through the GA program
@@ -3989,7 +3989,7 @@
         Urgent Care, TB Testing, Pregnancy Test, STD Testing, STD Treatment, HIV
         Testing, HIV Treatment, Dental, Podiatry, Immunizations, Women’s Health,
         Family Planning, Mental Health, Prenatal Care, Primary Care. $0-full
-        bill. Call for appt. MediCal applications by appt. 
+        bill. Call for appt. MediCal applications by appt.
       taxonomy_ids: medical
       application_process: >-
         Call about:optometry; smoking cessation; acupuncture; health education &
@@ -3997,7 +3997,7 @@
         diabetics; those with family problems or those in need of geriatric or
         pediatric counseling; COPD better breather classes; yoga classes.
         English & Spanish. Some Cantonese & Mandarin. Other languages via
-        telephone interpreter. 
+        telephone interpreter.
       regular_schedule:
         - weekday: Monday
           opens_at: '12:00 PM'

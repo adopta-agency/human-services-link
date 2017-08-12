@@ -42,19 +42,6 @@ paths:
       tags:
       - Locations
 definitions:
-  eligibility:
-    properties:
-      id:
-        description: 'Each entry must have a unique identifier.'
-        type: string
-      service_id:
-        description: 'The identifier of the service for which this entry describes the eligibility criteria.'
-        type: string
-      eligibility:
-        description: 'The rules or guidelines that determine who can receive the service.'
-        type: string
-    required:
-      - id
   location:
     properties:
       name:
@@ -65,110 +52,33 @@ definitions:
         type: string
       physical_address:
         description: 'An array of physical addresses'
-        type: array
+        schema:
+          type: array
+          items:
+            $ref: '#/definitions/physical_address'
       services:
         description: 'An array of services'
-        type: array
-  phone:
-    properties:
-      id:
-        description: 'Each entry must have a unique identifier.'
-        type: string
-      location_id:
-        description: 'The identifier of the location where this phone number is located.'
-        type: string
-      service_id:
-        description: 'The identifier of the service for which this is the phone number.'
-        type: string
-      organization_id:
-        description: 'The identifier of the organisation for which this is the phone number.'
-        type: string
-      contact_id:
-        description: 'The identifier of the contact for which this is the phone number.'
-        type: string
-      service_at_location_id:
-        description: 'The identifier of the ‘service at location’ table entry, when this phone number is specific to a service in a particular location.'
-        type: string
-      number:
-        description: 'The phone number.'
-        type: string
-      extension:
-        description: 'The extension of the phone number.'
-        type: number
-      type:
-        description: 'Whether the phone number relates to a fixed or cellular phone.'
-        type: string
-      department:
-        description: 'The department for which this is the phone number.'
-        type: string
-      language:
-        description: 'A comma separated list of ISO 639-1, or ISO 639-2 [language codes](available at http://www.loc.gov/standards/iso639-2/php/code_list.php) to represent the languages available from this phone service. The three-letter codes from ISO 639-2 provide greater accuracy when describing variants of languages, which may be relevant to particular communities.'
-        type: string
-      description:
-        description: 'A description providing extra information about the phone service (e.g. any special arrangements for accessing, or details of availability at particular times.'
-        type: string
-    required:
-      - id
-      - number
+        schema:
+          type: array
+          items:
+            $ref: '#/definitions/service'
   physical_address:
     properties:
-      id:
-        description: 'Each physical address must have a unique identifier.'
-        type: string
-      location_id:
-        description: 'The identifier of the location for which this is the address.'
-        type: string
-      attention:
-        description: 'The person or entity whose attention should be sought at the location.'
-        type: string
       address_1:
         description: 'The first line of the address.'
-        type: string
-      address_2:
-        description: 'The second line of the address.'
-        type: string
-      address_3:
-        description: 'The third line of the address.'
-        type: string
-      address_4:
-        description: 'The fourth line of the address.'
         type: string
       city:
         description: 'The city in which the address is located.'
         type: string
-      region:
-        description: 'The region in which the address is located (optional).'
-        type: string
       state_province:
         description: 'The state or province in which the address is located.'
         type: string
-      postal_code:
-        description: 'The postal code for the address.'
-        type: string
-      country:
-        description: 'The country in which the address is located. This should be given as an ISO 3361-1 country code (two letter abbreviation).'
-        type: string
     required:
-      - id
       - address_1
       - city
       - state_province
-      - postal_code
-      - country
   regular_schedule:
     properties:
-      id:
-        description: 'Each entry must have a unique identifier.'
-        type: string
-      service_id:
-        description: 'The identifier of the service for which this is the regular schedule.'
-        type: string
-      location_id:
-        description: 'The identifier of the location for which this is the regular schedule.'
-        type: string
-      service_at_location_id:
-        description: 'The identifier of the ‘service at location’ table entry, when this schedule is specific to a service in a particular location.'
-        type: string
       weekday:
         description: 'The day of the week that this entry relates to.'
         type: integer
@@ -179,73 +89,27 @@ definitions:
         description: 'The time when a service or location opens. This should use HH:MM format and should include timezone information, either adding the suffix ‘Z’ when the date is in UTC, or including an offset from UTC (e.g. 09:00-05:00 for 9am East Coast Time.'
         type: string
     required:
-      - id
       - weekday
   service:
     properties:
-      id:
-        description: 'Each service must have a unique identifier.'
-        type: string
-      organization_id:
-        description: 'The identifier of the organization that provides this service.'
-        type: string
-      program_id:
-        description: 'The identifier of the program this service is delivered under.'
-        type: string
-      location_id:
-        description: 'The identifier of the location where this service is delivered.'
-        type: string
       name:
         description: 'The official or public name of the service.'
-        type: string
-      alternate_name:
-        description: 'Alternative or commonly used name for a service.'
         type: string
       description:
         description: 'A description of the service.'
         type: string
-      url:
-        description: 'URL of the service.'
-        type: string
-      email:
-        description: 'Email address for the service.'
-        type: string
-      status:
-        description: 'The current status of the service.'
-        type: string
-      interpretation_services:
-        description: 'A description of any interpretation services available for accessing this service.'
-        type: string
       application_process:
         description: 'The steps needed to access the service.'
         type: string
-      wait_time:
-        description: 'Time a client may expect to wait before receiving a service.'
-        type: string
-      fees:
-        description: 'Details of any charges for service users to access this service.'
-        type: string
-      accreditations:
-        description: 'Details of any accreditations. Accreditation is the formal evaluation of an organization or program against best practice standards set by an accrediting organization.'
-        type: string
-      licenses:
-        description: 'An organization may have a license issued by a government entity to operate legally. A list of any such licenses can be provided here.'
+      taxonomy_ids:
+        description: 'A comma separated list of names from the taxonomy table. This field is deprecated in favour of using the service_taxonomy table.'
         type: string
     required:
-      - id
-      - organization_id
       - name
-      - status
   taxonomy:
     properties:
-      id:
-        description: 'Each taxonomy entry must have a unique identifier. If combining multiple taxonomies with overlapping identifiers, use a prefix to distinguish them.'
-        type: string
       name:
         description: 'The name of this taxonomy term or category.'
         type: string
-      parent_id:
-        description: 'If this is a child category in a hierarchical taxonomy, give the identifier of the parent category. For top-level categories, this should be left blank.'
-        type: string
     required:
-      - id
+      - name
