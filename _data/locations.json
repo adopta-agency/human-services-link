@@ -1,6 +1,6 @@
 [
   {
-    "id": "0713158629",
+    "id": "07"1:15 PM"8629",
     "organization_id": "ubBcMpjUbv",
     "name": "Lyon-Martin Health Services",
     "description": "Women's clinic",
@@ -1959,7 +1959,7 @@
             "location_id": "lKFGUQtewV",
             "organization_id": "lKFGUQtewV",
             "service_id": "V0wHpkLuXI",
-            "opens_at": 1315,
+            "opens_at": "1:15 PM",
             "closes_at": "8:00 AM",
             "weekday": "Tuesday"
           },
@@ -1995,7 +1995,7 @@
             "location_id": "lKFGUQtewV",
             "organization_id": "lKFGUQtewV",
             "service_id": "V0wHpkLuXI",
-            "opens_at": 1315,
+            "opens_at": "1:15 PM",
             "closes_at": "8:00 AM",
             "weekday": "Thursday"
           },
@@ -2307,7 +2307,7 @@
             "location_id": "3jOyGhqM79",
             "organization_id": "3jOyGhqM79",
             "service_id": "Kh9y0sIWUf",
-            "opens_at": 1315,
+            "opens_at": "1:15 PM",
             "closes_at": "02:00 PM",
             "weekday": "Wednesday"
           }
