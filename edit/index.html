@@ -6,12 +6,11 @@ title: Algorotoscope Images Working - Archive
 {% assign count = 0 %}
 {% assign locations = site.data.locations %}
 
-<h4>Edit</h4>
 <form id="all-data" style="padding: 0px; margin: 0px; width: 100%;">
 <table width="90%" align="center">
   {% for location in locations %}
 	<tr>
-		<td><strong>Name:</strong></td>
+		<td width="20%"><strong>Name:</strong></td>
 		<td><input type="text" name="name" id="name-{{ count }}" value="{{ location.name }}" style="width:100%;" /></td>
 	</tr>
   <tr>
