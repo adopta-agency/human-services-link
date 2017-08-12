@@ -242,14 +242,76 @@ function savethis()
     if (element.type === "text" || element.type === "hidden" || element.type === "checkbox")
 			{
 
-			if(element.name == 'name')
+      $field_name = element.name ;
+			if($field_name == 'name')
 				{
 				$i = {};
 				}
 
-      console.log(element.name);
+      console.log($field_name);
 
-			$i[element.name] = element.value;
+      $findme = "add-";
+			$pos = strpos($field_name, $findme);
+			if ($pos === false)
+				{
+
+        if($field_name=='name')
+          {
+          $i['name'] = new Array();
+          }
+        if($field_name=='description')
+          {
+          $i['description'] = element.value;
+          }
+        if($field_name=='city')
+          {
+          $i['city'] = element.value;
+          }
+        if($field_name=='state_province')
+          {
+          $i['state_province'] = element.value;
+          $i['services'] = new Array();
+          }
+        if($field_name=='service-name')
+          {
+          $s = {};
+          $s['name'] = element.value;
+          }
+        if($field_name=='service-description')
+          {
+          $s['description'] = element.value;
+          }
+        if($field_name=='service-taxonomy_ids')
+          {
+          $s['taxonomy_ids'] = element.value;
+          }
+        if($field_name=='service-application_process')
+          {
+          $s['application_process'] = element.value;
+          $s['regular_schedule'] = new Array();
+          }
+
+        if($field_name=='weekday')
+          {
+          $sch = {};
+          $sch['weekday'] = element.value;
+          }
+        if($field_name=='opens_at')
+          {
+          $sch['opens_at'] = element.value;
+          }
+        if($field_name=='closes_at')
+          {
+          $sch['opens_at'] = element.value;
+          $s['regular_schedule'].push($sch);
+          }
+
+       if($field_name=='schedule_count')
+         {
+         $i['services'].push($s);
+         }
+
+				}
 
 			if(element.name == 'service_count')
 				{
@@ -257,7 +319,7 @@ function savethis()
 				}
 			}
 		}
-	//console.log($data);
+	console.log($data);
 	$yaml_dump = jsyaml.dump($data);
 
 	//document.getElementById('source').value = $yaml_dump;
