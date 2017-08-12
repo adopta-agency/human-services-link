@@ -248,11 +248,11 @@ function savethis()
 				$i = {};
 				}
 
-      console.log($field_name);
+      //console.log($field_name);
 
       $findme = "add-";
 			$isadd = $field_name.includes("add-");
-      console.log("is add: " + $isadd);
+      //console.log("is add: " + $isadd);
 			if(!$isadd)
 				{
 
@@ -330,7 +330,7 @@ function savethis()
 				}
 			}
 		}
-	console.log($data);
+	//console.log($data);
 	$yaml_dump = jsyaml.dump($data);
 
 	document.getElementById('result').value = $yaml_dump;
@@ -363,3 +363,4 @@ function savethis()
 </script>
 <p align="center"><input type="button" onclick="savethis();" class="button" value="Save Changes" style="text-align: center;" /></p>
 <textarea rows="20" cols="100" id="result"></textarea>
+{{ site.github_branch }}
