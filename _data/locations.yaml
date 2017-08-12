@@ -260,7 +260,7 @@
       description: >-
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 30 minutes per session.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a library card for computer use and must reserve computers
         in advance. Guests are limited to one hour of computer use per day.
@@ -284,7 +284,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -410,7 +410,7 @@
         in achieving economic self-sufficiency and housing by addressing the
         barriers most homeless people face in obtaining employment and housing.
         We offer a bed with shower and laundry facilities and mail, phone, and
-        internet access, nutritious meals, job preparation, search and
+        technology access, nutritious meals, job preparation, search and
         placement, resume assistance, instruction in interview skills, computer
         skills classes, money management and financial education classes, legal
         services, and case management for each client.
@@ -596,7 +596,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -711,7 +711,7 @@
         Computers, Fax and Copy machines, Unemployment Information (link to
         EDD), Availability of Supportive Services (including childcare and
         transportation). Help with Resume preparation and career counseling. 
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         Computer use only for Job Search and Housing Search. All services are
         free of charge. Check calendar for workshops and trainings
@@ -801,7 +801,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -926,7 +926,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -986,7 +986,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -1160,7 +1160,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -1215,9 +1215,9 @@
     - name: Technology access and training center
       description: >-
         Affiliated with John Muir Elementary School. Services for Families with
-        children only. Black and white printer, scanner, wireless internet, and
-        assistive internet available.
-      taxonomy_ids: internet
+        children only. Black and white printer, scanner, wireless technology,
+        and assistive technology available.
+      taxonomy_ids: technology
       application_process: Wheelchair accessible
       regular_schedule:
         - weekday: Monday
@@ -1297,11 +1297,11 @@
       city: ''
       state_province: ''
   services:
-    - name: internet
+    - name: technology
       description: >-
         Free computer use, free computer classes. black and white printer.
         Seniors only
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: 'http://www.onlok.org/30thStreetSeniorCenter.aspx'
       regular_schedule:
         - weekday: Monday
@@ -1539,7 +1539,7 @@
         Information (link to EDD), Availability of Supportive Services
         (including childcare and transportation). All services are free of
         charge. Must have One Stop (EDD) card or fill out application. 
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: Call to reserve spot for workshops or trainings
       regular_schedule:
         - weekday: Monday
@@ -1564,7 +1564,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -1626,7 +1626,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -1746,11 +1746,11 @@
           opens_at: '1:00 PM'
     - name: Technology access and training for seniors
       description: Open lab and trainings for seniors 60+ and disabled 55+.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         Registration required for new guests - takes 10 minutes. Black and white
-        printer, scanner, wireless internet, and assistive internet available.
-        Wheelchair accessible. 
+        printer, scanner, wireless technology, and assistive technology
+        available. Wheelchair accessible. 
       regular_schedule:
         - weekday: Monday
           opens_at: '5:00 PM'
@@ -1770,10 +1770,10 @@
       state_province: ''
   services:
     - name: Technology access and training center
-      description: 'Black and white printer, scanner, wireless internet available.'
-      taxonomy_ids: internet
+      description: 'Black and white printer, scanner, wireless technology available.'
+      taxonomy_ids: technology
       application_process: >-
-        Assistive internet and wheelchair accessible. Computer help available
+        Assistive technology and wheelchair accessible. Computer help available
         after 2:30pm
       regular_schedule:
         - weekday: Monday
@@ -1800,7 +1800,7 @@
         completion. Students attend small classes and can receive one-on-one
         instruction. Classes are open-enrollment; students can sign up anytime
         and be placed in a class right away. 
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         Must attend an Orientation before enrollment. ORIENTATION:
         Monday-Thursday at 1pm. (lasts 1 hr.)
@@ -2108,7 +2108,7 @@
         comprehensive afterschool programming Monday through Friday to children,
         youth and families that live, work or attend school in the
         Bayview/Hunter's Point communities.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: 'Adult, youth, and teen programs.'
       regular_schedule:
         - weekday: Monday
@@ -2190,7 +2190,7 @@
         Unemployment Information (link to EDD), Availability of Supportive
         Services (including childcare and transportation). All services are free
         of charge.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: ' Computers available for Job related use only. Call to sign up for workshops and trainings. One time registration required: 10 minutes.'
       regular_schedule:
         - weekday: Monday
@@ -2215,7 +2215,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -2274,9 +2274,9 @@
         - weekday: Friday
           opens_at: '12:30 PM'
     - name: Technology access and training
-      description: 'Black and white printer, scanner, wireless internet available.'
-      taxonomy_ids: internet
-      application_process: Assistive internet available. Wheelchair accessible.
+      description: 'Black and white printer, scanner, wireless technology available.'
+      taxonomy_ids: technology
+      application_process: Assistive technology available. Wheelchair accessible.
       regular_schedule:
         - weekday: Monday
           opens_at: '12:00 PM'
@@ -2319,8 +2319,8 @@
       description: >-
         Free computer use, black and white printer, scanner. Seniors (60+) only
         and disabled.
-      taxonomy_ids: internet
-      application_process: 'Has assistive internet. Time limit 1hr, if there are others waiting. '
+      taxonomy_ids: technology
+      application_process: 'Has assistive technology. Time limit 1hr, if there are others waiting. '
       regular_schedule:
         - weekday: Monday
           opens_at: '5:00 PM'
@@ -2405,7 +2405,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -2475,7 +2475,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -2579,9 +2579,9 @@
   services:
     - name: Technology access and training
       description: >-
-        Black and white printer, scanner, wireless internet, and assistive
-        internet accessible.
-      taxonomy_ids: internet
+        Black and white printer, scanner, wireless technology, and assistive
+        technology accessible.
+      taxonomy_ids: technology
       application_process: Wheelchair accessible; registration required - takes 5-10 minutes.
       regular_schedule:
         - weekday: Monday
@@ -2821,11 +2821,11 @@
   services:
     - name: Technology access and training
       description: Open access and beginner computer classes.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         Seniors or adults with disabilities. If using the computer lab for the
         first time, you are required to complete an intake form. Black and white
-        printer, scanner, and assistive internet available. Wheelchair
+        printer, scanner, and assistive technology available. Wheelchair
         accessible.
       regular_schedule:
         - weekday: Monday
@@ -2920,7 +2920,7 @@
         family and friends. Free computer use, computer classes, black and white
         printer, scanner, fax, and phone. Individual tutoring available every
         Friday.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         Those interested in accessing the tech lab must first attend a 15 minute
         orientation. Orientations are held Mondays and Wednesdays at 9am and
@@ -2960,7 +2960,7 @@
         Computers, Fax and Copy machines, Unemployment Information, Availability
         of Supportive Services (including childcare and transportation). All
         services are free of charge.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         Must have state ID to access these services.Must be registered on
         CalJobs to take workshops.
@@ -3013,7 +3013,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 30 minutes per session. Laptops can also be
         checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -3097,7 +3097,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -3171,7 +3171,7 @@
         Computers, Fax and Copy machines, Unemployment Information (link to
         EDD), Availability of Supportive Services (including childcare and
         transportation). 
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: All services are free of charge.
       regular_schedule:
         - weekday: Monday
@@ -3265,7 +3265,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -3322,7 +3322,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -3430,10 +3430,10 @@
       description: >-
         Technology access and training for seniors and young adults with
         disabilities
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
-        Black and white printer, scanner, wireless internet, and assistive
-        internet available. Wheelchair accessible.
+        Black and white printer, scanner, wireless technology, and assistive
+        technology available. Wheelchair accessible.
       regular_schedule:
         - weekday: Monday
           opens_at: '4:30 PM'
@@ -3564,7 +3564,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -3625,7 +3625,7 @@
         Local branches have Internet access with varying policies. Computer use
         at branches is limited to 1 hour per session; 2 hours per day. Laptops
         can also be checked out for one hour.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         You must have a SF library card for computer use. WELCOME cards, for
         those who have no ID, are also provided - allows computer usage plus
@@ -3858,7 +3858,7 @@
         Search Assistance, Computer and Job Search Skills Workshops, Employer
         Spotlights, and Job Search Strategy Groups. Resume and cover letter
         assistance. Assistance studying for GED, NCLEX-PN, and NCLEX-RN.
-      taxonomy_ids: internet
+      taxonomy_ids: technology
       application_process: >-
         To use facilities, Guests must enroll in the program by attending a
         welcome session held on Wednesdays from 1-2pm. Please call ahead to
