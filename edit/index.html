@@ -188,6 +188,14 @@ title: Edit
       		<td id="services-schedule-listing-{{ count }}-{{ service_count }}">
             {% assign schedule_count = 0 %}
             {% for schedule in service.regular_schedule %}
+              <table width="100%">
+                <tr>
+                  <td><input type="text" name="weekday" id="weekday-{{ count }}-{{ service_count }}" value="{{ schedule.weekday }}" width="75" /></td>
+                  <td><input type="text" name="opens_at" id="opens_at-{{ count }}-{{ service_count }}" value="{{ schedule.opens_at }}" width="50" /></td>
+                  <td><input type="text" name="closes_at" id="closes_at-{{ count }}-{{ service_count }}" value="{{ schedule.closes_at }}" width="50" /></td>
+                  <td width="20%"></td>
+                </tr>
+              </table>
               {% assign schedule_count = schedule_count | plus: 1 %}
             {% endfor %}
             <input type="hidden" name="schedule_count" id="schedule_count-{{ count }}-{{ service_count }}" value="{{ schedule_count }}">
