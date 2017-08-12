@@ -242,6 +242,7 @@ title: Edit
 			var elements = document.getElementById("all-images").elements;
 			for (var i = 0, element; element = elements[i++];)
 				{
+        console.log(element.name);
 		    if (element.type === "text" || element.type === "hidden" || element.type === "checkbox")
 					{
 
@@ -275,14 +276,14 @@ title: Edit
 
 				$.each(tree, function(treeKey, treeValue) {
 
-					$writepath = '_data/images.yaml';
+					$writepath = '_data/locations.yaml';
 					//console.log($writepath);
 					$path = treeValue['path'];
 					$sha = treeValue['sha'];
 					//console.log($path + ' == ' + $writepath);
 					if($path==$writepath)
 						{
-						repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
+						//repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
 						//console.log("writing " + $writepath);
 						alert("saved " + $writepath);
 						}
@@ -291,6 +292,6 @@ title: Edit
 
 			}
 		</script>
-		<center><p align="center"><input type="button" onclick="savethis();" class="button" value="Save Images" style="text-align: center;" /></p></center>
+		<center><p align="center"><input type="button" onclick="savethis();" class="button" value="Save Changes" style="text-align: center;" /></p></center>
 	</div>
 </div>

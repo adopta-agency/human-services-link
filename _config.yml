@@ -15,7 +15,8 @@ put_color: FF0080;
 delete_color: FF9900;
 
 github_org: adopta-agency
-github_repo: open-referral-developer
+github_repo: link-sf
+github_branch: master
 
 # URL to the issues page for this
 support_title: Support
