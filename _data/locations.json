@@ -800,7 +800,7 @@
         "organization_id": "rHMEfM6BAx",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 30 minutes per session.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a library card for computer use and must reserve computers in advance. Guests are limited to one hour of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -870,7 +870,7 @@
         "organization_id": "rHMEfM6BAx",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -1745,7 +1745,7 @@
         "organization_id": "f6UetabrUX",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -2074,7 +2074,7 @@
         "organization_id": "onlo1xIxTM",
         "name": "Technology access",
         "description": "Job Search Assistance, Career Planning and Exploration, Job Preparation Workshops, Training Opportunities, Access to Resource Room with Computers, Fax and Copy machines, Unemployment Information (link to EDD), Availability of Supportive Services (including childcare and transportation). Help with Resume preparation and career counseling. ",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "Computer use only for Job Search and Housing Search. All services are free of charge. Check calendar for workshops and trainings",
         "eligibility": [
           {
@@ -2336,7 +2336,7 @@
         "organization_id": "C041h36olr",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -2701,7 +2701,7 @@
         "organization_id": "XF7C3CQ4eT",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per pag",
         "eligibility": [
           {
@@ -2875,7 +2875,7 @@
         "organization_id": "EB97l4BT6p",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -3425,7 +3425,7 @@
         "organization_id": "is61CB0vyU",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -3589,8 +3589,8 @@
         "location_id": "ooJnJChHi2",
         "organization_id": "ooJnJChHi2",
         "name": "Technology access and training center",
-        "description": "Affiliated with John Muir Elementary School. Services for Families with children only. Black and white printer, scanner, wireless internet, and assistive technology available.",
-        "taxonomy_ids": "technology",
+        "description": "Affiliated with John Muir Elementary School. Services for Families with children only. Black and white printer, scanner, wireless internet, and assistive internet available.",
+        "taxonomy_ids": "internet",
         "application_process": "Wheelchair accessible",
         "eligibility": [
           {
@@ -3842,9 +3842,9 @@
         "id": "SVAaA1u3bk",
         "location_id": "20ivH0qnQE",
         "organization_id": "20ivH0qnQE",
-        "name": "technology",
+        "name": "internet",
         "description": "Free computer use, free computer classes. black and white printer. Seniors only",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "http://www.onlok.org/30thStreetSeniorCenter.aspx",
         "eligibility": [
           {
@@ -4648,7 +4648,7 @@
         "organization_id": "BOUA1KrHjK",
         "name": "Technology access - Job Readiness Services",
         "description": "Job Search Assistance, Resume Preparation, Career Planning and Exploration, Job Preparation Workshops, Training Opportunities, Access to Resource Room with Computers, Fax and Copy machines, Unemployment Information (link to EDD), Availability of Supportive Services (including childcare and transportation). All services are free of charge. Must have One Stop (EDD) card or fill out application. ",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "Call to reserve spot for workshops or trainings",
         "eligibility": [
           {
@@ -4726,7 +4726,7 @@
         "organization_id": "XSHted0tQE",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -4900,7 +4900,7 @@
         "organization_id": "7iJtzZNajc",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -5295,8 +5295,8 @@
         "organization_id": "JR5gB3xcUh",
         "name": "Technology access and training for seniors",
         "description": "Open lab and trainings for seniors 60+ and disabled 55+.",
-        "taxonomy_ids": "technology",
-        "application_process": "Registration required for new guests - takes 10 minutes. Black and white printer, scanner, wireless internet, and assistive technology available. Wheelchair accessible. ",
+        "taxonomy_ids": "internet",
+        "application_process": "Registration required for new guests - takes 10 minutes. Black and white printer, scanner, wireless internet, and assistive internet available. Wheelchair accessible. ",
         "eligibility": [
           {
             "eligibility": "Seniors"
@@ -5376,8 +5376,8 @@
         "organization_id": "abWNMg2ura",
         "name": "Technology access and training center",
         "description": "Black and white printer, scanner, wireless internet available.",
-        "taxonomy_ids": "technology",
-        "application_process": "Assistive technology and wheelchair accessible. Computer help available after 2:30pm",
+        "taxonomy_ids": "internet",
+        "application_process": "Assistive internet and wheelchair accessible. Computer help available after 2:30pm",
         "eligibility": [
           {
             "eligibility": ""
@@ -5454,7 +5454,7 @@
         "organization_id": "5xT4yqFn8P",
         "name": "Adult training center",
         "description": "The Adult Education Center offers morning and afternoon classes in literacy, basic education, GED preparation and high school diploma completion. Students attend small classes and can receive one-on-one instruction. Classes are open-enrollment; students can sign up anytime and be placed in a class right away. ",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "Must attend an Orientation before enrollment. ORIENTATION: Monday-Thursday at 1pm. (lasts 1 hr.)",
         "eligibility": [
           {
@@ -6399,7 +6399,7 @@
         "organization_id": "KTJuUcKkz4",
         "name": "Technology access and training",
         "description": "Bayview-Hunter's Point Beacon provides school day support and comprehensive afterschool programming Monday through Friday to children, youth and families that live, work or attend school in the Bayview/Hunter's Point communities.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "Adult, youth, and teen programs.",
         "eligibility": [
           {
@@ -6654,7 +6654,7 @@
         "organization_id": "1OzTib0av4",
         "name": "Technology access",
         "description": "Affiliated with One-Stop, EDD. Job Search Assistance, Career Planning and Exploration, Job Preparation Workshops, Training Opportunities, Access to Resource Room with Computers, Fax and Copy machines, Unemployment Information (link to EDD), Availability of Supportive Services (including childcare and transportation). All services are free of charge.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": " Computers available for Job related use only. Call to sign up for workshops and trainings. One time registration required: 10 minutes.",
         "eligibility": [
           {
@@ -6732,7 +6732,7 @@
         "organization_id": "7k4OW147Bj",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -6934,8 +6934,8 @@
         "organization_id": "Y4r0McTvDF",
         "name": "Technology access and training",
         "description": "Black and white printer, scanner, wireless internet available.",
-        "taxonomy_ids": "technology",
-        "application_process": "Assistive technology available. Wheelchair accessible.",
+        "taxonomy_ids": "internet",
+        "application_process": "Assistive internet available. Wheelchair accessible.",
         "eligibility": [
           {
             "eligibility": ""
@@ -7073,8 +7073,8 @@
         "organization_id": "fdjAlH3mbX",
         "name": "Technology access",
         "description": "Free computer use, black and white printer, scanner. Seniors (60+) only and disabled.",
-        "taxonomy_ids": "technology",
-        "application_process": "Has assistive technology. Time limit 1hr, if there are others waiting. ",
+        "taxonomy_ids": "internet",
+        "application_process": "Has assistive internet. Time limit 1hr, if there are others waiting. ",
         "eligibility": [
           {
             "eligibility": "Seniors"
@@ -7392,7 +7392,7 @@
         "organization_id": "N2nl5Fo3TU",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -7563,7 +7563,7 @@
         "organization_id": "R43lEkKHvy",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -7832,8 +7832,8 @@
         "location_id": "o3lCI5KrV0",
         "organization_id": "o3lCI5KrV0",
         "name": "Technology access and training",
-        "description": "Black and white printer, scanner, wireless internet, and assistive technology accessible.",
-        "taxonomy_ids": "technology",
+        "description": "Black and white printer, scanner, wireless internet, and assistive internet accessible.",
+        "taxonomy_ids": "internet",
         "application_process": "Wheelchair accessible; registration required - takes 5-10 minutes.",
         "eligibility": [
           {
@@ -8651,8 +8651,8 @@
         "organization_id": "7pDuz14HDI",
         "name": "Technology access and training",
         "description": "Open access and beginner computer classes.",
-        "taxonomy_ids": "technology",
-        "application_process": "Seniors or adults with disabilities. If using the computer lab for the first time, you are required to complete an intake form. Black and white printer, scanner, and assistive technology available. Wheelchair accessible.",
+        "taxonomy_ids": "internet",
+        "application_process": "Seniors or adults with disabilities. If using the computer lab for the first time, you are required to complete an intake form. Black and white printer, scanner, and assistive internet available. Wheelchair accessible.",
         "eligibility": [
           {
             "eligibility": ""
@@ -8939,7 +8939,7 @@
         "organization_id": "ky4NlsKStx",
         "name": "Technology access and training",
         "description": "Provides important technological skills that increase opportunities for employment, access to essential community resources and connections with family and friends. Free computer use, computer classes, black and white printer, scanner, fax, and phone. Individual tutoring available every Friday.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "Those interested in accessing the tech lab must first attend a 15 minute orientation. Orientations are held Mondays and Wednesdays at 9am and Fridays at 9am & 1:40pm.",
         "eligibility": [
           {
@@ -9065,7 +9065,7 @@
         "organization_id": "pjH2pYoRhK",
         "name": "Technology access",
         "description": "Job Search Assistance, Career Planning and Exploration, Job Preparation Workshops, Training Opportunities, Access to Resource Room with Computers, Fax and Copy machines, Unemployment Information, Availability of Supportive Services (including childcare and transportation). All services are free of charge.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "Must have state ID to access these services.\r\nMust be registered on CalJobs to take workshops.",
         "eligibility": [
           {
@@ -9239,7 +9239,7 @@
         "organization_id": "JoUd4Bu04h",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 30 minutes per session. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -9482,7 +9482,7 @@
         "organization_id": "T6KsuBHu4L",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -9698,7 +9698,7 @@
         "organization_id": "GfJJ1937P7",
         "name": "Technology access",
         "description": "Job Search Assistance, Career Planning and Exploration, Job Preparation Workshops, Training Opportunities, Access to Resource Room with Computers, Fax and Copy machines, Unemployment Information (link to EDD), Availability of Supportive Services (including childcare and transportation). ",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "All services are free of charge.",
         "eligibility": [
           {
@@ -9983,7 +9983,7 @@
         "organization_id": "e2JX5pPOsL",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -10148,7 +10148,7 @@
         "organization_id": "ef1iEyfUg6",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -10460,8 +10460,8 @@
         "organization_id": "M6u9SqkGXA",
         "name": "Technology access for seniors and young adults with disabilities",
         "description": "Technology access and training for seniors and young adults with disabilities",
-        "taxonomy_ids": "technology",
-        "application_process": "Black and white printer, scanner, wireless internet, and assistive technology available. Wheelchair accessible.",
+        "taxonomy_ids": "internet",
+        "application_process": "Black and white printer, scanner, wireless internet, and assistive internet available. Wheelchair accessible.",
         "eligibility": [
           {
             "eligibility": "Seniors"
@@ -10866,7 +10866,7 @@
         "organization_id": "oVb3TaGmUo",
         "name": "Technology access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -11049,7 +11049,7 @@
         "organization_id": "FwWFaCShGG",
         "name": "Technology Access",
         "description": "Local branches have Internet access with varying policies. Computer use at branches is limited to 1 hour per session; 2 hours per day. Laptops can also be checked out for one hour.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "You must have a SF library card for computer use. WELCOME cards, for those who have no ID, are also provided - allows computer usage plus check out one book at a time. Guests are limited to two hours of computer use per day. Black and White printing is 10 cents per page, Color printing is 40 cents per page.",
         "eligibility": [
           {
@@ -11727,7 +11727,7 @@
         "organization_id": "4vq5LlgSCf",
         "name": "Technology skills classes and employment center",
         "description": "Computer workshops and resources to help with job search. Free Job Search Assistance, Computer and Job Search Skills Workshops, Employer Spotlights, and Job Search Strategy Groups. Resume and cover letter assistance. Assistance studying for GED, NCLEX-PN, and NCLEX-RN.",
-        "taxonomy_ids": "technology",
+        "taxonomy_ids": "internet",
         "application_process": "To use facilities, Guests must enroll in the program by attending a welcome session held on Wednesdays from 1-2pm. Please call ahead to ensure that the welcome session has not been canceled.",
         "eligibility": [
           {
