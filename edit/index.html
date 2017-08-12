@@ -30,9 +30,9 @@ title: Algorotoscope Images Working - Archive
 		<td><input type="text" name="state_province" id="name-{{ count }}" value="{{ location.state_province }}" style="width:100%;" /></td>
 	</tr>
   <tr>
-		<td><strong>Services:</strong></td>
+		<td><strong>Services (<a href="">add</a>):</strong></td>
 		<td>
-      <table width="100%" align="center">
+      <table width="100%" align="center" id="servcies-add-{{ count }}" style="border: 1px solid #000;">
       	<tr>
       		<td width="25%"><strong>Name:</strong></td>
       		<td><input type="text" name="name" id="name-{{ count }}" value="{{ location.name }}" style="width:100%;" /></td>
@@ -48,6 +48,10 @@ title: Algorotoscope Images Working - Archive
         <tr>
       		<td width="20%"><strong>Process:</strong></td>
       		<td><input type="text" name="application_process" id="application_process-{{ count }}" value="{{ location.application_process }}" style="width:100%;" /></td>
+      	</tr>
+        <tr>
+      		<td></td>
+      		<td><button type="button" class="btn btn-dark">Add</button></td>
       	</tr>
       </table>
     </td>
