@@ -65,10 +65,10 @@ title: Edit
 
     console.log($id);
     console.log($sid);
-    $weekday = document.getElementById('add-weekday-' + $id + '-' + sid).value;
-    $opens_at = document.getElementById('add-opens_at-' + $id + '-' + sid).value;
-    $closes_at = document.getElementById('add-closes_at-' + $id + '-' + sid).value;
-    $schedule_count = document.getElementById('schedule_count-' + $id).value;
+    $weekday = document.getElementById('add-weekday-' + $id + '-' + $sid).value;
+    $opens_at = document.getElementById('add-opens_at-' + $id + '-' + $sid).value;
+    $closes_at = document.getElementById('add-closes_at-' + $id + '-' + $sid).value;
+    $schedule_count = document.getElementById('schedule_count-' + $id + '-' + $sid).value;
 
     $row = '<table width="100%">';
     $row = $row + '<tr>';
