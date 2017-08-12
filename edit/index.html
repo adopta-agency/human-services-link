@@ -136,11 +136,10 @@ title: Edit
       </table>
       {% assign service_count = service_count | plus: 1 %}
       {% endfor %}
-      <input type="text" name="service_count" id="service_count-{{ count }}" value="{{ service_count }}">
     </td>
 	</tr>
   <tr>
-		<td colspan="2"><hr /></td>
+		<td colspan="2"><hr /><input type="text" name="service_count" id="service_count-{{ count }}" value="{{ service_count }}"></td>
 	</tr>
   {% assign count = count | plus: 1 %}
 {% endfor %}
