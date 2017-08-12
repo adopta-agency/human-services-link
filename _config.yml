@@ -1,5 +1,5 @@
 name: Human Services Link-[For Any City]
-url: http://link.sf.adopta.agency/
+url: https://adopta-agency.github.io/human-services-link/
 
 author:
   name: 'Kin Lane'
@@ -15,7 +15,7 @@ put_color: FF0080;
 delete_color: FF9900;
 
 github_org: adopta-agency
-github_repo: link-sf
+github_repo: human-services-link
 github_branch: master
 
 # URL to the issues page for this
