@@ -1,0 +1,4021 @@
+- name: Lyon-Martin Health Services
+  description: Women's clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Women's clinic
+      description: >-
+        TB Testing, Pregnancy Test, STD Testing, STD Treatment, HIV Testing, HIV
+        Treatment,Transgender Svcs, Immunizations, Women’s Health, Family
+        Planning, Mental Health,Primary Care. MediCal, MediCare, uninsured
+        people $0-full bill. Women & all transgender welcome.
+      taxonomy_ids: medical
+      application_process: 'English & Spanish. Email: info@lyon-martin.org.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '09:30 AM'
+        - weekday: Tuesday
+          opens_at: '09:30 AM'
+        - weekday: Wednesday
+          opens_at: '07:30 AM'
+        - weekday: Thursday
+          opens_at: '07:30 AM'
+        - weekday: Friday
+          opens_at: '07:30 AM'
+- name: California Youth Crisis Line
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        For all California at-risk youths and their families. Crisis
+        intervention; 24hr counseling line, information and referrals;
+        conference calls to guardians and children. Anonymous and confidential.
+        Free. English, Spanish and other languages on request.
+      taxonomy_ids: medical
+      application_process: ''
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: Temple United Methodist Church
+  description: Food pantry
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Food pantry
+      description: Weekly food pantry (Wednesday)
+      taxonomy_ids: food
+      application_process: >-
+        Apply in person Wed 4-7pm. If accepted, you will be mailed card which
+        you must bring with you to pick up food every Wed. You must live in zip
+        code 94112, 94116, 94127, or 94132. Must bring ID.
+      regular_schedule:
+        - weekday: Wednesday
+          opens_at: '9:00 AM'
+- name: Swords to Plowshares
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Case management, social services, individual counseling, employment,
+        legal assistance, substance abuse support, information & referrals,
+        emergency & transitional housing,move-in assistance, eviction
+        prevention, benefitsadvocacy (SS, VA, military discharge upgrade),mail
+        and message services.
+      taxonomy_ids: medical
+      application_process: >-
+        For all VETERANS. Drop in M-F 9am-12pm & 1-5pm for intake appt; Tu
+        9-10am for legal assistance. Free. English, Spanish.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: >-
+    South of Market Mental Health Services (Adult Integrated Service Center)
+    (BHS)
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Drop in MTuThF 8:30am-10:00am or W 1pm-2:30pm. Psychiatric medication
+        management, counseling, clinical case management & support group.
+        Filipino counselingteam. Citywide, but priority given to SOMA, Western
+        Addition, & Tenderloin. 
+      taxonomy_ids: medical
+      application_process: '$0-full bill. English, Spanish, Tagalog.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Bayview Hunters Point Foundation-Youth Services
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Outpatient counseling, evening reporting center for juvenile
+        probationers, substance abuse treatment and prevention; girl's program,
+        14-week strengthening family program. Homework help, computer lab,
+        recreational facilities.
+      taxonomy_ids: medical
+      application_process: >-
+        For children and youth aged 12-24 and their families. Call or Drop in.
+        Free. English, Spanish.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '08:00 PM'
+        - weekday: Tuesday
+          opens_at: '08:00 PM'
+        - weekday: Wednesday
+          opens_at: '08:00 PM'
+        - weekday: Thursday
+          opens_at: '08:00 PM'
+        - weekday: Friday
+          opens_at: '08:00 PM'
+- name: Missionaries of Charity
+  description: Women's shelter
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Women's shelter
+      description: >-
+        Women with or without kids (one girl child; or one boy under 4 years);
+        pregnant women (with proof) may stay up to one month after childbirth;
+        others stay up to one month.
+      taxonomy_ids: housing
+      application_process: >-
+        Be clean & sober, with proof of negative TB & HIV status, & able to live
+        a communal life. Call for appointment for personal interview. 2 meals
+        daily. Leave the house by 9am. Curfew 5pm. No new shelter guests
+        accepted Th.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:00 AM'
+        - weekday: Sunday
+          opens_at: '07:30 AM'
+        - weekday: Monday
+          opens_at: '11:00 AM'
+        - weekday: Monday
+          opens_at: '07:30 AM'
+        - weekday: Tuesday
+          opens_at: '11:00 AM'
+        - weekday: Tuesday
+          opens_at: '07:30 AM'
+        - weekday: Wednesday
+          opens_at: '11:00 AM'
+        - weekday: Wednesday
+          opens_at: '07:30 AM'
+        - weekday: Thursday
+          opens_at: '11:00 AM'
+        - weekday: Thursday
+          opens_at: '07:30 AM'
+        - weekday: Friday
+          opens_at: '11:00 AM'
+        - weekday: Friday
+          opens_at: '07:30 AM'
+        - weekday: Saturday
+          opens_at: '11:00 AM'
+        - weekday: Saturday
+          opens_at: '07:30 AM'
+- name: HIV Mental Health Case Management Program at South Van Ness Services
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Professional mental health service for those living with HIV/AIDS in SF.
+        Individual & group psychotherapy. Medication evaluation & management,
+        psychiatric evaluations. No one refused for lack of funds. English,
+        Spanish.
+      taxonomy_ids: medical
+      application_process: ''
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: SF Public Library - Park Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 30 minutes per session.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a library card for computer use and must reserve computers
+        in advance. Guests are limited to one hour of computer use per day.
+        Black and White printing is 10 cents per page, Color printing is 40
+        cents per page.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: North East Medical Services - Noriega Branch
+  description: Neighborhood Clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Neighborhood clinic
+      description: >-
+        Urgent and Primary Care, Dental, Podiatry, TB, STD, HIV, and Pregnancy
+        testing, Women's Health, Family Planning, Prenatal Care, and
+        Immunizations. Sliding scale (outpatient medical services free to
+        homeless). Call for appt. Pediatrics & optometry available.
+      taxonomy_ids: medical
+      application_process: 'Cantonese, English, Korean, Mandarin, Spanish, and Vietnamese.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+        - weekday: Saturday
+          opens_at: '12:00 PM'
+        - weekday: Saturday
+          opens_at: '5:00 PM'
+- name: City Team Ministries
+  description: Multi-service center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Men's only residential recovery program
+      description: >-
+        One-year residential drug recovery program. Individual and group
+        counseling, Alcoholics Anonymous meetings, sexual addiction classes,
+        anger management meetings, Bible studies, life skills classes, education
+        classes, career enhancement classes, and an after care program for
+        graduates. Our recovery program is based on the Classic Alcoholics
+        Anonymous Way Out Program that is client driven. To learn
+        responsibility, leadership, and stewardship they also are required to
+        work at the mission in all capacities, including dish washing, cooking,
+        cleaning, etc.
+      taxonomy_ids: housing
+      application_process: >-
+        Call ahead if you can; apply clean & sober. Stay up to 9 months. Ask
+        about 10-12 month drug recovery program.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '10:00 AM'
+        - weekday: Tuesday
+          opens_at: '10:00 AM'
+        - weekday: Wednesday
+          opens_at: '10:00 AM'
+        - weekday: Thursday
+          opens_at: '10:00 AM'
+        - weekday: Friday
+          opens_at: '10:00 AM'
+        - weekday: Saturday
+          opens_at: '03:00 PM'
+    - name: Free hot meal
+      description: A hot meal served 5 days a week
+      taxonomy_ids: food
+      application_process: >-
+        Dinner: Tues-Fri arrive 5:45pm for 6pm (optional church group). Those
+        who come to church group are fed first. A hot meal. Lunch: Saturday
+        1pm-3pm. Saturday Laundry
+      regular_schedule:
+        - weekday: Tuesday
+          opens_at: '9:00 AM'
+        - weekday: Wednesday
+          opens_at: '9:00 AM'
+        - weekday: Thursday
+          opens_at: '9:00 AM'
+        - weekday: Friday
+          opens_at: '9:00 AM'
+        - weekday: Saturday
+          opens_at: '03:00 PM'
+    - name: Transitional Shelter & Homeless Job Empowerment Program
+      description: >-
+        The Transitional Shelter program provides a stable and safe environment
+        and case management for 10 chronically homeless men and graduates from
+        our addiction recovery program. For those needing additional job
+        readiness skills and work placement assistance we offer entrance into
+        our Homeless Job Empowerment Program (HJEP). HJEP is a soft skills/ job
+        readiness training program. The HJEP program assists these individuals
+        in achieving economic self-sufficiency and housing by addressing the
+        barriers most homeless people face in obtaining employment and housing.
+        We offer a bed with shower and laundry facilities and mail, phone, and
+        internet access, nutritious meals, job preparation, search and
+        placement, resume assistance, instruction in interview skills, computer
+        skills classes, money management and financial education classes, legal
+        services, and case management for each client.
+      taxonomy_ids: housing
+      application_process: >-
+        For entrance into the transitional shelter, these men must be enrolled
+        in school, working, or looking for work.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '10:00 AM'
+        - weekday: Tuesday
+          opens_at: '10:00 AM'
+        - weekday: Wednesday
+          opens_at: '10:00 AM'
+        - weekday: Thursday
+          opens_at: '10:00 AM'
+        - weekday: Friday
+          opens_at: '10:00 AM'
+        - weekday: Saturday
+          opens_at: '03:00 PM'
+- name: St. Anthony Foundation Dining Room
+  description: Multi-service center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Lunch
+      description: >-
+        Dinning room that serves lunch everyday. All entrees served with fruit,
+        vegetables, bread, beverage, and dessert
+      taxonomy_ids: food
+      application_process: >-
+        Serves one hot meal a day. Anyone willing to stand in line will be
+        served. Can return to line for more servings. Separate dining section
+        for families with children. Families and seniors are served up to two
+        trays at the table, without returning to the line. Wheelchair
+        accessible. Families & folks age 60+ or unable to carry a tray:
+        10-11:30am. All others: 11:30am-1:30pm. When you arrive you will be
+        given a number for a meal.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '02:00 PM'
+        - weekday: Monday
+          opens_at: '02:00 PM'
+        - weekday: Tuesday
+          opens_at: '02:00 PM'
+        - weekday: Wednesday
+          opens_at: '02:00 PM'
+        - weekday: Thursday
+          opens_at: '02:00 PM'
+        - weekday: Friday
+          opens_at: '02:00 PM'
+        - weekday: Saturday
+          opens_at: '02:00 PM'
+- name: Public Portosan
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Portable Toilet
+      description: at the corner of Golden Gate and Jones Tues-Fri 2pm - 9pm
+      taxonomy_ids: hygiene
+      application_process: ''
+      regular_schedule:
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '9:30 PM'
+        - weekday: Friday
+          opens_at: '9:30 PM'
+- name: Child Protective Services
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services.
+      description: >-
+        24 hr hotline.to report child abuse and neglect. Non-emergency referral
+        and consultation.
+      taxonomy_ids: medical
+      application_process: >-
+        Free. English, Spanish, Cantonese, Tagalog, Vietnamese; other languages
+        available by request.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: San Francisco VA Medical Center - Fort Miley
+  description: Veterans medical clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Veterans medical clinic
+      description: >-
+        For Veterans only.Provides general medical, surgical and psychiatric
+        services for veterans. Inpatient and outpatient services include
+        arthritic rheumatology, cardiology, dermatology, endocrinology, eye,
+        ear/nose/throat, gastrointestinal, hematology, hemodialysis, infectious
+        disease, medical research, neurology, neurosurgery , nuclear medicine,
+        heart surgery, ophthalmology, orthopedics, plastic surgery, podiatry,
+        respiratory care, social work services and substance abuse. Provides
+        limited dental care, eye glasses and other prosthetics, based on
+        eligibility. Maintains a 120-bed nursing home providing skilled nursing
+        and hospice care.The Women Veterans Comprehensive Health Center provides
+        medical and psychiatric care for women of all ages. Evaluation and
+        treatment is available for acute and chronic general medical problems,
+        sexual trauma, preventive care, health screenings and testing and
+        comprehensive gynecological services.
+      taxonomy_ids: medical
+      application_process: >-
+        Veterans need a VA card for all services. Veterans without a card can
+        take discharge papers to Medical Administration Services in Bldg. 200.
+        Fees for most services vary according to veteran status and income,
+        private insurance accepted. No fees for alcohol and drug treatment
+        programs. Spanish. 24 Hrs Psyche Services24 Hrs Emergency Services
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '4:00 PM'
+        - weekday: Tuesday
+          opens_at: '4:00 PM'
+        - weekday: Wednesday
+          opens_at: '4:00 PM'
+        - weekday: Thursday
+          opens_at: '4:00 PM'
+        - weekday: Friday
+          opens_at: '4:00 PM'
+- name: Sister Mary Philippa Health Center
+  description: Neighborhood clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Neighborhood clinic
+      description: >-
+        Urgent Care, HIV Testing, HIV Treatment, Podiatry, Immunizations,
+        Primary Care. $0-full bill. Call for appt. 
+      taxonomy_ids: medical
+      application_process: >-
+        Cardiology, rheumatology, orthopedics, surgery, advice nurse, social
+        services, nutrition, diabetes education & pharmacy available. Cambodian,
+        Cantonese, English, Mandarin, Spanish, & Vietnamese.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: SF Public Library - Chinatown/Him Mark Lai Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '9:30 PM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: Glide Health Services
+  description: Medical Clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Medical clinic
+      description: >-
+        Urgent and Primary Care, Mental Health, TB and HIV testing, Transgender
+        Services and Immunizations. Insurance only. For San Francisco residents
+        18 or over. Call for appt.
+      taxonomy_ids: medical
+      application_process: >-
+        Confidential HIV oral rapid tests, hepatitis &breast cancer screening,
+        case management, diabetes, hypertension, smoking cessation, yoga &
+        substance abuse services. New Client drop-in MW 8:30am
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: New Generation Health Center
+  description: Reproductive health clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Reproductive health clinic
+      description: >-
+        Pregnancy Test, STD Testing, STD Treatment, Women’s Health, Family
+        Planning. $0-full bill.
+      taxonomy_ids: medical
+      application_process: >-
+        Call MWF 9am-5pm, TuTh 10am-6pm for an appt. Drop-in for emergency
+        contraceptives MWF 9am-5pm, TuTh 10am-6pm. English & Spanish.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '1145'
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '1215'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '1145'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '1215'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '1145'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: St. Andrew Missionary Baptist Church
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Pantry
+      description: >-
+        Apply Wed 10:15am. If accepted, you’ll get a card in the mail to bring
+        with you to pick up food weekly. You must live in zip code 94115 or
+        94117. ID required. Wheelchair accessible. 
+      taxonomy_ids: food
+      application_process: ''
+      regular_schedule: []
+- name: Western Addition Neighborhood Access Point
+  description: Technology access
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Job Search Assistance, Career Planning and Exploration, Job Preparation
+        Workshops, Training Opportunities, Access to Resource Room with
+        Computers, Fax and Copy machines, Unemployment Information (link to
+        EDD), Availability of Supportive Services (including childcare and
+        transportation). Help with Resume preparation and career counseling. 
+      taxonomy_ids: internet
+      application_process: >-
+        Computer use only for Job Search and Housing Search. All services are
+        free of charge. Check calendar for workshops and trainings
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '9:00 AM'
+        - weekday: Friday
+          opens_at: '1:00 PM'
+- name: Southeast Child Family Therapy Center (BHS)
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Call M-F 9am-5pm, Evening hours by appt. Individual, group & family
+        therapy, school consultation, parent support, medication evaluations,
+        assessments & referrals. 
+      taxonomy_ids: medical
+      application_process: >-
+        MediCal, HealthyKids, HealthySF; those uninsured formental health,
+        $0-full bill. English, Cantonese, Mandarin, Spanish.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Tenderloin Self Help Center - Central City Hospitality House
+  description: >-
+    The Self Help Center drop-in is a place where people can safely tend to
+    their primary needs– escaping the cold, resting free of traffic, noise, or
+    harassment, or just using the restroom. Beyond that, it is a meeting ground
+    where homeless people can socialize comfortably, re-discovering the human
+    experience that is often suppressed during daily survival on the streets.
+    Groceries are distributed weekly to homeless people and residents of the
+    Tenderloin district. 
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Toilets
+      description: Toilets available when open.
+      taxonomy_ids: hygiene
+      application_process: 'Restrooms available. '
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '9:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:00 AM'
+        - weekday: Wednesday
+          opens_at: '9:00 AM'
+        - weekday: Thursday
+          opens_at: '9:00 AM'
+        - weekday: Friday
+          opens_at: '9:00 AM'
+    - name: Food pantry
+      description: Free weekly food pantry.
+      taxonomy_ids: food
+      application_process: 'First-come, first-served basis. Wheelchair accessible.'
+      regular_schedule:
+        - weekday: Wednesday
+          opens_at: '02:00 PM'
+- name: SF Public Library - Visitacion Valley Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '08:00 PM'
+        - weekday: Thursday
+          opens_at: '9:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: 350 Jones - Homeless Storage
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Storage for personal belongings
+      description: >-
+        Only one bag stored. Clothing and Shoes only. No suitcases - only
+        plastic bags , duffle bags, back packs and acceptable containers.
+      taxonomy_ids: hygiene
+      application_process: >-
+        Six-month storage limit. 90 day extension ma be requested. Access
+        limited to one entry per day, except when doing laundry.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '4:00 PM'
+        - weekday: Tuesday
+          opens_at: '4:00 PM'
+        - weekday: Wednesday
+          opens_at: '4:00 PM'
+        - weekday: Thursday
+          opens_at: '4:00 PM'
+        - weekday: Friday
+          opens_at: '4:00 PM'
+- name: Korean American Senior Service
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Pantry
+      description: >-
+        Apply in person Fri 9:30- 10:30am. If accepted, you’ll be mailed a card
+        to bring with you to pick up food every Fri. You must live in zip code
+        94102, 94115, 94117, or 94118. ID required. Wheelchair accessible. 
+      taxonomy_ids: food
+      application_process: ''
+      regular_schedule: []
+- name: Línea de Apoyo
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Information, referrals, & counseling for generalmental health, suicide
+        prevention, & HIV/AIDS.
+      taxonomy_ids: medical
+      application_process: Free. Spanish only.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '9:30 PM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '9:30 PM'
+        - weekday: Friday
+          opens_at: '9:30 PM'
+- name: 'Child and Adolescent Support, Advocacy & Resource Center (CASARC) SFGH'
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Crisis intervention, sexual abuse therapy, play therapy, group therapy,
+        counseling, Victim/witness applications with police report, referrals to
+        community resources, case management. MediCal, Victim/Witness, first
+        visit free. English, Spanish, other language interpreters available.
+      taxonomy_ids: medical
+      application_process: For children 0-17 yrs. Drop in or Call 24 hrs for intake interview.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: SF Public Library - Sunset Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per pag
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '9:30 PM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: OMI Family Center (BHS)
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Short term solution focused group & individual counseling, case
+        management, medication management, information,& referrals. 
+      taxonomy_ids: medical
+      application_process: >-
+        For all San Franciscans. Drop-in intake M Tu Th F 8:30am & W noon.
+        $0-full bill. English, sometimes Spanish. 
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: SF Public Library - Noe Valley/Sally Brunn Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: La Casa de las Madres
+  description: Drop-in center for women and families leaving domestic violence.
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Individual counseling, support groups, & referralsfor women, teens, &
+        their children. Advocacy &support services, including 8-week shelter.
+        Free.
+      taxonomy_ids: medical
+      application_process: >-
+        Confidential. Call for initial screening or drop in M-F 8:30am-5pm.
+        English, Spanish; other languages by telephone interpreter. 
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+    - name: Domestic violence emergency shelter
+      description: >-
+        Confidentially-located Emergency Shelter Program serves as a safe haven
+        for women and children fleeing domestic violence. Also offers support
+        services for to up to 35 women and children each night. The shelter
+        offers individual counseling, support groups, practical living skills
+        development, resource advocacy, and support service referrals. 
+      taxonomy_ids: housing
+      application_process: 8-week shelter. Intakes conducted 24 hours a day everyday.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: HealthRIGHT 360 - Mission Clinic
+  description: Medical clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Medical clinic
+      description: >-
+        HIV Testing, Mental Health, Acupuncture, and Primary Care. $0-full bill.
+        Call for an appt.
+      taxonomy_ids: medical
+      application_process: Substance abuse treatment; acupuncture.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: 24-hour Mental Health /Peer-Counseling Phone Support
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Mental Health Triage/Peer-Counseling. Counseling and support for those
+        who need help. Service provided by peer counselors who have experienced
+        and overcome mental health issues themselves.
+      taxonomy_ids: medical
+      application_process: 'Accessible 24 hrs. Operated by WOMAN, Inc.'
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: 'Cameron House: Social Services'
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        For victims of domestic violence and child witnesses of domestic
+        violence. Non-psychiatric individual, couple and family counseling;
+        parenting workshop, case management, ESL. Support groups (Cantonese);
+        cancer patients and family members: 2nd and 4th Sat:1:30-3:30pm
+      taxonomy_ids: medical
+      application_process: 'Asian-focused. English, Cantonese and Mandarin. $0-full bill.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: SF Public Library - Potrero Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '08:00 PM'
+        - weekday: Wednesday
+          opens_at: '08:00 PM'
+        - weekday: Thursday
+          opens_at: '08:00 PM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: Bayview Hunters Point Foundation-Integrated Behavioral Health Program
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health services
+      description: >-
+        Individual and family therapy, coordination with schools, preventive
+        consultation with schools and agencies, medication monitoring, alcohol
+        and drug abuse counseling, information and referrals.
+      taxonomy_ids: medical
+      application_process: 'For the severely mentally ill. MediCal, $0-full bill. English.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Western Addition Beacon Center
+  description: Neighborhood center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access and training center
+      description: >-
+        Affiliated with John Muir Elementary School. Services for Families with
+        children only. Black and white printer, scanner, wireless internet, and
+        assistive internet available.
+      taxonomy_ids: internet
+      application_process: Wheelchair accessible
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '8:00 AM'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+- name: Raphael House
+  description: Family shelter
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Family shelter
+      description: >-
+        Works with families to help them overcome homelessness while providing a
+        safe, structured environment in which the families can resolve other
+        difficult problems relevant to their homelessness. Also accepts pregnant
+        women in 9th month. Shelter, intensive children's program and casework.
+      taxonomy_ids: housing
+      application_process: >-
+        Call Connecting Point (415-217-7330) to schedule interview. Best to call
+        in morning before noon. Adults asked for $0-3 daily, children $0-2
+        daily. No drugs/alcohol. 3 meals daily. 5:45 pm curfew. No one is turned
+        away for lack of income. Spanish. Wheelchair accessible.
+      regular_schedule: []
+- name: North East Medical Services - San Bruno Branch
+  description: Neighborhood Clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Neighborhood clinic
+      description: >-
+        Urgent and Primary Care, Dental, Podiatry, TB, STD, HIV, and Pregnancy
+        testing, Women's Health, Family Planning, Prenatal Care, and
+        Immunizations. Sliding scale (outpatient medical services free to
+        homeless). Call for appt. Pediatrics & optometry available.
+      taxonomy_ids: medical
+      application_process: 'Cantonese, English, Korean, Mandarin, Spanish, and Vietnamese.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Monday
+          opens_at: '07:30 AM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '07:30 AM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '07:30 AM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Thursday
+          opens_at: '07:30 AM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '07:30 AM'
+        - weekday: Saturday
+          opens_at: '12:00 PM'
+        - weekday: Saturday
+          opens_at: '07:30 AM'
+- name: Catholic Charities - 30th St. Senior Center
+  description: Senior focused community center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: internet
+      description: >-
+        Free computer use, free computer classes. black and white printer.
+        Seniors only
+      taxonomy_ids: internet
+      application_process: 'http://www.onlok.org/30thStreetSeniorCenter.aspx'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '2200'
+    - name: Congregate Meals Program
+      description: Hot meals served 2 times a day
+      taxonomy_ids: food
+      application_process: Suggested donation of $2. Meal tickets can be obtained on the 3rd floor.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '02:00 PM'
+        - weekday: Monday
+          opens_at: '02:00 PM'
+        - weekday: Tuesday
+          opens_at: '02:00 PM'
+        - weekday: Wednesday
+          opens_at: '02:00 PM'
+        - weekday: Thursday
+          opens_at: '02:00 PM'
+        - weekday: Friday
+          opens_at: '02:00 PM'
+        - weekday: Saturday
+          opens_at: '02:00 PM'
+    - name: food
+      description: hot food
+      taxonomy_ids: food
+      application_process: ''
+      regular_schedule: []
+- name: 'Providence Foundation Family Shelters: First Friendship Family Shelter'
+  description: Family shelter
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Family shelter
+      description: >-
+        1- or 2- parent families with children under 18; pregnant women in the
+        7th month (or 5th month with documented high risk), and same sex couples
+        accepted.
+      taxonomy_ids: housing
+      application_process: 'Come daily 3-8pm; first come first served. ID required. '
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '07:00 AM'
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '07:00 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '07:00 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '07:00 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '07:00 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '07:00 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '07:00 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: Fraternite Notre Dame
+  description: 'Lunch Mon. Tues. Wed 11:30am - 1:30pm'
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Lunch
+      description: Serves Lunch Monday thru Wednesday
+      taxonomy_ids: food
+      application_process: ''
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '01:30 PM'
+        - weekday: Tuesday
+          opens_at: '01:30 PM'
+        - weekday: Wednesday
+          opens_at: '01:30 PM'
+- name: St. Anthony Medical Clinic
+  description: Neighborhood clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Neighborhood clinic
+      description: >-
+        TB Testing, Pregnancy Test, HIV Testing, Podiatry, Immunizations,
+        Women’s Health, Mental Health, Primary Care. Healthy SF plans welcome.
+        SF residents only.
+      taxonomy_ids: medical
+      application_process: >-
+        Call for allergy & asthma, & nutrition clinics. ASL, Cantonese, English,
+        French, Hindi, Lao, Mandarin, Mongolian, Russian, Spanish, & Thai.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '4:30 PM'
+        - weekday: Tuesday
+          opens_at: '4:30 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Thursday
+          opens_at: '4:30 PM'
+        - weekday: Friday
+          opens_at: '4:30 PM'
+- name: 'CHANGES: Mission Neighborhood R.C.'
+  description: >-
+    For a 90-day bed, line up by 7am. For a 1-night bed, apply during the hours
+    listed.
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Laundry
+      description: 'Laundry facilities available weekdays. 25¢ wash, 25¢ dry.'
+      taxonomy_ids: hygiene
+      application_process: ''
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '2330'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '2330'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '2330'
+        - weekday: Thursday
+          opens_at: '2330'
+        - weekday: Friday
+          opens_at: '2330'
+    - name: Showers
+      description: Showers available on weekdays
+      taxonomy_ids: hygiene
+      application_process: ''
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '2330'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '2330'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '2330'
+        - weekday: Thursday
+          opens_at: '2330'
+        - weekday: Friday
+          opens_at: '2330'
+    - name: Shelter
+      description: >-
+        For a 90-day bed line up by 7am. For a 1-night bed, apply during the
+        hours listed.
+      taxonomy_ids: housing
+      application_process: >-
+        The first time you reserve a bed you will enroll in the CHANGES computer
+        system giving your name, date and place of birth, gender, ethnicity, and
+        a Social Security Number ( Social Security Number is optional). Your
+        photograph and finger print will be taken to establish your 
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Monday
+          opens_at: '9:00 AM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '9:00 AM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '9:00 AM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '9:00 AM'
+        - weekday: Saturday
+          opens_at: '12:00 PM'
+- name: Central City Older Adults (BHS)
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Psychiatric evaluation, medication management, counseling, home visits &
+        referrals.
+      taxonomy_ids: medical
+      application_process: >-
+        Primarily serves seniors (60+) who live in the Tenderloin, Civic Center
+        & SOMA.$0-full bill. English, Spanish, Cantonese, Tagalog.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Chinatown Neighborhood Access Point
+  description: Technology access
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access - Job Readiness Services
+      description: >-
+        Job Search Assistance, Resume Preparation, Career Planning and
+        Exploration, Job Preparation Workshops, Training Opportunities, Access
+        to Resource Room with Computers, Fax and Copy machines, Unemployment
+        Information (link to EDD), Availability of Supportive Services
+        (including childcare and transportation). All services are free of
+        charge. Must have One Stop (EDD) card or fill out application. 
+      taxonomy_ids: internet
+      application_process: Call to reserve spot for workshops or trainings
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: SF Public Library - West Portal Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '9:30 PM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: St. Luke's Neighborhood Clinic
+  description: Neighborhood clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Neighborhood clinic
+      description: >-
+        Provides general medical outpatient services to low-income individuals.
+        Services include general health care, psychosocial services, health
+        education and nutrition, referrals, diabetes, cardiology, dermatology,
+        special arterial care and an outpatient laboratory.
+      taxonomy_ids: medical
+      application_process: >-
+        Fees vary according to income, plus annual registration fee. Medi-Cal,
+        Medicare, private insurance accepted. Wheelchair accessible. Spanish.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: SF Public Library - Golden Gate Valley Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '08:00 PM'
+        - weekday: Thursday
+          opens_at: '08:00 PM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: St. Paul Tabernacle Baptist
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Pantry
+      description: >-
+        Apply in person on Fri. 11:30am - 1:00pm. If accepted you will be mailed
+        a card which you bring with you to pick up food every Fri. You must live
+        in the 94124 Zip code
+      taxonomy_ids: food
+      application_process: ''
+      regular_schedule:
+        - weekday: Friday
+          opens_at: '1:00 PM'
+- name: Mission Neighborhood Homeless Resource Center
+  description: Showers and laundry facilities
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Central health center
+      description: >-
+        Urgent and Primary Care, Mental Health, TB, HIV, and STD testing,
+        Transgender Services and Immunizations. Free for homeless San
+        Franciscans. Also, Dental care for the Homeless
+      taxonomy_ids: medical
+      application_process: Call for appointment. . English & Spanish.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+    - name: Showers and laundry
+      description: 'A place to shower and do laundry '
+      taxonomy_ids: hygiene
+      application_process: >-
+        Towels and liquid soaps provided. Hygiene items sometimes provided.
+        Laundry costs are .25 per cycle. Drop-in Center open Tu/Wed 2-6pm, and
+        Th 2-5pm.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Monday
+          opens_at: '9:00 AM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '9:00 AM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '9:00 AM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Thursday
+          opens_at: '9:00 AM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '9:00 AM'
+        - weekday: Saturday
+          opens_at: '12:00 PM'
+- name: Mission Neighborhood Center
+  description: Multi-service center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Hot meal
+      description: 'Hot meal for seniors over 60, their caretakers, or spouses.'
+      taxonomy_ids: food
+      application_process: >-
+        Nutritionally balanced meal in a home-like atmosphere for up to 90
+        seniors a day.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '1:00 PM'
+        - weekday: Tuesday
+          opens_at: '1:00 PM'
+        - weekday: Wednesday
+          opens_at: '1:00 PM'
+        - weekday: Thursday
+          opens_at: '1:00 PM'
+        - weekday: Friday
+          opens_at: '1:00 PM'
+    - name: Technology access and training for seniors
+      description: Open lab and trainings for seniors 60+ and disabled 55+.
+      taxonomy_ids: internet
+      application_process: >-
+        Registration required for new guests - takes 10 minutes. Black and white
+        printer, scanner, wireless internet, and assistive internet available.
+        Wheelchair accessible. 
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: IT Bookman Community Center
+  description: Mutli-purpose center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access and training center
+      description: 'Black and white printer, scanner, wireless internet available.'
+      taxonomy_ids: internet
+      application_process: >-
+        Assistive internet and wheelchair accessible. Computer help available
+        after 2:30pm
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Episcopal Community Services - Adult Education Center
+  description: Adult education program
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Adult training center
+      description: >-
+        The Adult Education Center offers morning and afternoon classes in
+        literacy, basic education, GED preparation and high school diploma
+        completion. Students attend small classes and can receive one-on-one
+        instruction. Classes are open-enrollment; students can sign up anytime
+        and be placed in a class right away. 
+      taxonomy_ids: internet
+      application_process: >-
+        Must attend an Orientation before enrollment. ORIENTATION:
+        Monday-Thursday at 1pm. (lasts 1 hr.)
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '03:00 PM'
+        - weekday: Tuesday
+          opens_at: '03:00 PM'
+        - weekday: Wednesday
+          opens_at: '03:00 PM'
+        - weekday: Thursday
+          opens_at: '03:00 PM'
+- name: North East Medical Services - Richmond Branch
+  description: Neighborhood clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Neighborhood clinic
+      description: >-
+        Urgent and Primary Care, Dental, Podiatry, TB, STD, HIV, and Pregnancy
+        testing, Women's Health, Family Planning, Prenatal Care, and
+        Immunizations. Sliding scale (outpatient medical services free to
+        homeless). Call for appt. Pediatrics & optometry available.
+      taxonomy_ids: medical
+      application_process: 'Cantonese, English, Korean, Mandarin, Spanish, and Vietnamese.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+        - weekday: Saturday
+          opens_at: '12:00 PM'
+        - weekday: Saturday
+          opens_at: '5:00 PM'
+- name: St. Aidan's
+  description: Food pantry
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Food pantry
+      description: Weekly food pantry (Friday).
+      taxonomy_ids: food
+      application_process: >-
+        Apply in person Fri. 1-2pm. If accepted, you will be mailed a card which
+        you must bring with you to pick up food every Fri. Must live in 94131
+        zip code. ID required
+      regular_schedule:
+        - weekday: Friday
+          opens_at: '02:00 PM'
+- name: Family Service Agency of SF
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Individual psychotherapy & counseling, psychiatric medication
+        management. $0-full bill. English, Cantonese, Korean, Mandarin, Spanish
+        & Vietnamese
+      taxonomy_ids: medical
+      application_process: For all San Franciscans.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Men’s Crisis Line
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Men’s Crisis Line. 24hrs. Emergency counseling for straight or gay
+        abusive men in crisis. 
+      taxonomy_ids: medical
+      application_process: Free. English only.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: Night Ministry
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Non-judgmental, compassionate, comprehensive crisis counseling,
+        referrals & when requested, intervention (e.g.in domestic violence
+        cases). Call 10pm-4am anynight of the year to talk to a volunteer
+        counselor,or ask for a minister, priest or rabbi to call youback &, if
+        you like, meet you in person anywherein SF.
+      taxonomy_ids: medical
+      application_process: >-
+        Call 10pm-4am any night of the year. Free. English; Cantonese, German,
+        Japanese, Mandarin, & Spanish available on request.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Sunday
+          opens_at: '400'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '400'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '400'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '400'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '400'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '400'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '400'
+- name: Southeast Child Family Therapy Center (BHS)
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Call M-F 9am-5pm, Sa 9am-1pm. Evening hours by appt. Individual, group &
+        family therapy, school consultation, parent support, medication
+        evaluations, assessments & referrals. 
+      taxonomy_ids: medical
+      application_process: >-
+        MediCal, HealthyKids, HealthySF; those uninsured for mental health,
+        $0-full bill. English, Cantonese, Mandarin, Spanish.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+        - weekday: Saturday
+          opens_at: '1:00 PM'
+- name: Mary Elizabeth Inn
+  description: Women's food services
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Free food pantry
+      description: Weekly food pantry (Wednesday). Low-income women only.
+      taxonomy_ids: food
+      application_process: Line up 9am Wed; food given out 9-10am; bring a bag.
+      regular_schedule:
+        - weekday: Wednesday
+          opens_at: '10:00 AM'
+- name: San Francisco City Clinic
+  description: Free or low-cost diagnosis and treatment for sexually transmitted diseases
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: >-
+        Free or low-cost diagnosis and treatment for sexually transmitted
+        diseases
+      description: >-
+        Pregnancy Test, STD Testing, STD Treatment, HIV Testing, Family
+        Planning. $10 fee, no one turned away for lack of funds.
+      taxonomy_ids: medical
+      application_process: >-
+        HIV early care clinic by appt only. HIV Post Exposure Prophylaxis &
+        emergency contraception available after clinician assessment. HIV
+        testing only if clinician assesses high risk. Cantonese,
+        English,Mandarin, Russian, Spanish, & Tagalog.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '4:00 PM'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '4:00 PM'
+        - weekday: Thursday
+          opens_at: '4:00 PM'
+        - weekday: Friday
+          opens_at: '4:00 PM'
+- name: Mission Family Center (BHS)
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Call for intake appt. Children & youth aged 3-17 or still in high
+        school. Individual, group, & family therapy; case management;
+        medication.
+      taxonomy_ids: medical
+      application_process: >-
+        MediCal, SFHealth. If you don’t have insurance, they will try to help
+        you get it. English & Spanish.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Glide Women’s Center Domestic Violence Program
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Tu-F 9-10:30am followed by breakfast. Tu: stress reduction; W: harm
+        reduction, domestic violence, codependency, substance abuse; Th: healthy
+        relationship; F: Finding our Voices/Defending our Lives. 3rd and 4th W
+        3-4:30pm: Healing through Negro Spirituals, soul food meal. Free.
+        English only.
+      taxonomy_ids: medical
+      application_process: Drop-in support and counseling for women
+      regular_schedule:
+        - weekday: Tuesday
+          opens_at: '10:30 AM'
+        - weekday: Wednesday
+          opens_at: '10:30 AM'
+        - weekday: Thursday
+          opens_at: '10:30 AM'
+        - weekday: Friday
+          opens_at: '10:30 AM'
+- name: Bayview/Hunter's Point Beacon Center
+  description: Technology access and training center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access and training
+      description: >-
+        Bayview-Hunter's Point Beacon provides school day support and
+        comprehensive afterschool programming Monday through Friday to children,
+        youth and families that live, work or attend school in the
+        Bayview/Hunter's Point communities.
+      taxonomy_ids: internet
+      application_process: 'Adult, youth, and teen programs.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '8:00 AM'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '12:00 PM'
+- name: Westside Crisis
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Call 355-0311 (M-F 8:30am-6pm, Sa 8:30am-4pm) or drop in M-F 8am, Sa
+        9am. Crisis intervention, brief crisis treatment (averaging 1-3 visits),
+        referrals. For ongoing services, must be 18+ & SF resident.
+      taxonomy_ids: medical
+      application_process: ' Free. English, Spanish, Cantonese, Mandarin & Tagalog.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '07:30 AM'
+        - weekday: Tuesday
+          opens_at: '07:30 AM'
+        - weekday: Wednesday
+          opens_at: '07:30 AM'
+        - weekday: Thursday
+          opens_at: '07:30 AM'
+        - weekday: Friday
+          opens_at: '07:30 AM'
+        - weekday: Saturday
+          opens_at: '4:30 PM'
+- name: 'Meals on Wheels of San Francisco, Inc.'
+  description: Senior meal delivery service
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Meal delivery service
+      description: >-
+        Lunch and dinner meal delivery (M-F) for home-bound seniors over 60 who
+        live in San Francisco. Diabetic, low sodium, and mechanically softened
+        meal plans are available for clients with special nutritional needs. 
+      taxonomy_ids: food
+      application_process: ' A $5/day contribution is requested, however no one is denied meal delivery service if they are unable to contribute financially.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '4:30 PM'
+        - weekday: Tuesday
+          opens_at: '4:30 PM'
+        - weekday: Wednesday
+          opens_at: '4:30 PM'
+        - weekday: Thursday
+          opens_at: '4:30 PM'
+        - weekday: Friday
+          opens_at: '4:30 PM'
+- name: Mission Neighborhood Access Point
+  description: Technology access
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Affiliated with One-Stop, EDD. Job Search Assistance, Career Planning
+        and Exploration, Job Preparation Workshops, Training Opportunities,
+        Access to Resource Room with Computers, Fax and Copy machines,
+        Unemployment Information (link to EDD), Availability of Supportive
+        Services (including childcare and transportation). All services are free
+        of charge.
+      taxonomy_ids: internet
+      application_process: ' Computers available for Job related use only. Call to sign up for workshops and trainings. One time registration required: 10 minutes.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '4:00 PM'
+        - weekday: Tuesday
+          opens_at: '4:00 PM'
+        - weekday: Wednesday
+          opens_at: '4:00 PM'
+        - weekday: Thursday
+          opens_at: '4:00 PM'
+        - weekday: Friday
+          opens_at: '4:00 PM'
+- name: SF Public Library - Ortega Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '9:30 PM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: Catholic Charities - OMI Senior Center
+  description: >-
+    Multipurpose senior center serving the Oceanview, Merced, and Ingleside
+    districts of San Francisco.
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Meal service
+      description: >-
+        Pastries served weekday mornings and a hot lunch served in the
+        afternoon.
+      taxonomy_ids: food
+      application_process: For low-income seniors
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '09:30 AM'
+        - weekday: Monday
+          opens_at: '12:30 PM'
+        - weekday: Tuesday
+          opens_at: '09:30 AM'
+        - weekday: Tuesday
+          opens_at: '12:30 PM'
+        - weekday: Wednesday
+          opens_at: '09:30 AM'
+        - weekday: Wednesday
+          opens_at: '12:30 PM'
+        - weekday: Thursday
+          opens_at: '09:30 AM'
+        - weekday: Thursday
+          opens_at: '12:30 PM'
+        - weekday: Friday
+          opens_at: '09:30 AM'
+        - weekday: Friday
+          opens_at: '12:30 PM'
+    - name: Technology access and training
+      description: 'Black and white printer, scanner, wireless internet available.'
+      taxonomy_ids: internet
+      application_process: Assistive internet available. Wheelchair accessible.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '02:00 PM'
+    - name: Food pantry
+      description: Weekly food pantry (Thursday) for seniors (60+) & disabled adults.
+      taxonomy_ids: food
+      application_process: >-
+        For seniors (60+) & disabled adults. Sign up M-W 8:30am-2pm, Fri
+        8:30am-2pm for weekly appointment to pick up food Thurs 9am-noon. Photo
+        ID, proof of income, & proof of current address required for both
+        services. Must live in zip code 94112, 94132, or 94127. English,
+        Cantonese, Mandarin, Spanish, Tagalog, Vietnamese.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '02:00 PM'
+        - weekday: Tuesday
+          opens_at: '02:00 PM'
+        - weekday: Wednesday
+          opens_at: '02:00 PM'
+        - weekday: Thursday
+          opens_at: '03:00 PM'
+        - weekday: Friday
+          opens_at: '02:00 PM'
+- name: Dr. George W. Davis Senior Center
+  description: Technology access for seniors
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Free computer use, black and white printer, scanner. Seniors (60+) only
+        and disabled.
+      taxonomy_ids: internet
+      application_process: 'Has assistive internet. Time limit 1hr, if there are others waiting. '
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: United Council of Human Services - Jennings
+  description: Multi-service center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Free meal
+      description: Hot breakfast. Hot dinner.
+      taxonomy_ids: food
+      application_process: ''
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '9:00 AM'
+        - weekday: Sunday
+          opens_at: '8:00 AM'
+        - weekday: Monday
+          opens_at: '9:00 AM'
+        - weekday: Monday
+          opens_at: '9:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:00 AM'
+        - weekday: Wednesday
+          opens_at: '9:00 AM'
+        - weekday: Wednesday
+          opens_at: '9:00 AM'
+        - weekday: Thursday
+          opens_at: '9:00 AM'
+        - weekday: Thursday
+          opens_at: '9:00 AM'
+        - weekday: Friday
+          opens_at: '9:00 AM'
+        - weekday: Friday
+          opens_at: '9:00 AM'
+        - weekday: Saturday
+          opens_at: '9:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+    - name: Showers and laundry
+      description: A place to shower and do laundry. Open daily.
+      taxonomy_ids: hygiene
+      application_process: >-
+        Towels, soap, and shampoo are provided. Laundry cycle costs are .25 per
+        cycle.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '2330'
+        - weekday: Monday
+          opens_at: '2330'
+        - weekday: Tuesday
+          opens_at: '2330'
+        - weekday: Wednesday
+          opens_at: '2330'
+        - weekday: Thursday
+          opens_at: '2330'
+        - weekday: Friday
+          opens_at: '2330'
+        - weekday: Saturday
+          opens_at: '2330'
+- name: SF Public Library - Bernal Heights Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: 'YMCA: OMI Family Resource Center'
+  description: Food pantry
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Food pantry
+      description: Weekly food pantry (Tuesday)
+      taxonomy_ids: food
+      application_process: >-
+        Apply Tuesday 10am-12pm for weekly appointment to pick up food Tuesday
+        11am-noon. If accepted, you will be mailed a card which you must bring
+        to pick up food. Must live in 94112, 94116, or 94132 zip code. Must
+        bring photo ID and proof of residency.
+      regular_schedule:
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+- name: Haight Ashbury Food Program - Food Service Center
+  description: Weekly pantry program
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Food pantry
+      description: >-
+        Weekly farmers´ market-style distribution allows clients to select the
+        foods that best meet their families´ needs. From fresh fruits and
+        vegetables to bread and rice, each client receives much-needed,
+        nutritious foods that are otherwise not affordable.
+      taxonomy_ids: food
+      application_process: >-
+        Arrive on Saturday 12pm-2pm and fill out an intake form. You will then
+        be given a time slot for the future.
+      regular_schedule:
+        - weekday: Saturday
+          opens_at: '02:00 PM'
+- name: SF Public Library - Mission Bay Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '08:00 PM'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: Economic Opportunity Council (EOC) - Commodity Food Program
+  description: Multi-service organization
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Food pantry
+      description: >-
+        Provides nutritious supplemental foods, as available, for low-income
+        women during pregnancy and for 12 months postpartum, for their infants
+        and children up to age 6 years who are not WIC-eligible. Foods such as
+        infant formula, nonfat dry milk, egg mix, cereal, peanut butter, canned
+        meat, vegetables, fruit, and fruit juices are available monthly at five
+        distribution sites throughout the city. Also serves eligible seniors, 60
+        years of age or over with the same types of commodity foods. Services
+        are only for persons in the 94107 zip code. 
+      taxonomy_ids: food
+      application_process: >-
+        Call for an appointment. Cantonese, Mandarin, Portuguese, Russian,
+        Spanish, Tagalog are spoken. Bring proof of Income and PG&E bill.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: AIDS Housing Alliance
+  description: Rental Assistance resource center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Housing resource center
+      description: >-
+        Operates on a drop-in basis. Members sign in between 12:30 and 1pm.
+        People aree seen on a first-come, first-served basis. If you have them,
+        bring ID, letter of diagnosis and proof of income. At this time, AHASF
+        is unable to provide phone counseling, or e-mail counseling or to set up
+        special appointments for intakes. During drop-in, they will perform an
+        intake assessment and create an Individualized Housing Plan. 
+      taxonomy_ids: housing
+      application_process: >-
+        Services include: housing referrals, deposit and back rent assistance,
+        and tenants’ rights counseling.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '01:30 PM'
+        - weekday: Tuesday
+          opens_at: '01:30 PM'
+- name: United Council of Human Services - Oakdale
+  description: Multi-service center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Food pantry
+      description: Weekly food pantry (Wednesday)
+      taxonomy_ids: food
+      application_process: >-
+        Apply in person Wed 8am. If accepted you will be mailed a card which you
+        must bring with you to pick up food every Wed morning. You must live in
+        zip code 94124. ID required.
+      regular_schedule:
+        - weekday: Wednesday
+          opens_at: '09:30 AM'
+- name: Stonestown YMCA
+  description: Mutli-service center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access and training
+      description: >-
+        Black and white printer, scanner, wireless internet, and assistive
+        internet accessible.
+      taxonomy_ids: internet
+      application_process: Wheelchair accessible; registration required - takes 5-10 minutes.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '11:30 AM'
+        - weekday: Monday
+          opens_at: '3:30 PM'
+        - weekday: Tuesday
+          opens_at: '11:30 AM'
+        - weekday: Tuesday
+          opens_at: '3:30 PM'
+        - weekday: Wednesday
+          opens_at: '11:30 AM'
+        - weekday: Wednesday
+          opens_at: '3:30 PM'
+        - weekday: Thursday
+          opens_at: '11:30 AM'
+        - weekday: Thursday
+          opens_at: '3:30 PM'
+        - weekday: Friday
+          opens_at: '11:30 AM'
+        - weekday: Friday
+          opens_at: '3:30 PM'
+- name: Youth With A Mission
+  description: Food pantry
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Food pantry
+      description: Weekly food pantry (Thursday)
+      taxonomy_ids: food
+      application_process: >-
+        Apply in person Thurs 1:30pm. If accepted, you will be mailed a card
+        which you must bring with you to pick up food. You must live in zip code
+        94102 and bring an ID.
+      regular_schedule:
+        - weekday: Thursday
+          opens_at: '2:30 PM'
+- name: 'Providence Foundation Family Shelters: Providence Family Shelter'
+  description: Family shelter
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Family Shelter
+      description: >-
+        1- or 2- parent families with children under 18; pregnant women in the
+        7th month (or 5th month with documented high risk), and same sex couples
+        accepted.
+      taxonomy_ids: housing
+      application_process: >-
+        Families will be accepted as space permits on a nightly basis, served on
+        a first-come, first-served basis.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '07:00 AM'
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '07:00 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '07:00 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '07:00 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '07:00 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '07:00 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '07:00 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: 'CHANGES: Bayview Hunters Point R.C.'
+  description: >-
+    For 90-day shelter bed line up by 7am. For 1-night emergency bed, apply
+    during the hours listed.
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Shelter
+      description: >-
+        For a 90-day bed line up by 7am. For a 1-night bed, apply during the
+        hours listed.
+      taxonomy_ids: housing
+      application_process: >-
+        The first time you reserve a bed you will enroll in the CHANGES computer
+        system giving your name, date and place of birth, gender, ethnicity, and
+        a Social Security Number ( Social Security Number is optional). Your
+        photograph and finger print will be taken to establish your 
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '9:00 AM'
+        - weekday: Sunday
+          opens_at: '9:30 PM'
+        - weekday: Monday
+          opens_at: '9:00 AM'
+        - weekday: Monday
+          opens_at: '9:30 PM'
+        - weekday: Tuesday
+          opens_at: '9:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:00 AM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '9:00 AM'
+        - weekday: Thursday
+          opens_at: '9:30 PM'
+        - weekday: Friday
+          opens_at: '9:00 AM'
+        - weekday: Friday
+          opens_at: '9:30 PM'
+        - weekday: Saturday
+          opens_at: '9:00 AM'
+        - weekday: Saturday
+          opens_at: '9:30 PM'
+    - name: Laundry facilities
+      description: Laundry available daily
+      taxonomy_ids: hygiene
+      application_process: ''
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+    - name: Showers
+      description: Showers available daily
+      taxonomy_ids: hygiene
+      application_process: ''
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: Child Crisis
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Evaluations for involuntary psychiatric hospitalization & crisis case
+        management for up to 30 days. Special services for homicidal, suicidal
+        and gravely disabled youth or victims and witnesses of community
+        violence.
+      taxonomy_ids: medical
+      application_process: >-
+        For youth under 18. $0-full ill. English, Spanish, Tagalog, Cantonese,
+        Vietnamese; other languages available by request.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: Trauma Recovery/Rape Treatment Center
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Short-term care focused on sexual assault, domesticviolence, & other
+        interpersonal violence. Services include case management & individual &
+        group psychotherapy. 24hr forensic evaluation & medical care at SF
+        GeneralHospital.
+      taxonomy_ids: medical
+      application_process: >-
+        For SF residents, 18+. Free. English, Portuguese, Spanish, Vietnamese;
+        sometimes Arabic, Amharic, Tigrinya.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '9:00 AM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Bernal Heights Neighborhood Center
+  description: Community Center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access and training
+      description: Open access and beginner computer classes.
+      taxonomy_ids: internet
+      application_process: >-
+        Seniors or adults with disabilities. If using the computer lab for the
+        first time, you are required to complete an intake form. Black and white
+        printer, scanner, and assistive internet available. Wheelchair
+        accessible.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '02:00 PM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '02:00 PM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '11:30 AM'
+        - weekday: Friday
+          opens_at: '2:30 PM'
+- name: Native American Health Center
+  description: Clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Community clinic
+      description: >-
+        Clinical facilities provide a full range of community health care and
+        prevention services, including primary medical care, comprehensive
+        dental care, family guidance counseling, HIV prevention and AIDS
+        treatment, youth services, women, infants, and children's health, and
+        general nutrition and fitness.
+      taxonomy_ids: medical
+      application_process: >-
+        All are welcome. There are no tribal or ethnic requirements for use of
+        the clinical facilities. Medi-Cal, Medicare, and private insurance are
+        accepted. Patient services are provided on a sliding fee scale provided
+        by federal poverty guidelines. Many people without insurance are
+        eligible for programs that pay for their care.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: 'San Francisco City Mission: S.F. Rescue Mission'
+  description: Free meal
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Free meal
+      description: Breakfast and Dinner Monday through Friday.
+      taxonomy_ids: food
+      application_process: >-
+        Light breakfast and full dinner. Mandatory church service at 4pm for
+        dinner.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '10:45 AM'
+        - weekday: Monday
+          opens_at: '1615'
+        - weekday: Tuesday
+          opens_at: '10:45 AM'
+        - weekday: Tuesday
+          opens_at: '1615'
+        - weekday: Wednesday
+          opens_at: '10:45 AM'
+        - weekday: Wednesday
+          opens_at: '1615'
+        - weekday: Thursday
+          opens_at: '10:45 AM'
+        - weekday: Thursday
+          opens_at: '1615'
+        - weekday: Friday
+          opens_at: '10:45 AM'
+        - weekday: Friday
+          opens_at: '1615'
+- name: 'St. Anthony Foundation: Tenderloin Technology Lab'
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access and training
+      description: >-
+        Provides important technological skills that increase opportunities for
+        employment, access to essential community resources and connections with
+        family and friends. Free computer use, computer classes, black and white
+        printer, scanner, fax, and phone. Individual tutoring available every
+        Friday.
+      taxonomy_ids: internet
+      application_process: >-
+        Those interested in accessing the tech lab must first attend a 15 minute
+        orientation. Orientations are held Mondays and Wednesdays at 9am and
+        Fridays at 9am & 1:40pm.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '1145'
+        - weekday: Monday
+          opens_at: '1615'
+        - weekday: Tuesday
+          opens_at: '1145'
+        - weekday: Tuesday
+          opens_at: '1615'
+        - weekday: Wednesday
+          opens_at: '1145'
+        - weekday: Thursday
+          opens_at: '1145'
+        - weekday: Thursday
+          opens_at: '1615'
+        - weekday: Friday
+          opens_at: '1145'
+        - weekday: Friday
+          opens_at: '1615'
+        - weekday: Saturday
+          opens_at: '1445'
+- name: EDD Civic Center Neighborhood Access Point
+  description: Technology access
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Job Search Assistance, Career Planning and Exploration, Job Preparation
+        Workshops, Training Opportunities, Access to Resource Room with
+        Computers, Fax and Copy machines, Unemployment Information, Availability
+        of Supportive Services (including childcare and transportation). All
+        services are free of charge.
+      taxonomy_ids: internet
+      application_process: >-
+        Must have state ID to access these services.Must be registered on
+        CalJobs to take workshops.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: St. Peter & Paul Catholic Church
+  description: Free meal
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Free meal
+      description: Sandwich offered everyday.
+      taxonomy_ids: food
+      application_process: ''
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '08:30 AM'
+        - weekday: Tuesday
+          opens_at: '08:30 AM'
+        - weekday: Wednesday
+          opens_at: '08:30 AM'
+        - weekday: Thursday
+          opens_at: '08:30 AM'
+        - weekday: Friday
+          opens_at: '08:30 AM'
+        - weekday: Saturday
+          opens_at: '5:00 PM'
+- name: SF Public Library - Presidio Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 30 minutes per session. Laptops can also be
+        checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: Potrero Hill Health Center (Caleb G. Clark)
+  description: Neighborhood clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Neighborhood clinic
+      description: >-
+        Primary health care; general dentistry; in-home visits; prenatal care;
+        treatment of AIDS and related medical needs
+      taxonomy_ids: medical
+      application_process: >-
+        Insurance, Medi-Cal, Medicare are accepted. Also MIA eligible patients
+        welcome (see entry for MIA program). Spanish and Filipino. Wheelchair
+        accessible.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: San Francisco Day Labor Program
+  description: Outreach clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Outreach Clinic & Labor Placement
+      description: Free Urgent Care and HIV testing
+      taxonomy_ids: medical
+      application_process: >-
+        For primarily Spanish speakers. Labor job placement M-F 7am - 11am.
+        Orientation W,F 10:30am Spanish; 11am English. For Clinic: First 20
+        people are seen. Preference given to day laborers. English & Spanish.
+      regular_schedule:
+        - weekday: Tuesday
+          opens_at: '11:00 AM'
+- name: SF Public Library - Ingleside Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '08:00 PM'
+        - weekday: Thursday
+          opens_at: '9:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: 'Salvation Army, Mission'
+  description: Food pantry
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Food pantry
+      description: Food pantry. Call for interview M–Th 9am-12pm.
+      taxonomy_ids: food
+      application_process: ' Must live in 94107, 94110, 94112, 94114, or 94131 zip code. English, Spanish. Must have ID.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '11:00 AM'
+        - weekday: Tuesday
+          opens_at: '11:00 AM'
+        - weekday: Wednesday
+          opens_at: '11:00 AM'
+        - weekday: Thursday
+          opens_at: '11:00 AM'
+        - weekday: Friday
+          opens_at: '11:00 AM'
+- name: Treasure Island Homeless Development Initiative
+  description: Food pantry
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Food pantry
+      description: Weekly food pantry (Tuesday)
+      taxonomy_ids: food
+      application_process: >-
+        For Treasure Island residents only. Must have ID and lease. Apply on
+        Tuesday's at 3:00 pm
+      regular_schedule:
+        - weekday: Tuesday
+          opens_at: '4:30 PM'
+- name: Visitacion Valley Neighborhood Access Point
+  description: Technology access
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Job Search Assistance, Career Planning and Exploration, Job Preparation
+        Workshops, Training Opportunities, Access to Resource Room with
+        Computers, Fax and Copy machines, Unemployment Information (link to
+        EDD), Availability of Supportive Services (including childcare and
+        transportation). 
+      taxonomy_ids: internet
+      application_process: All services are free of charge.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: First Friendship Institutional Baptist Church
+  description: Food pantry
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Food pantry
+      description: Weekly food pantry (Friday)
+      taxonomy_ids: food
+      application_process: >-
+        Sign up 9am Friday for appointment to pick up food Friday morning. You
+        must live in 94115 or 94117 zip code. Bring a bag. Photo ID required.
+      regular_schedule:
+        - weekday: Friday
+          opens_at: '10:00 AM'
+- name: North East Medical Services - Taraval Branch
+  description: Neighborhood Clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Neighborhood clinic
+      description: >-
+        Urgent and Primary Care, Dental, Podiatry, TB, STD, HIV, and Pregnancy
+        testing, Women's Health, Family Planning, Prenatal Care, and
+        Immunizations. Sliding scale (outpatient medical services free to
+        homeless). Call for appt. Pediatrics & optometry available.
+      taxonomy_ids: medical
+      application_process: 'Cantonese, English, Korean, Mandarin, Spanish, and Vietnamese.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Bayview TLC Family Resource Center
+  description: Free food pantry
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Free food pantry
+      description: 'Weekly food pantry (Thursday) and emergency food box. '
+      taxonomy_ids: food
+      application_process: >-
+        Apply in person on Thursday 2pm-4pm. Must live in 94124 zip code and ID
+        required. Bring a bag. Call M-F 9am-4pm for one-time-only emergency food
+        box for any SF resident. 
+      regular_schedule:
+        - weekday: Thursday
+          opens_at: '4:00 PM'
+- name: SF Public Library - North Beach Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: Brennan House
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        18 months of transitional Housing for female survivors of domestic
+        violence, and their children. Residency includes counseling, support
+        groups, & advocacy.
+      taxonomy_ids: medical
+      application_process: ' Sliding scale based on income. Free if no income. Cantonese, English, Mandarin, Spanish.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: SF Public Library - Mission Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '9:30 PM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: Fill up America
+  description: Food pantry
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Free food pantry
+      description: Weekly food pantry (Friday)
+      taxonomy_ids: food
+      application_process: 'Line up Fri 9:30am to get food 10:45-11:30am. Must have ID.'
+      regular_schedule:
+        - weekday: Friday
+          opens_at: '11:30 AM'
+- name: Westside Community Services
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        For age 5+. Call M-F 9am-5pm for referral to integrated treatment for
+        mental health & substance abuse. Housing referral, family counseling,
+        employment assistance, socialization, counseling, medication support,
+        crisis services, methadone detox & maintenance, HIV testing, home health
+        care, case management, & referral. 
+      taxonomy_ids: medical
+      application_process: >-
+        Free. English, Cantonese, Mandarin; some Spanish & Tagalog; call for
+        other languages; some TDD support
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '4:30 PM'
+        - weekday: Tuesday
+          opens_at: '4:30 PM'
+        - weekday: Wednesday
+          opens_at: '4:30 PM'
+        - weekday: Thursday
+          opens_at: '4:30 PM'
+        - weekday: Friday
+          opens_at: '4:30 PM'
+- name: Mobile Crisis Treatment Team (BHS)
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: ''
+      description: >-
+        If you are over 60 or HIV+ you may be transferred to another line.
+        Evaluation & alternative placement attempted. If need be, authorized to
+        do a “5150” (involuntary 72-hour hospital hold). 
+      taxonomy_ids: medical
+      application_process: >-
+        Crisis intervention for SF residents & visitors ages 18+. Lack of
+        insurance or money is not a barrier. English, Cantonese, Mandarin,
+        Spanish,Tagalog. Phone interpreters available.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '08:00 PM'
+        - weekday: Monday
+          opens_at: '2300'
+        - weekday: Tuesday
+          opens_at: '2300'
+        - weekday: Wednesday
+          opens_at: '2300'
+        - weekday: Thursday
+          opens_at: '2300'
+        - weekday: Friday
+          opens_at: '2300'
+        - weekday: Saturday
+          opens_at: '08:00 PM'
+- name: Episcopal Community Services - Canon Kip Senior Center
+  description: Senior multi-service center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access for seniors and young adults with disabilities
+      description: >-
+        Technology access and training for seniors and young adults with
+        disabilities
+      taxonomy_ids: internet
+      application_process: >-
+        Black and white printer, scanner, wireless internet, and assistive
+        internet available. Wheelchair accessible.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '4:30 PM'
+        - weekday: Tuesday
+          opens_at: '4:30 PM'
+        - weekday: Wednesday
+          opens_at: '4:30 PM'
+        - weekday: Thursday
+          opens_at: '4:30 PM'
+        - weekday: Friday
+          opens_at: '4:30 PM'
+    - name: Hot meal
+      description: Hot meal served weekdays
+      taxonomy_ids: food
+      application_process: >-
+        Arrive early, meals are first come first serve. Seniors welcome as well
+        as limited meals available for disabled adults.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:30 PM'
+        - weekday: Tuesday
+          opens_at: '12:30 PM'
+        - weekday: Wednesday
+          opens_at: '12:30 PM'
+        - weekday: Thursday
+          opens_at: '12:30 PM'
+        - weekday: Friday
+          opens_at: '12:30 PM'
+- name: Lava Mae
+  description: Mobile showers and toilet
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mobile showers and toilet
+      description: Six (6) services per week in San Francisco.
+      taxonomy_ids: hygiene
+      application_process: >-
+        Tuesdays: 8:30am-2pm at the SF Main Public Library, Fulton and Hyde.
+        Wednesdays: 8:30am-12pm at YWAM, 357 Ellis Street between Taylor and
+        Jones. Also 2pm-5pm at Most Holy Redeemer Church in the Castro, 100
+        Diamond St. Thursdays: 8:30am-2 pm at API Wellness, 730 Polk near Ellis.
+        Fridays: 8:30am-2pm at YWAM, 357 Ellis Street between Taylor and Jones.
+        Saturdays: 7am - 1pm at 16th St. and Capp
+      regular_schedule:
+        - weekday: Tuesday
+          opens_at: '02:00 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '02:00 PM'
+        - weekday: Friday
+          opens_at: '02:00 PM'
+        - weekday: Saturday
+          opens_at: '1:00 PM'
+- name: Westside Ajani
+  description: 'http://www.westside-health.org/programs/ajani-program'
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        For youth age 5-21 & their families. Mental health treatment services,
+        case management, psychologi- cal education, groups, crisis
+        intervention. 
+      taxonomy_ids: medical
+      application_process: 'Call M-F 9am-5pm. Free, MediCal, HealthyKids or uninsured. English.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Lark-Inn for Youth
+  description: Emergency youth shelter
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Youth shelter
+      description: >-
+        Shelter for Youths 18-24. Length of stay varies; maximum 4 months. 3
+        meals daily for long-term shelter guests. Job readiness training,
+        remedial education, GED & college-entry prep available. Call or show up
+        any time to get on waiting list for a bed. Up to 21 nights per year of
+        emergency shelter; show up at 9:40pm each night for emergency bed
+        lottery. English, Spanish.
+      taxonomy_ids: housing
+      application_process: >-
+        Come in or call any time (24 hrs) to get on waiting list for a bed (40
+        beds nightly). Case management required. Curfew 9:45pm. Leave by
+        8:30am. 
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: SF Public Library - Western Addition Branch
+  description: Public library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '5:00 PM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '08:00 PM'
+        - weekday: Thursday
+          opens_at: '08:00 PM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: Office of Self Help
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Drop-in peer counseling M-Sa 9am-5pm. Psychiatric nurse practitioner;
+        Mini Gym. Shuttle to out-of-town facilities for families and loved ones.
+        Warm Line M 9am-5pm, Tu-Sa 9am-8pm; Tu 12-5pm acupuncture; We 9am-5pm
+      taxonomy_ids: medical
+      application_process: 'Free. English, Cantonese, Mandarin, Spanish,Tagalog.'
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+        - weekday: Saturday
+          opens_at: '5:00 PM'
+- name: SF Public Library - Anza Branch
+  description: Public Library
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology Access
+      description: >-
+        Local branches have Internet access with varying policies. Computer use
+        at branches is limited to 1 hour per session; 2 hours per day. Laptops
+        can also be checked out for one hour.
+      taxonomy_ids: internet
+      application_process: >-
+        You must have a SF library card for computer use. WELCOME cards, for
+        those who have no ID, are also provided - allows computer usage plus
+        check out one book at a time. Guests are limited to two hours of
+        computer use per day. Black and White printing is 10 cents per page,
+        Color printing is 40 cents per page.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '9:30 PM'
+        - weekday: Wednesday
+          opens_at: '9:30 PM'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Saturday
+          opens_at: '8:00 AM'
+- name: Crisis Response Team
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Serices
+      description: >-
+        24/7 mobile response to homicides, critical shootings, stabbings &
+        suicides; provides clinical support, grief counseling & crisis
+        management to individuals, families and community members affected by
+        community violence and critical incidents. $0-full bill. English,
+        Cantonese, Mandarin, Spanish, Tagalog, Vietnamese; other language
+        interpreters available.
+      taxonomy_ids: medical
+      application_process: ''
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: San Francisco General Hospital
+  description: Central Health Center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Central health center
+      description: >-
+        24-hr emergency room. Urgent and Primary Care HIV, and Pregnancy
+        testing, Family Planning, Women's Health, Mental Health, and Prenatal
+        Care. For SF residents. $0-full bill. Call for appt. 
+      taxonomy_ids: medical
+      application_process: >-
+        Each Clinic has varying hours - call for more information. Cantonese,
+        English, Mandarin, Russian, Spanish, and Vietnamese. Other languages
+        available. 
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Dimensions Clinic for Queer and Questioning Youth
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Mental Health services for LGBTQIQ youth 12-25 yrs. Medical care
+        available.Transgender and gender-variant support group: Th 6.30pm
+      taxonomy_ids: medical
+      application_process: >-
+        Healthy SF; private insurance; $0-full bill; English, Spanish; other
+        languages by telephone interpreter.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: 24-hour Mental Health /Peer-Counseling LIVE CHAT
+  description: >-
+    Warm Line chat online: http://www.mentalhealthsf.org/ (24-hour Mental Health
+    Triage/Peer-Counseling LIVE CHAT)
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        24-hour Mental Health Triage/Peer-Counseling LIVE ONLINE CHAT at:
+        http://www.mentalhealthsf.org/
+      taxonomy_ids: medical
+      application_process: ''
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: Edgewood Center for Children and Families-SF
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Residential treatment, day school, after-school program,crisis
+        intervention, counseling & referrals for children & their families
+        experiencing mental health issues.
+      taxonomy_ids: medical
+      application_process: >-
+        Children 6-17 yrs. MediCal, private insurance, $0-full bill. English,
+        Spanish, Cantonese, some other languages by request.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Oakes Children’s Center
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Education program with counseling & outpatient therapy; behavorial
+        health support for youth and their families. 
+      taxonomy_ids: medical
+      application_process: >-
+        5-18yrs. Must be referred. Call clinical director (Dr. Brenner ext. 214)
+        M-F 8:30am-5pm (except school holidays) & ask how to get
+        referred.MediCal, Free if eligible. English, Spanish, Tagalog; limited
+        Cantonese, Russian
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: In-Home Supportive Services
+  description: ''
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Mental Health Services
+      description: >-
+        Call M-F 8am-5pm for intake. Provides in-homedomestic-related & personal
+        care services forlow-income, blind, aged, & disabled people onMediCal or
+        SSI. Help with: housecleaning, mealpreparation, laundry, grocery
+        shopping, bathing,walking, accompaniment to medical
+        appointments,referrals. 
+      taxonomy_ids: medical
+      application_process: >-
+        Free for SSI. English, Chinese, Korean, Russian, Spanish, Tagalog,
+        Vietnamese. 
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: JVS
+  description: Job search focused computer lab and training center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Technology skills classes and employment center
+      description: >-
+        Computer workshops and resources to help with job search. Free Job
+        Search Assistance, Computer and Job Search Skills Workshops, Employer
+        Spotlights, and Job Search Strategy Groups. Resume and cover letter
+        assistance. Assistance studying for GED, NCLEX-PN, and NCLEX-RN.
+      taxonomy_ids: internet
+      application_process: >-
+        To use facilities, Guests must enroll in the program by attending a
+        welcome session held on Wednesdays from 1-2pm. Please call ahead to
+        ensure that the welcome session has not been canceled.
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
+- name: Martin De Porres House of Hospitality
+  description: Multi-service center
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Medical van
+      description: 'Medical van on premises. Nurse available for minor medical problems. '
+      taxonomy_ids: medical
+      application_process: Spanish/English
+      regular_schedule:
+        - weekday: Thursday
+          opens_at: '02:00 PM'
+    - name: Showers
+      description: A place to shower on Tuesday through Saturday.
+      taxonomy_ids: hygiene
+      application_process: >-
+        Hygiene products distriubuted Tuesday and Thursday from 6:30am-7:30am at
+        breakfast. Towels for showers are provided. Limited showers.
+      regular_schedule:
+        - weekday: Tuesday
+          opens_at: '02:00 PM'
+        - weekday: Wednesday
+          opens_at: '02:00 PM'
+        - weekday: Thursday
+          opens_at: '02:00 PM'
+        - weekday: Friday
+          opens_at: '02:00 PM'
+        - weekday: Saturday
+          opens_at: '02:00 PM'
+    - name: Free meal
+      description: >-
+        Dinning room serving at least one meal a day.Breakfast M,Tu, Th, Fr
+        5:30am-7:30am; Lunch Tue-Sat 12-2pm. Brunch Sun 9am - 10:30am
+      taxonomy_ids: food
+      application_process: Doors open 1 hour before service
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '10:30 AM'
+        - weekday: Monday
+          opens_at: '07:30 AM'
+        - weekday: Tuesday
+          opens_at: '07:30 AM'
+        - weekday: Tuesday
+          opens_at: '02:00 PM'
+        - weekday: Wednesday
+          opens_at: '02:00 PM'
+        - weekday: Thursday
+          opens_at: '07:30 AM'
+        - weekday: Thursday
+          opens_at: '02:00 PM'
+        - weekday: Friday
+          opens_at: '07:30 AM'
+        - weekday: Friday
+          opens_at: '02:00 PM'
+        - weekday: Saturday
+          opens_at: '02:00 PM'
+- name: Central City Hospitality House for Men - Men's Case Management Dormitory
+  description: Case Management Dormitory
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Case Management Dormitory
+      description: >-
+        Male participants in need of shelter can qualify for a comprehensive
+        15-month program that begins with placement in the Case Management
+        Dormitory. Houses 25 beds and provides a three month intensive program
+        in which individuals identify a series of goals designed to transition
+        them into a stable housing situation. Individual counseling and support
+        groups focusing on substance abuse and job seeking and retention skills
+        are provided on site. 
+      taxonomy_ids: housing
+      application_process: >-
+        Reservations must be made at a resource center or through the GA program
+        (CAAP).
+      regular_schedule:
+        - weekday: Sunday
+          opens_at: '11:59 AM'
+        - weekday: Monday
+          opens_at: '8:00 AM'
+        - weekday: Monday
+          opens_at: '11:59 AM'
+        - weekday: Tuesday
+          opens_at: '8:00 AM'
+        - weekday: Tuesday
+          opens_at: '11:59 AM'
+        - weekday: Wednesday
+          opens_at: '8:00 AM'
+        - weekday: Wednesday
+          opens_at: '11:59 AM'
+        - weekday: Thursday
+          opens_at: '8:00 AM'
+        - weekday: Thursday
+          opens_at: '11:59 AM'
+        - weekday: Friday
+          opens_at: '8:00 AM'
+        - weekday: Friday
+          opens_at: '11:59 AM'
+        - weekday: Saturday
+          opens_at: '11:59 AM'
+- name: Southeast Health Center
+  description: Neighborhood clinic
+  physical_address:
+    - address_1: ''
+      city: ''
+      state_province: ''
+  services:
+    - name: Neighborhood clinic
+      description: >-
+        Urgent Care, TB Testing, Pregnancy Test, STD Testing, STD Treatment, HIV
+        Testing, HIV Treatment, Dental, Podiatry, Immunizations, Women’s Health,
+        Family Planning, Mental Health, Prenatal Care, Primary Care. $0-full
+        bill. Call for appt. MediCal applications by appt. 
+      taxonomy_ids: medical
+      application_process: >-
+        Call about:optometry; smoking cessation; acupuncture; health education &
+        counseling for grandparents who are primary caretakers of grandchildren;
+        diabetics; those with family problems or those in need of geriatric or
+        pediatric counseling; COPD better breather classes; yoga classes.
+        English & Spanish. Some Cantonese & Mandarin. Other languages via
+        telephone interpreter. 
+      regular_schedule:
+        - weekday: Monday
+          opens_at: '12:00 PM'
+        - weekday: Monday
+          opens_at: '5:00 PM'
+        - weekday: Tuesday
+          opens_at: '12:00 PM'
+        - weekday: Tuesday
+          opens_at: '5:00 PM'
+        - weekday: Wednesday
+          opens_at: '12:00 PM'
+        - weekday: Wednesday
+          opens_at: '5:00 PM'
+        - weekday: Thursday
+          opens_at: '12:00 PM'
+        - weekday: Thursday
+          opens_at: '5:00 PM'
+        - weekday: Friday
+          opens_at: '12:00 PM'
+        - weekday: Friday
+          opens_at: '5:00 PM'
