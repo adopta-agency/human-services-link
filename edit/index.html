@@ -356,7 +356,7 @@ function savethis()
 			//console.log($path + ' == ' + $writepath);
 			if($path==$writepath)
 				{
-				//repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
+				repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
 				//console.log("writing " + $writepath);
 				console.log("saved " + $writepath);
 				}
@@ -367,4 +367,3 @@ function savethis()
 </script>
 <p align="center"><input type="button" onclick="savethis();" class="button" value="Save Changes" style="text-align: center;" /></p>
 <textarea rows="20" cols="100" id="result"></textarea>
-{{ site.github_branch }}
