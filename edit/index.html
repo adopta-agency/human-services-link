@@ -3,6 +3,21 @@ layout: default
 title: Algorotoscope Images Working - Archive
 ---
 
+{% assign images = site.data.images | sort: 'title' %}
+<script type="text/javascript">
+	function showme($id)
+		{
+		if(document.getElementById(+$id).style.display == 'none')
+			{
+			document.getElementById($id).style.display = '';
+			}
+		else
+			{
+			document.getElementById($id).style.display = 'none';
+			}
+    }
+</script>
+
 {% assign count = 0 %}
 {% assign locations = site.data.locations %}
 
@@ -30,8 +45,8 @@ title: Algorotoscope Images Working - Archive
 		<td><input type="text" name="state_province" id="name-{{ count }}" value="{{ location.state_province }}" style="width:100%;" /></td>
 	</tr>
   <tr>
-		<td><strong>Services (<a href="">add</a>):</strong></td>
-		<td id="servcies-add-{{ count }}">
+		<td><strong>Services (<a href="showme('servcies-add-{{ count }}'); return false;">add</a>):</strong></td>
+		<td id="servcies-add-{{ count }}" style="display: none;">
       <table width="100%" align="center" style="border: 1px solid #000; padding: 5px;">
       	<tr>
       		<td width="15%"><strong>Name:</strong></td>
